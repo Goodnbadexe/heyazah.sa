@@ -26,12 +26,6 @@ export function StatsBand({ locale }: { locale: Locale }) {
 
   return (
     <section ref={sectionRef} className="relative bg-heyazah-warm/20 py-20 md:py-28 overflow-hidden">
-      {/* Decorative background */}
-      <div className="absolute inset-0 opacity-30 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-heyazah-warm/20 blur-[120px]" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-heyazah-accent/10 blur-[100px]" />
-      </div>
-
       <div className="container relative z-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((item, i) => (
           <motion.div

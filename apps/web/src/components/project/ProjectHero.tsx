@@ -8,11 +8,10 @@ import { displayName, displayLocation, description, projectHeroImage, type Proje
 import { cn } from '@/lib/utils';
 
 /**
- * Cinematic project hero — Ken Burns slow zoom + staggered typography reveal.
+ * Cinematic project hero — restrained motion + staggered typography reveal.
  *
- * The background image continuously scales from 1.0 → 1.15 over a slow
- * cinematic duration (GSAP), while overlaid text fades up with staggered
- * delay using Framer Motion.
+ * The background image uses a very small transform-only drift so the image
+ * stays legible and does not feel over-cropped on project pages.
  */
 export function ProjectHero({ project, locale }: { project: Project; locale: Locale }) {
   const hero = projectHeroImage(project);
@@ -36,7 +35,7 @@ export function ProjectHero({ project, locale }: { project: Project; locale: Loc
       tl.fromTo(
         imgRef.current,
         { scale: 1, x: '0%', y: '0%' },
-        { scale: 1.15, x: '-2%', y: '-1%', duration: 20, ease: 'none' },
+        { scale: 1.045, x: '-0.75%', y: '-0.5%', duration: 22, ease: 'none' },
       );
       cleanup = () => tl.kill();
     })();
@@ -62,14 +61,14 @@ export function ProjectHero({ project, locale }: { project: Project; locale: Loc
             src={hero}
             alt=""
             aria-hidden="true"
-            className="h-full w-full object-cover opacity-50 will-change-transform"
+            className="h-full w-full object-cover opacity-62 will-change-transform"
           />
         </div>
       )}
 
       {/* Gradient overlays */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-heyazah-primary via-heyazah-primary/80 to-heyazah-primary/30" />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-heyazah-primary/50 to-transparent" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-heyazah-primary via-heyazah-primary/70 to-heyazah-primary/20" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-heyazah-primary/35 to-transparent" />
 
       {/* Content */}
       <div className="container flex min-h-[65vh] flex-col justify-end gap-5 pb-16 pt-32 md:min-h-[80vh] md:pb-24">

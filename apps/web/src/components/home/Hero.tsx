@@ -45,7 +45,6 @@ export function Hero({ locale }: { locale: Locale }) {
       {/* Gradient overlays for depth and legibility */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-heyazah-primary via-heyazah-primary/60 to-heyazah-primary/30" />
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-heyazah-primary/70 to-transparent" />
-      <div className="absolute inset-0 -z-10 opacity-15 [background-image:radial-gradient(circle_at_30%_30%,#CCC4B0_0%,transparent_60%)]" />
 
       {/* Content */}
       <div className="container flex min-h-[100vh] flex-col justify-center gap-8 pb-20 pt-28">

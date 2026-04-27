@@ -18,16 +18,24 @@ export default async function PipelinePage({
 
   return (
     <>
-      <section className="bg-heyazah-warm/30 py-24">
-        <div className="container">
+      <section className="relative overflow-hidden bg-heyazah-warm/30 py-24">
+        <div className="absolute inset-0 opacity-[0.12]">
+          <video autoPlay muted loop playsInline className="h-full w-full object-cover">
+            <source src="/assets/videos/projects-reel.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-heyazah-paper/70 via-heyazah-warm/45 to-heyazah-paper" />
+        <div className="container relative z-10">
           <p className="text-sm uppercase tracking-[0.3em] text-heyazah-accent">
-            {t(locale, 'status.pipeline')}
+            {locale === 'ar' ? 'طبقة الرؤية' : 'Vision layer'}
           </p>
-          <h1 className="mt-2 text-5xl md:text-7xl">{t(locale, 'nav.pipeline')}</h1>
-          <p className="mt-4 max-w-2xl text-lg text-heyazah-ink/70">
+          <h1 className="mt-2 text-5xl leading-tight text-heyazah-primary md:text-7xl">
+            {locale === 'ar' ? 'مشاريع قابلة للنمو' : 'Projects ready to grow'}
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-heyazah-ink/72">
             {locale === 'ar'
-              ? 'نظرة مبكرة على المشاريع القادمة قبل الإطلاق الرسمي. سجّل اهتمامك لتكون أول من يعرف.'
-              : 'An early look at projects ahead of their public launch. Register to be first to know.'}
+              ? 'هذه ليست صفحة فارغة للمستقبل. إنها مساحة اهتمام مبكر للمشاريع التي ستكتمل بياناتها وصورها ومحتواها تدريجياً.'
+              : 'This is not an empty future page. It is an early-interest layer for projects whose data, visuals, and content can mature over time.'}
           </p>
           {isAdmin && (
             <p className="mt-3 text-xs text-heyazah-primary">

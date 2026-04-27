@@ -13,9 +13,8 @@ export function PlaceholderCard({ project, locale }: { project: Project; locale:
     : checklist?.missing_items?.length ?? 0;
 
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-dashed border-heyazah-warm bg-heyazah-paper p-6 shadow-card">
-      <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-heyazah-warm/40 blur-3xl" />
-      <div className="relative z-10 flex flex-col gap-4">
+    <div className="group relative min-h-[260px] overflow-hidden rounded-2xl border border-dashed border-heyazah-warm bg-heyazah-paper p-6 shadow-card">
+      <div className="relative z-10 flex h-full flex-col gap-4">
         <div className="flex items-center justify-between">
           <span className="inline-flex items-center gap-1 rounded-full bg-heyazah-warm px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-heyazah-primary">
             <Icon id="ui.star" className="h-3 w-3" />
@@ -33,6 +32,11 @@ export function PlaceholderCard({ project, locale }: { project: Project; locale:
         <h3 className="text-2xl leading-tight text-heyazah-primary">{name}</h3>
         <p className="text-sm text-heyazah-ink/70">
           {loc || (locale === 'ar' ? 'موقع سيُعلن لاحقاً' : 'Location TBA')}
+        </p>
+        <p className="text-xs leading-6 text-heyazah-ink/58">
+          {locale === 'ar'
+            ? 'بطاقة ألفا قابلة للتعبئة لاحقاً بالصور، المساحات، وروابط الاهتمام الرسمية.'
+            : 'Alpha-ready card to be completed later with visuals, metrics, and official interest links.'}
         </p>
         <Link
           href={`/${locale}/contact?project=${project.slug}`}

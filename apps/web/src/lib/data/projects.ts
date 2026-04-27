@@ -48,6 +48,9 @@ export const all: Project[] = list;
 export const portfolio: Project[] = all.filter((p) => !p.is_placeholder);
 export const pipeline: Project[] = all.filter((p) => p.is_placeholder);
 export const featured: Project[] = portfolio.slice(0, 6);
+export const deliveredProjects: Project[] = all.filter((p) => p.status === 'old');
+export const continuingProjects: Project[] = all.filter((p) => p.status === 'continuing');
+export const visionProjects: Project[] = all.filter((p) => p.status === 'new');
 
 const localProjectImagesBySlug: Record<string, string> = {
   'كايـنات': '/assets/uploads/projects/img580.jpg',
@@ -101,6 +104,40 @@ export function projectHeroImage(project: Project, fallbackIndex = 0): string {
     return direct;
   }
   return localProjectImagesBySlug[project.slug] || localProjectImages[fallbackIndex % localProjectImages.length];
+}
+
+export function projectGalleryImages(project: Project, fallbackIndex = 0): string[] {
+  const gallery = (project.images?.gallery ?? [])
+    .map((item: any) => (typeof item === 'string' ? item : item?.url ?? item?.path ?? ''))
+    .filter((src: string) => src && !src.includes('/wp-content/uploads/') && !src.startsWith('2026/'));
+
+  if (gallery.length) return gallery;
+
+  const hero = projectHeroImage(project, fallbackIndex);
+  return [hero, ...localProjectImages]
+    .filter((src, index, arr) => src && arr.indexOf(src) === index)
+    .slice(0, 6);
+}
+
+export function projectHasMetrics(project: Project): boolean {
+  const metrics = project.metrics ?? {};
+  return Object.values(metrics).some((value) => value !== null && value !== undefined && value !== '');
+}
+
+export function statusNarrative(project: Project, locale: Locale): string {
+  if (project.status === 'old') {
+    return locale === 'ar'
+      ? 'جزء من طبقة الإنجاز: مشروع يثبت قدرة حيازة على التسليم وبناء القيمة طويلة الأمد.'
+      : 'Part of the proof-of-delivery layer: a project that demonstrates Heyazah execution and long-term value creation.';
+  }
+  if (project.status === 'continuing') {
+    return locale === 'ar'
+      ? 'جزء من طبقة الزخم: مشروع قيد التطوير يوضح اتجاه المحفظة وحجمها القادم.'
+      : 'Part of the momentum layer: an active development that shows the portfolio moving into its next scale.';
+  }
+  return locale === 'ar'
+    ? 'جزء من طبقة الرؤية: فرصة قادمة تُعرض مبكراً قبل اكتمال التفاصيل الرسمية.'
+    : 'Part of the vision layer: an upcoming opportunity presented early while the official details mature.';
 }
 
 export function description(project: Project, locale: Locale, key: 'hero' | 'subtitle' | 'business_destination_des' = 'hero'): string {

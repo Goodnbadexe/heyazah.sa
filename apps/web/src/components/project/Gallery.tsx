@@ -3,7 +3,8 @@
 import { useRef } from 'react';
 import { motion, useInView, useReducedMotion } from 'framer-motion';
 import { cn } from '@/lib/utils';
-import type { Project } from '@/lib/data/projects';
+import { projectGalleryImages, type Project } from '@/lib/data/projects';
+import type { Locale } from '@/lib/i18n/locales';
 
 /**
  * Cinematic collage gallery — images stagger into view with varied
@@ -14,12 +15,8 @@ import type { Project } from '@/lib/data/projects';
  * On scroll, items fade in with slight translation from alternating
  * directions.
  */
-export function Gallery({ project }: { project: Project }) {
-  const gallery: string[] = (project.images?.gallery ?? [])
-    .map((g: any) => (typeof g === 'string' ? g : g?.url ?? g?.path ?? ''))
-    .filter(Boolean);
-  if (!gallery.length) return null;
-
+export function Gallery({ project, locale }: { project: Project; locale: Locale }) {
+  const gallery = projectGalleryImages(project);
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, margin: '-5%' });
   const prefersReduced = useReducedMotion();
@@ -28,6 +25,14 @@ export function Gallery({ project }: { project: Project }) {
 
   return (
     <section ref={sectionRef} className="container py-16 md:py-24">
+      <div className="mb-8 max-w-2xl">
+        <p className="text-xs uppercase tracking-[0.3em] text-heyazah-accent">
+          {locale === 'ar' ? 'مشاهد المشروع' : 'Project visuals'}
+        </p>
+        <h2 className="mt-2 text-3xl text-heyazah-primary md:text-5xl">
+          {locale === 'ar' ? 'معرض الصور' : 'Gallery'}
+        </h2>
+      </div>
       <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4">
         {gallery.map((src, i) => {
           const isFeature = i % 5 === 0;
