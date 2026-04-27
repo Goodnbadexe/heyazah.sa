@@ -1,0 +1,148 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:shortcode -->
+[heyazah_site_entrance]
+<!-- /wp:shortcode -->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group h-main-home">
+
+    <!-- Hero Section -->
+    <!-- wp:group {"className":"h-hero","layout":{"type":"default"}} -->
+    <div class="wp-block-group h-hero" style="min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+        <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"h-hero-bg gs-parallax-bg"} -->
+        <figure class="wp-block-image size-large h-hero-bg gs-parallax-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 120%; object-fit: cover; z-index: -1;">
+            <img src="/wp-content/themes/heyazah/assets/images/hero-default.jpg" alt="Heyazah Premium Real Estate" style="width: 100%; height: 100%; object-fit: cover;"/>
+        </figure>
+        <!-- /wp:image -->
+        
+        <!-- wp:group {"className":"h-hero-content has-text-align-center has-white-color has-text-color gs-cinematic-fade"} -->
+        <div class="wp-block-group h-hero-content has-text-align-center has-white-color has-text-color gs-cinematic-fade">
+            <!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(3rem, 8vw, 6rem)","fontWeight":"700"}}} -->
+            <h1 class="wp-block-heading" style="font-size:clamp(3rem, 8vw, 6rem);font-weight:700">Heyazah</h1>
+            <!-- /wp:heading -->
+            <!-- wp:paragraph {"style":{"typography":{"fontSize":"var(--wp--preset--font-size--large)"}}} -->
+            <p style="font-size:var(--wp--preset--font-size--large)">Defining the canonical real estate presence.</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- Trust Building Metrics -->
+    <!-- wp:group {"className":"h-metrics-band gs-metric-rise","style":{"spacing":{"padding":{"top":"var(--wp--preset--spacing--60)","bottom":"var(--wp--preset--spacing--60)"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+    <div class="wp-block-group h-metrics-band gs-metric-rise" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+        <!-- wp:group {"className":"gs-metric-item","layout":{"type":"default"}} -->
+        <div class="wp-block-group gs-metric-item has-text-align-center">
+            <!-- wp:heading {"level":3} -->
+            <h3 class="wp-block-heading">Founded</h3>
+            <!-- /wp:heading -->
+            <!-- wp:paragraph {"style":{"typography":{"fontSize":"var(--wp--preset--font-size--x-large)","fontWeight":"700"}}} -->
+            <p style="font-size:var(--wp--preset--font-size--x-large);font-weight:700">2005</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:group {"className":"gs-metric-item","layout":{"type":"default"}} -->
+        <div class="wp-block-group gs-metric-item has-text-align-center">
+            <!-- wp:heading {"level":3} -->
+            <h3 class="wp-block-heading">Products</h3>
+            <!-- /wp:heading -->
+            <!-- wp:paragraph {"style":{"typography":{"fontSize":"var(--wp--preset--font-size--x-large)","fontWeight":"700"}}} -->
+            <p style="font-size:var(--wp--preset--font-size--x-large);font-weight:700">30,000+</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:group {"className":"gs-metric-item","layout":{"type":"default"}} -->
+        <div class="wp-block-group gs-metric-item has-text-align-center">
+            <!-- wp:heading {"level":3} -->
+            <h3 class="wp-block-heading">Area</h3>
+            <!-- /wp:heading -->
+            <!-- wp:paragraph {"style":{"typography":{"fontSize":"var(--wp--preset--font-size--x-large)","fontWeight":"700"}}} -->
+            <p style="font-size:var(--wp--preset--font-size--x-large);font-weight:700">~1M m²</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- Delivered Legacy (Old Projects) -->
+    <!-- wp:group {"className":"h-section","style":{"spacing":{"padding":{"top":"var(--wp--preset--spacing--60)","bottom":"var(--wp--preset--spacing--60)"}}},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group h-section" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+        <!-- wp:heading {"level":2,"className":"gs-cinematic-fade"} -->
+        <h2 class="wp-block-heading gs-cinematic-fade">Delivered Legacy</h2>
+        <!-- /wp:heading -->
+        <!-- wp:query {"queryId":2,"query":{"perPage":3,"pages":0,"offset":0,"postType":"project","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"h-query-status-completed"} -->
+        <div class="wp-block-query h-grid h-query-status-completed">
+            <!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+                <!-- wp:group {"className":"h-project-card gs-project-drift"} -->
+                <div class="wp-block-group h-project-card gs-project-drift">
+                    <!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/5","className":"gs-arch-mask","style":{"border":{"radius":"8px"}}} /-->
+                    <!-- wp:group {"style":{"spacing":{"padding":{"top":"1rem"}}}} -->
+                    <div class="wp-block-group" style="padding-top:1rem">
+                        <!-- wp:post-title {"isLink":true,"level":3} /-->
+                        <!-- wp:post-terms {"term":"project_category"} /-->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            <!-- /wp:post-template -->
+        </div>
+        <!-- /wp:query -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- Now Rising (Continuing Projects) -->
+    <!-- wp:group {"className":"h-section","style":{"spacing":{"padding":{"top":"var(--wp--preset--spacing--60)","bottom":"var(--wp--preset--spacing--60)"}}},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group h-section" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+        <!-- wp:heading {"level":2,"className":"gs-cinematic-fade"} -->
+        <h2 class="wp-block-heading gs-cinematic-fade">Now Rising</h2>
+        <!-- /wp:heading -->
+        <!-- wp:query {"queryId":3,"query":{"perPage":3,"pages":0,"offset":0,"postType":"project","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"h-query-status-ongoing"} -->
+        <div class="wp-block-query h-grid h-query-status-ongoing">
+            <!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+                <!-- wp:group {"className":"h-project-card gs-project-drift"} -->
+                <div class="wp-block-group h-project-card gs-project-drift">
+                    <!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/5","className":"gs-arch-mask","style":{"border":{"radius":"8px"}}} /-->
+                    <!-- wp:group {"style":{"spacing":{"padding":{"top":"1rem"}}}} -->
+                    <div class="wp-block-group" style="padding-top:1rem">
+                        <!-- wp:post-title {"isLink":true,"level":3} /-->
+                        <!-- wp:post-terms {"term":"project_category"} /-->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            <!-- /wp:post-template -->
+        </div>
+        <!-- /wp:query -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- Future Pipeline -->
+    <!-- wp:group {"className":"h-section","style":{"spacing":{"padding":{"top":"var(--wp--preset--spacing--60)","bottom":"var(--wp--preset--spacing--60)"}}},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group h-section" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+        <!-- wp:heading {"level":2,"className":"gs-cinematic-fade"} -->
+        <h2 class="wp-block-heading gs-cinematic-fade">Future Pipeline</h2>
+        <!-- /wp:heading -->
+        <!-- wp:query {"queryId":4,"query":{"perPage":3,"pages":0,"offset":0,"postType":"project","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"postStatus":["draft"]}} -->
+        <div class="wp-block-query h-grid">
+            <!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+                <!-- wp:group {"className":"h-project-card is-pipeline gs-project-drift"} -->
+                <div class="wp-block-group h-project-card is-pipeline gs-project-drift">
+                    <!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/5","className":"gs-arch-mask","style":{"border":{"radius":"8px"}}} /-->
+                    <!-- wp:group {"style":{"spacing":{"padding":{"top":"1rem"}}}} -->
+                    <div class="wp-block-group" style="padding-top:1rem">
+                        <!-- wp:post-title {"isLink":true,"level":3} /-->
+                        <!-- wp:paragraph {"className":"pipeline-badge"} --><p class="pipeline-badge">Vision</p><!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            <!-- /wp:post-template -->
+        </div>
+        <!-- /wp:query -->
+    </div>
+    <!-- /wp:group -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

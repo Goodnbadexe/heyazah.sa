@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'GeSS';
+	src: url('../fonts/GE-SS-Two.otf');
+}
+@font-face {
+	font-family: 'GeBold';
+	src: url('../fonts/GESSTwoBold.otf');
+}
+@font-face {
+	font-family: 'GeMed';
+	src: url('../fonts/GE-SS-Two-Medium.otf');
+}
+@font-face {
+	font-family: 'GeLight';
+	src: url('../fonts/GE_SS_Two_Light.otf');
+}
+
+
+

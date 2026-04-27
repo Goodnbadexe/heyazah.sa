@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="archGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#025157;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#082b2a;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .arch-shadow { filter: drop-shadow(0 4px 8px rgba(8, 43, 42, 0.3)); }
+    </style>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#d1ccbd" opacity="0.1" stroke="#025157" stroke-width="2"/>
+
+  <!-- Main Arch Shape (Representing ح letter) -->
+  <g class="arch-shadow">
+    <!-- Left arch -->
+    <path d="M 50 150 Q 50 70 100 50" stroke="url(#archGradient)" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Right arch -->
+    <path d="M 150 150 Q 150 70 100 50" stroke="url(#archGradient)" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Base line -->
+    <line x1="50" y1="150" x2="150" y2="150" stroke="#025157" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Accent dots representing vision -->
+  <circle cx="70" cy="80" r="4" fill="#99856a" opacity="0.8"/>
+  <circle cx="130" cy="80" r="4" fill="#99856a" opacity="0.8"/>
+  <circle cx="100" cy="40" r="5" fill="#99856a"/>
+
+  <!-- Top accent line -->
+  <line x1="85" y1="35" x2="115" y2="35" stroke="#99856a" stroke-width="2" stroke-linecap="round"/>
+</svg>

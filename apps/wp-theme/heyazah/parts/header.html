@@ -1,0 +1,82 @@
+<!-- wp:group {"tagName":"header","className":"h-header-bar","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<header class="wp-block-group h-header-bar" style="position:fixed;top:0;left:0;width:100%;z-index:100;padding:var(--wp--preset--spacing--40);pointer-events:none;">
+    <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"0"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
+    <div class="wp-block-group" style="pointer-events:auto;">
+        <!-- wp:site-logo {"width":140} /-->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:group {"className":"h-menu-trigger-wrapper","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+    <div class="wp-block-group h-menu-trigger-wrapper" style="pointer-events:auto; cursor:pointer;">
+        <!-- wp:html -->
+        <button class="h-concierge-trigger" aria-label="Open Navigation">
+            <span class="h-menu-text">Menu</span>
+            <div class="h-hamburger">
+                <span class="line"></span><span class="line"></span>
+            </div>
+        </button>
+        <!-- /wp:html -->
+    </div>
+    <!-- /wp:group -->
+</header>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"h-concierge-panel","layout":{"type":"default"}} -->
+<div class="wp-block-group h-concierge-panel" style="position:fixed;top:0;left:0;width:100%;height:100vh;z-index:90;background:var(--wp--preset--color--primary);color:white;display:none;padding:var(--wp--preset--spacing--60);">
+    <!-- wp:columns {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}}} -->
+    <div class="wp-block-columns h-concierge-inner" style="height:100%;">
+        
+        <!-- Left: Nav Links -->
+        <!-- wp:column {"width":"40%"} -->
+        <div class="wp-block-column" style="display:flex;flex-direction:column;justify-content:center;">
+            <!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical","justifyContent":"left"},"style":{"typography":{"fontSize":"clamp(2rem, 5vw, 4rem)","fontWeight":"300"},"elements":{"link":{"color":{"text":"#ffffff"}}}},"className":"h-premium-nav"} -->
+                <!-- wp:navigation-link {"label":"Legacy","url":"/","title":"Legacy"} /-->
+                <!-- wp:navigation-link {"label":"Destinations","url":"/portfolio/","title":"Destinations"} /-->
+                <!-- wp:navigation-link {"label":"Pipeline","url":"/pipeline/","title":"Pipeline"} /-->
+                <!-- wp:navigation-link {"label":"Investors","url":"/investors/","title":"Investors"} /-->
+                <!-- wp:navigation-link {"label":"Journal","url":"/media/","title":"Journal"} /-->
+                <!-- wp:navigation-link {"label":"Contact","url":"/contact/","title":"Contact"} /-->
+            <!-- /wp:navigation -->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- Right: Featured Previews -->
+        <!-- wp:column {"width":"60%"} -->
+        <div class="wp-block-column h-concierge-preview" style="display:flex;flex-direction:column;justify-content:space-between;">
+            <!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"8px"}},"className":"h-concierge-image"} -->
+            <figure class="wp-block-image size-large h-concierge-image" style="border-radius:8px; height:60vh; overflow:hidden;">
+                <!-- Dynamically swapped by JS, default shown here -->
+                <img src="/wp-content/themes/heyazah/assets/images/menu-feature.jpg" alt="Heyazah Feature" style="width:100%; height:100%; object-fit:cover;" />
+            </figure>
+            <!-- /wp:image -->
+
+            <!-- Bottom trust/quick actions strip -->
+            <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+            <div class="wp-block-group">
+                <!-- wp:paragraph {"style":{"typography":{"fontSize":"var(--wp--preset--font-size--small)","textTransform":"uppercase","letterSpacing":"2px"}}} -->
+                <p style="font-size:var(--wp--preset--font-size--small);text-transform:uppercase;letter-spacing:2px">Founded 2005 / 30,000+ real estate products / nearly 1M m²</p>
+                <!-- /wp:paragraph -->
+                
+                <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+                <div class="wp-block-group">
+                    <!-- wp:buttons -->
+                    <div class="wp-block-buttons">
+                        <!-- wp:button {"className":"is-style-outline"} -->
+                        <div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/contact">Enquiry</a></div>
+                        <!-- /wp:button -->
+                        <!-- wp:button {"className":"is-style-outline"} -->
+                        <div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#">3D Tour</a></div>
+                        <!-- /wp:button -->
+                    </div>
+                    <!-- /wp:buttons -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:column -->
+
+    </div>
+    <!-- /wp:columns -->
+</div>
+<!-- /wp:group -->

@@ -1,0 +1,177 @@
+{
+  "brand": {
+    "name": "Heyazah",
+    "name_ar": "حيازة",
+    "founded": 2005,
+    "parent": "Ahmed Al-Saif & Sons Holding Company",
+    "tagline_ar": "نــحــو أفـــق أبــعــد",
+    "tagline_en": "Towards a distant horizon",
+    "signatures": [
+      "The Art of Purposeful Design",
+      "Creating Spaces with Purpose",
+      "Think with originality. Think a world beyond."
+    ],
+    "pillars": [
+      "Unmatchable Quality",
+      "Creative Collaboration",
+      "Endless Growth Vision",
+      "Transformative Speed & Service",
+      "Innovative Ambition",
+      "Rooted Heritage"
+    ],
+    "source": "Brand Guidelines 2026 — ملف هـوية حـيـازة.pdf (p.16 palette, p.22–23 typography)"
+  },
+  "colors": {
+    "primary": {
+      "name": "Heyazah Deep",
+      "hex": "#082b2a",
+      "rgb": [8, 43, 42],
+      "usage": "Primary brand color. Headers, primary CTAs, footer, hero overlays."
+    },
+    "accent": {
+      "name": "Heyazah Teal",
+      "hex": "#025157",
+      "rgb": [2, 81, 87],
+      "usage": "Active states, links, secondary CTAs, under-construction status, gold-silver accent group."
+    },
+    "warm": {
+      "name": "Heyazah Gold",
+      "hex": "#99856a",
+      "rgb": [153, 133, 106],
+      "usage": "Warm highlights, premium dividers, coming-soon status, residential accents."
+    },
+    "cream": {
+      "name": "Heyazah Cream",
+      "hex": "#d1ccbd",
+      "rgb": [209, 204, 189],
+      "usage": "Warm surface, section dividers, neutral card backgrounds."
+    },
+    "silver": {
+      "name": "Heyazah Silver",
+      "hex": "#b0b5aa",
+      "rgb": [176, 181, 170],
+      "usage": "Sold-out badges, muted text, secondary surfaces."
+    },
+    "mist": {
+      "name": "Heyazah Mist",
+      "hex": "#cad1c7",
+      "rgb": [202, 209, 199],
+      "usage": "Hovered cards, subtle gradients, pale panels."
+    },
+    "ink": {
+      "name": "Ink",
+      "hex": "#000000",
+      "rgb": [0, 0, 0],
+      "usage": "Body text on light, pure contrast."
+    },
+    "paper": {
+      "name": "Paper",
+      "hex": "#ffffff",
+      "rgb": [255, 255, 255],
+      "usage": "Pure white surfaces, cards on dark hero."
+    }
+  },
+  "status_colors": {
+    "old":         { "hex": "#082b2a", "label_ar": "مكتمل",       "label_en": "Completed" },
+    "continuing":  { "hex": "#025157", "label_ar": "قيد التنفيذ", "label_en": "Under Construction" },
+    "new":         { "hex": "#99856a", "label_ar": "قريباً",       "label_en": "Coming Soon" },
+    "sold_out":    { "hex": "#b0b5aa", "label_ar": "مباع",         "label_en": "Sold Out" }
+  },
+  "typography": {
+    "note": "Brand Guidelines 2026 explicitly name Readex Pro as the primary typeface for BOTH Arabic and Latin. Display Arabic (The Year of The Camel) is an optional hero accent. Keep body Arabic on Readex Pro unless specifically calling a display element.",
+    "primary": {
+      "family": "Readex Pro",
+      "weights": ["extralight", "light", "regular", "medium", "semibold", "bold"],
+      "supports": ["Arabic", "Latin"],
+      "files": [
+        "fonts/ReadexPro-ExtraLight.ttf",
+        "fonts/ReadexPro-Light.ttf",
+        "fonts/ReadexPro-Regular.ttf",
+        "fonts/ReadexPro-Medium.ttf",
+        "fonts/ReadexPro-Bold.ttf"
+      ],
+      "google_fonts_fallback": "https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap",
+      "usage": "ALL body, headers, UI. Works for both AR and EN scripts."
+    },
+    "display_arabic": {
+      "family": "The Year of The Camel",
+      "weights": ["bold"],
+      "file": "fonts/alfont_com_TheYearofTheCamel-Bold.otf",
+      "usage": "Optional hero display only (homepage hero, project hero). Never body copy."
+    },
+    "secondary_arabic": {
+      "family": "Bluteau Arabic Sans",
+      "weights": ["book", "light", "regular"],
+      "files": [
+        "fonts/BluteauArabicSans-Book.otf",
+        "fonts/BluteauArabicSans-Light.otf",
+        "fonts/BluteauArabicSans-Regular.otf"
+      ],
+      "usage": "Optional editorial/print pairing. Do NOT use on web headlines unless specifically asked."
+    },
+    "legacy_only": {
+      "families": ["Helvetica Neue LT Arabic", "Simplified Arabic", "IBM Plex Sans Arabic"],
+      "files": [
+        "fonts/HelveticaNeueLTArabic-Roman.ttf",
+        "fonts/simpbdo.ttf",
+        "fonts/IBMPlexSansArabic-Bold.ttf"
+      ],
+      "usage": "Print/legacy only. Do NOT use on web."
+    },
+    "scale": {
+      "display": { "size_rem": 4.5,   "line_height": 1.05, "tracking_em": -0.02 },
+      "h1":      { "size_rem": 3.0,   "line_height": 1.1,  "tracking_em": -0.015 },
+      "h2":      { "size_rem": 2.25,  "line_height": 1.15, "tracking_em": -0.01 },
+      "h3":      { "size_rem": 1.5,   "line_height": 1.2,  "tracking_em": 0 },
+      "body_lg": { "size_rem": 1.125, "line_height": 1.6,  "tracking_em": 0 },
+      "body":    { "size_rem": 1.0,   "line_height": 1.6,  "tracking_em": 0 },
+      "small":   { "size_rem": 0.875, "line_height": 1.5,  "tracking_em": 0.005 },
+      "micro":   { "size_rem": 0.75,  "line_height": 1.4,  "tracking_em": 0.05 }
+    }
+  },
+  "spacing": {
+    "unit_rem": 0.25,
+    "section_y_rem": { "mobile": 4, "tablet": 6, "desktop": 8 },
+    "container_max_px": 1440,
+    "gutter_px": { "mobile": 16, "tablet": 32, "desktop": 48 }
+  },
+  "radii": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "12px",
+    "lg": "20px",
+    "xl": "32px",
+    "round": "9999px"
+  },
+  "shadows": {
+    "card":  "0 1px 2px rgba(8,43,42,0.06), 0 8px 24px rgba(8,43,42,0.06)",
+    "hover": "0 2px 4px rgba(8,43,42,0.08), 0 16px 40px rgba(8,43,42,0.14)",
+    "hero":  "0 40px 120px rgba(8,43,42,0.32)",
+    "gold":  "0 1px 2px rgba(153,133,106,0.18), 0 8px 24px rgba(153,133,106,0.18)"
+  },
+  "motion": {
+    "duration_ms": { "fast": 200, "default": 400, "slow": 800, "cinematic": 1400 },
+    "easing": {
+      "smooth":    "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "precision": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "dramatic":  "cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    "principle": "Animate transforms (translate/scale/opacity) only. Never layout properties."
+  },
+  "logo_assets": {
+    "main_logo":   "assets/logos/logo.svg",
+    "footer_logo": "assets/logos/footer-logo.svg",
+    "icon_mark":   "assets/logos/logo-icon.svg",
+    "about_logo":  "assets/logos/about-logo.png",
+    "other_logo":  "assets/logos/other-logo.png"
+  },
+  "icon_packs": {
+    "project_amenities": ["bed-double.svg","car-parking-02.svg","desk.svg","building-02.svg","city-01.svg","store-04.svg","store-location-02.svg","award-05.svg","key-02.svg","pathroom.svg"],
+    "navigation":        ["map.svg","phone.svg","envelope.svg","eye.svg","eye-vid.svg","user.svg"],
+    "social":            ["insta.svg","linked.svg","whatsapp.svg","tiktok.svg","yout.svg","x.svg","whats.svg","youtube.svg"],
+    "metric_icons":      ["proj-icon.svg","client-i.svg","tab-icon.svg","star-icon.svg","title-icon.svg"],
+    "distinction":       ["dist1.svg","dist2.svg","dist5.svg","dist6.svg"],
+    "achievements":      ["ach1.svg","ach2.svg","ach4.svg"],
+    "placeholder_video": "video-Icon.svg"
+  }
+}

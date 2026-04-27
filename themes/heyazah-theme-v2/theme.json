@@ -1,0 +1,280 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+  "version": 3,
+  "title": "Heyazah Pro",
+  "settings": {
+    "border": {
+      "radius": true,
+      "color": true
+    },
+    "color": {
+      "background": true,
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "palette": [
+        {
+          "color": "#d1ccbd",
+          "name": "Primary Beige",
+          "slug": "primary-beige"
+        },
+        {
+          "color": "#025157",
+          "name": "Primary Teal",
+          "slug": "primary-teal"
+        },
+        {
+          "color": "#99856a",
+          "name": "Gold",
+          "slug": "gold"
+        },
+        {
+          "color": "#082b2a",
+          "name": "Dark Teal",
+          "slug": "dark-teal"
+        },
+        {
+          "color": "#b0b5aa",
+          "name": "Light Accent 1",
+          "slug": "light-accent-1"
+        },
+        {
+          "color": "#cad1c7",
+          "name": "Light Accent 2",
+          "slug": "light-accent-2"
+        },
+        {
+          "color": "#ffffff",
+          "name": "White",
+          "slug": "white"
+        },
+        {
+          "color": "#000000",
+          "name": "Black",
+          "slug": "black"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #082b2a 0%, #025157 100%)",
+          "name": "Teal to Dark Teal",
+          "slug": "teal-to-dark-teal"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #d1ccbd 0%, #b0b5aa 100%)",
+          "name": "Beige to Light Accent",
+          "slug": "beige-to-light"
+        }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "'Readex Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+          "name": "Readex Pro",
+          "slug": "readex-pro"
+        },
+        {
+          "fontFamily": "Georgia, serif",
+          "name": "Georgia",
+          "slug": "georgia"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "0.875rem",
+          "slug": "small"
+        },
+        {
+          "name": "Base",
+          "size": "1rem",
+          "slug": "base"
+        },
+        {
+          "name": "Medium",
+          "size": "1.125rem",
+          "slug": "medium"
+        },
+        {
+          "name": "Large",
+          "size": "1.5rem",
+          "slug": "large"
+        },
+        {
+          "name": "XL",
+          "size": "2rem",
+          "slug": "xl"
+        },
+        {
+          "name": "2XL",
+          "size": "2.5rem",
+          "slug": "2xl"
+        },
+        {
+          "name": "3XL",
+          "size": "3rem",
+          "slug": "3xl"
+        },
+        {
+          "name": "4XL",
+          "size": "3.75rem",
+          "slug": "4xl"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "name": "Small",
+          "size": "0.5rem",
+          "slug": "small"
+        },
+        {
+          "name": "Medium",
+          "size": "1rem",
+          "slug": "medium"
+        },
+        {
+          "name": "Large",
+          "size": "1.5rem",
+          "slug": "large"
+        },
+        {
+          "name": "XL",
+          "size": "2rem",
+          "slug": "xl"
+        },
+        {
+          "name": "2XL",
+          "size": "3rem",
+          "slug": "2xl"
+        },
+        {
+          "name": "3XL",
+          "size": "4rem",
+          "slug": "3xl"
+        },
+        {
+          "name": "4XL",
+          "size": "5rem",
+          "slug": "4xl"
+        }
+      ],
+      "units": ["px", "em", "rem", "vh", "vw"]
+    },
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+    "blocks": {
+      "core/button": {
+        "border": {
+          "radius": true
+        },
+        "color": {
+          "background": true,
+          "text": true
+        },
+        "spacing": {
+          "padding": true
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": true,
+          "background": true
+        },
+        "typography": {
+          "fontSize": true,
+          "lineHeight": true,
+          "fontStyle": true,
+          "fontWeight": true
+        }
+      },
+      "core/paragraph": {
+        "color": {
+          "text": true,
+          "background": true
+        },
+        "typography": {
+          "fontSize": true,
+          "lineHeight": true
+        }
+      },
+      "core/columns": {
+        "spacing": {
+          "padding": true,
+          "margin": true
+        }
+      },
+      "core/cover": {
+        "color": {
+          "text": true,
+          "background": true
+        },
+        "spacing": {
+          "padding": true,
+          "margin": true
+        }
+      }
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#000000"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--readex-pro)",
+      "fontSize": "var(--wp--preset--font-size--base)",
+      "lineHeight": 1.6
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "#025157"
+        },
+        ":hover": {
+          "color": {
+            "text": "#082b2a"
+          }
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--readex-pro)",
+          "fontWeight": "700"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "background": "#025157",
+          "text": "#ffffff"
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontWeight": "600"
+        },
+        "border": {
+          "radius": "0.25rem"
+        },
+        "spacing": {
+          "padding": {
+            "top": "0.75rem",
+            "right": "1.5rem",
+            "bottom": "0.75rem",
+            "left": "1.5rem"
+          }
+        }
+      },
+      "core/heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--readex-pro)"
+        }
+      }
+    }
+  }
+}

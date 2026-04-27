@@ -1,0 +1,44 @@
+{
+  "name": "@heyazah/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Next.js 15 preview for Heyazah. Data layer reads from ../../migration/. Translates to the WordPress theme in apps/wp-theme.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "sync:assets": "node scripts/sync-assets.mjs",
+    "gen:fonts": "node scripts/gen-fonts-css.mjs > src/styles/fonts.css",
+    "gen:routes": "node scripts/gen-routes.mjs",
+    "postinstall": "npm run sync:assets && npm run gen:fonts"
+  },
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next-intl": "^3.22.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4",
+    "class-variance-authority": "^0.7.1",
+    "lucide-react": "^0.454.0",
+    "framer-motion": "^11.11.11",
+    "gsap": "^3.12.5",
+    "lottie-react": "^2.4.0",
+    "react-hook-form": "^7.53.2",
+    "@hookform/resolvers": "^3.9.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.14",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "eslint": "^9.14.0",
+    "eslint-config-next": "^15.1.6"
+  }
+}

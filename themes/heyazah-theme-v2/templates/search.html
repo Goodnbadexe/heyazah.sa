@@ -1,0 +1,51 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","right":"2rem","bottom":"4rem","left":"2rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:4rem;padding-right:2rem;padding-bottom:4rem;padding-left:2rem">
+	<!-- wp:heading {"level":1,"textColor":"dark-teal"} -->
+	<h1 class="has-dark-teal-color has-text-color">نتائج البحث</h1>
+	<!-- /wp:heading -->
+
+	<!-- wp:search {"showLabel":false,"placeholder":"ابحث عن...","style":{"spacing":{"margin":{"bottom":"2rem"}}}} /-->
+
+	<!-- wp:query {"queryId":0,"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","search":"","exclude":[],"sticky":"exclude","inherit":true},"layout":{"type":"grid","columnCount":3}} -->
+	<div class="wp-block-query">
+		<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+		<!-- wp:group {"className":"post-card","style":{"spacing":{"padding":{"top":"1rem","right":"1rem","bottom":"1rem","left":"1rem"}}}} -->
+		<div class="wp-block-group post-card" style="padding-top:1rem;padding-right:1rem;padding-bottom:1rem;padding-left:1rem">
+			<!-- wp:post-featured-image {"sizeSlug":"large"} /-->
+
+			<!-- wp:group {"style":{"spacing":{"padding":{"top":"1.5rem","right":"1rem","bottom":"1rem","left":"1rem"}}}} -->
+			<div class="wp-block-group" style="padding-top:1.5rem;padding-right:1rem;padding-bottom:1rem;padding-left:1rem">
+				<!-- wp:post-title {"level":3,"isLink":true,"textColor":"dark-teal"} /-->
+				<!-- wp:post-date {"textColor":"gold"} /-->
+				<!-- wp:post-excerpt {"moreText":"اقرأ المزيد"} /-->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:group -->
+		<!-- /wp:post-template -->
+
+		<!-- wp:query-no-results -->
+		<!-- wp:heading {"level":3,"textColor":"dark-teal"} -->
+		<h3 class="has-dark-teal-color has-text-color">لم نجد نتائج</h3>
+		<!-- /wp:heading -->
+
+		<!-- wp:paragraph {"textColor":"dark-teal"} -->
+		<p class="has-dark-teal-color has-text-color">عذراً، لم نجد ما تبحث عنه. جرب كلمات مفتاحية أخرى.</p>
+		<!-- /wp:paragraph -->
+		<!-- /wp:query-no-results -->
+
+		<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+		<div class="wp-block-query-pagination">
+			<!-- wp:query-pagination-previous /-->
+			<!-- wp:query-pagination-numbers /-->
+			<!-- wp:query-pagination-next /-->
+		</div>
+		<!-- /wp:query-pagination -->
+	</div>
+	<!-- /wp:query -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->

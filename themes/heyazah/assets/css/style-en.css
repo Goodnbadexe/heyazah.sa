@@ -1,0 +1,324 @@
+body {
+  direction: ltr;
+  text-align: start;
+}
+.sidebar {
+  left: auto;
+  right: -350px;
+}
+.sidebar-width {
+  right: 0px;
+}
+input,
+.wpcf7 input[type="url"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+textarea {
+  direction: ltr;
+}
+.site-search .close-side i {
+  right: 20px;
+  left: auto;
+}
+.sidebar .close-side i {
+  right: 20px;
+  left: auto;
+}
+.sidebar li.menu-item-has-children > a::after {
+  right: 1px;
+  left: auto;
+}
+.site-search .woocommerce-product-search button {
+  right: 0;
+  left: auto;
+}
+ul.sub-menu {
+  left: 0;
+  right: auto;
+}
+.lolo-co {
+  float: left;
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInRight;
+}
+.fadeInRight {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+.site-search .woocommerce-product-search .search-field,
+.site-search .widget_search .search-form .search-field {
+  padding-right: 36px;
+  padding-left: 15px;
+}
+.site-search button {
+  right: 0;
+  left: auto;
+}
+.site-search .woocommerce-product-search .search-field,
+.site-search .widget_search .search-form .search-field {
+  direction: ltr;
+}
+.read-more a i,
+.read-more button i {
+  transform: scaleX(-1);
+}
+.counter-item {
+  /* transform: translateX(-70px); */
+}
+.proj-type {
+  right: 16px;
+  left: auto;
+}
+
+.prj-status,
+.offer-you-item .item-icone,
+.offer-you-item .item-number,
+.client-Item .img span.name {
+  left: 16px;
+  right: auto;
+}
+.tech-item {
+  direction: ltr;
+}
+.tech-item .name {
+  left: 24px;
+  right: auto;
+}
+.tech-num,
+.number-of-units {
+  right: auto;
+  left: 16px;
+}
+section.about-single-project .row:nth-child(even) {
+  direction: rtl;
+}
+section.about-single-project .row:nth-child(even) .s-about-info {
+  direction: ltr;
+}
+.item-check label span:after {
+  right: auto;
+  left: 0;
+}
+.irs--round .irs-from {
+  right: auto !important;
+  left: 0 !important;
+}
+.irs--round .irs-to {
+  left: auto !important;
+  right: 0 !important;
+}
+.contact-page .form-group i {
+  right: auto;
+  left: 12px;
+}
+.con-info {
+  right: auto;
+  left: 26px;
+}
+.conatct-map-img .img-details {
+  right: auto;
+  left: 32px;
+}
+@media (max-width: 991px) {
+        .banar-img {
+        height: 760px;
+    }
+        .count-block .details h6 {
+        font-size: 16px !important;
+        min-height: 81px !important;
+    }
+    .nav-pills .nav-link img {
+    height: 20px !important;
+}
+.nav-pills .nav-link {
+    gap: 4px !important;
+}
+.invest-page.media-center a#pills-profile-tab,
+.invest-page .media-center-tabs .nav-pills .nav-link {
+    padding: 12px 7px !important;
+}
+    .invest-page.media-center a#pills-profile-tab, .invest-page .media-center-tabs .nav-pills .nav-link {
+        min-width: 80px !important;
+    }
+    .project-tabs .nav-pills .nav-link,
+    .media-center-tabs .nav-pills .nav-link {
+    font-size: 15px !important;
+}
+}
+
+.wpcf7 input[type="url"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"] {
+    direction: ltr !important;
+}
+.contact-page.page-content .wpcf7 input[type="url"],
+.contact-page.page-content .wpcf7 input[type="email"],
+.contact-page.page-content .wpcf7 input[type="tel"] {
+    text-align: start;
+    padding-inline-end: 12px;
+     direction: ltr !important;
+}
+
+form {
+    direction: ltr;
+}
+.home .proj-info ul li:first-of-type {
+    height: 80px;
+}
+.project-details {
+    top: 50px;
+}
+
+.count-block .details h6 {
+    font-size: 16px;
+}
+.count-block {
+    padding: 31px 9px 35px;
+}
+.count-block .details p {
+    min-height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cli-item-num .counter-item {
+    text-align: start;
+}
+.single-proj-info ul li {
+    margin-inline-end: 10px;
+}
+
+.breadcrumb-section.invest_Page {
+    /* height: 330px; */
+}
+
+.vission-item p {
+    min-height: 175px;
+}
+.about-page-img img {
+    border-radius: 0 16px 16px 0;
+}
+.goal-item p {
+    min-height: 69px;
+}
+
+.goal-item h6 {
+    min-height: 48px;
+}
+.about-page-img {
+    height: 605px;
+}
+
+.client-page-hero {
+    padding-top: 60px;
+}
+
+ul.contact-list li a span.data {
+    padding-inline-start: 0;
+}
+
+.client-page-hero h2 {
+    font-size: 57px;
+}
+
+form{
+    direction:ltr;
+}
+
+.sidebar {
+    right: auto;
+    left: 0;
+    transform: translateX(-100%);
+}
+
+.sidebar-width {
+    right: auto;
+    left: 0;
+    transform: none;
+}
+
+.close-overlay {
+    left: auto;
+    right: 0;
+    transform: translate(-120%);
+}
+
+.sidebar .side-content ul li {
+    transform: translateX(150%);
+}
+
+.projects-home .owl-dots {
+    left: auto;
+    right: 120px;
+}
+
+.member-block .details span i {
+    transform: scaleX(-1);
+}
+
+.read-more a .icon {
+    transform: scaleX(-1);
+}
+
+.achiev-rate .item::after {
+    right: auto;
+    left: 99%;
+}
+
+.nice-select:after {
+    left: auto;
+    right: 12px;
+}
+
+.contact-page .contact-form .form-group input[type="email"], .contact-page .contact-form .form-group input[type="tel"], .contact-page .contact-form .form-group input[name="your-full-name"] {
+    text-align: start;
+    padding-inline-start: 32px;
+}
+
+.single-unit-form form .form-group span.num {
+    padding-inline-start: 8px;
+    padding-inline-end: 20px;
+}
+
+section.What-distinguishes-us .row .col-lg-4:nth-child(1) .dist-item, section.What-distinguishes-us .row .col-lg-4:nth-child(2) .dist-item, section.What-distinguishes-us .row .col-lg-4:nth-child(4) .dist-item, section.What-distinguishes-us .row .col-lg-4:nth-child(5) .dist-item {
+    transform: translate(-50%, 50%);
+}
+
+section.What-distinguishes-us .row .col-lg-4:nth-child(3) .dist-item, section.What-distinguishes-us .row .col-lg-4:nth-child(6) .dist-item {
+    transform: translate(50%, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+.achiev-rate .item::after {
+    right: auto !important;
+    left: 76%;
+}
+}
+
+
+
+
+
+

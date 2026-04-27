@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand tokens — copied from migration/brand_tokens.css at build */
+@import './brand-tokens.css';
+@import './fonts.css';
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  font-family: var(--h-font-primary, 'Readex Pro'), system-ui, sans-serif;
+  color: var(--h-ink);
+  background: var(--h-paper);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[lang='ar'],
+html[dir='rtl'] {
+  font-family: var(--h-font-ar-body, 'Readex Pro'), system-ui, sans-serif;
+}
+
+html[lang='en'],
+html[dir='ltr'] {
+  font-family: var(--h-font-latin, 'Readex Pro'), system-ui, sans-serif;
+}
+
+/* Per Brand Guidelines 2026: Readex Pro is the PRIMARY headline + body typeface for both scripts.
+   The Year of The Camel is reserved for hero display elements via the .display-ar utility class. */
+h1, h2, h3, h4 {
+  font-family: var(--h-font-primary, 'Readex Pro'), system-ui, sans-serif;
+  letter-spacing: -0.01em;
+  color: var(--h-primary);
+  font-weight: 600;
+}
+
+/* Opt-in display treatment for hero headlines only */
+.display-ar {
+  font-family: var(--h-font-ar-display, 'The Year of The Camel'), var(--h-font-primary, 'Readex Pro'), serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.display-en {
+  font-family: var(--h-font-latin, 'Readex Pro'), system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--h-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

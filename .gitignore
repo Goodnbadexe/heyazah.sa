@@ -1,0 +1,25 @@
+.DS_Store
+*.log
+
+# Dependencies and build output
+node_modules/
+.next/
+dist/
+build/
+coverage/
+tsconfig.tsbuildinfo
+
+# Local automation/browser artifacts
+.playwright-cli/
+output/
+
+# Large local source/backups not intended for GitHub
+OneDrive_3_4-18-2026/
+OneDrive_3_4-18-2026.zip
+backup_*.zip
+backup_*.gz
+~$*.pptx
+
+# Oversized reference PDFs exceed GitHub file limits.
+apps/web/public/assets/brand-guidelines/*.pdf
+migration/assets/brand-guidelines/*.pdf

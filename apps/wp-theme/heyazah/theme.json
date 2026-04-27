@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "primary", "name": "Heyazah Deep",    "color": "#082b2a" },
+        { "slug": "accent",  "name": "Heyazah Teal",    "color": "#025157" },
+        { "slug": "warm",    "name": "Heyazah Gold",    "color": "#99856a" },
+        { "slug": "cream",   "name": "Heyazah Cream",   "color": "#d1ccbd" },
+        { "slug": "silver",  "name": "Heyazah Silver",  "color": "#b0b5aa" },
+        { "slug": "mist",    "name": "Heyazah Mist",    "color": "#cad1c7" },
+        { "slug": "ink",     "name": "Ink",             "color": "#000000" },
+        { "slug": "paper",   "name": "Paper",           "color": "#ffffff" }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "'Readex Pro', system-ui, sans-serif",
+          "name": "Heyazah Primary",
+          "slug": "primary",
+          "fontFace": [
+            { "fontFamily": "Readex Pro", "fontWeight": "200", "src": ["file:./assets/fonts/ReadexPro-ExtraLight.ttf"] },
+            { "fontFamily": "Readex Pro", "fontWeight": "300", "src": ["file:./assets/fonts/ReadexPro-Light.ttf"] },
+            { "fontFamily": "Readex Pro", "fontWeight": "400", "src": ["file:./assets/fonts/ReadexPro-Regular.ttf"] },
+            { "fontFamily": "Readex Pro", "fontWeight": "500", "src": ["file:./assets/fonts/ReadexPro-Medium.ttf"] },
+            { "fontFamily": "Readex Pro", "fontWeight": "700", "src": ["file:./assets/fonts/ReadexPro-Bold.ttf"] }
+          ]
+        },
+        {
+          "fontFamily": "'The Year of The Camel', 'Readex Pro', serif",
+          "name": "Heyazah Display Arabic",
+          "slug": "ar-display",
+          "fontFace": [
+            { "fontFamily": "The Year of The Camel", "fontWeight": "700", "src": ["file:./assets/fonts/TheYearOfTheCamel-Bold.otf"] }
+          ]
+        },
+        {
+          "fontFamily": "'Bluteau Arabic Sans', 'Readex Pro', system-ui, sans-serif",
+          "name": "Heyazah Arabic Editorial",
+          "slug": "ar-editorial",
+          "fontFace": [
+            { "fontFamily": "Bluteau Arabic Sans", "fontWeight": "300", "src": ["file:./assets/fonts/BluteauArabicSans-Light.otf"] },
+            { "fontFamily": "Bluteau Arabic Sans", "fontWeight": "400", "src": ["file:./assets/fonts/BluteauArabicSans-Book.otf"] },
+            { "fontFamily": "Bluteau Arabic Sans", "fontWeight": "500", "src": ["file:./assets/fonts/BluteauArabicSans-Regular.otf"] }
+          ]
+        }
+      ],
+      "fontSizes": [
+        { "slug": "sm",      "size": "0.875rem",              "name": "Small" },
+        { "slug": "md",      "size": "1rem",                  "name": "Medium" },
+        { "slug": "lg",      "size": "1.25rem",               "name": "Large" },
+        { "slug": "xl",      "size": "1.875rem",              "name": "X-Large" },
+        { "slug": "2xl",     "size": "2.5rem",                "name": "2X-Large" },
+        { "slug": "display", "size": "clamp(3rem, 6vw, 6rem)","name": "Display" }
+      ]
+    },
+    "layout": { "contentSize": "760px", "wideSize": "1280px" },
+    "spacing": {
+      "units": ["px", "rem", "%"],
+      "spacingSizes": [
+        { "slug": "10", "size": "0.5rem", "name": "10" },
+        { "slug": "20", "size": "1rem",   "name": "20" },
+        { "slug": "30", "size": "1.5rem", "name": "30" },
+        { "slug": "40", "size": "2rem",   "name": "40" },
+        { "slug": "50", "size": "3rem",   "name": "50" },
+        { "slug": "60", "size": "4rem",   "name": "60" },
+        { "slug": "70", "size": "6rem",   "name": "70" }
+      ]
+    }
+  },
+  "styles": {
+    "color":      { "background": "var:preset|color|paper", "text": "var:preset|color|primary" },
+    "typography": { "fontFamily": "var:preset|font-family|primary", "lineHeight": "1.6" },
+    "elements": {
+      "h1":     { "typography": { "fontFamily": "var:preset|font-family|primary", "fontSize": "var:preset|font-size|display", "lineHeight": "1.05", "fontWeight": "600" }, "color": { "text": "var:preset|color|primary" } },
+      "h2":     { "typography": { "fontFamily": "var:preset|font-family|primary", "fontSize": "var:preset|font-size|2xl",     "lineHeight": "1.15", "fontWeight": "600" }, "color": { "text": "var:preset|color|primary" } },
+      "h3":     { "typography": { "fontFamily": "var:preset|font-family|primary", "fontSize": "var:preset|font-size|xl",      "lineHeight": "1.2",  "fontWeight": "500" }, "color": { "text": "var:preset|color|primary" } },
+      "button": { "color": { "background": "var:preset|color|primary", "text": "var:preset|color|paper" }, "border": { "radius": "999px" } },
+      "link":   { "color": { "text": "var:preset|color|accent" } }
+    }
+  }
+}

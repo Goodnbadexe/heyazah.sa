@@ -1,0 +1,44 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"h-destinations-archive"} -->
+<main class="wp-block-group h-destinations-archive">
+    
+    <!-- Header Block -->
+    <!-- wp:group {"className":"p-archive-header gs-cinematic-fade","style":{"spacing":{"padding":{"top":"var(--wp--preset--spacing--80)","bottom":"var(--wp--preset--spacing--60)"}}},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group p-archive-header gs-cinematic-fade" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--60)">
+        <!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"center","fontSize":"clamp(3rem, 5vw, 5rem)","fontWeight":"300"}}} -->
+        <h1 class="wp-block-heading has-text-align-center" style="font-size:clamp(3rem, 5vw, 5rem);font-weight:300">Destinations</h1>
+        <!-- /wp:heading -->
+        <!-- wp:paragraph {"style":{"typography":{"textAlign":"center","fontSize":"var(--wp--preset--font-size--large)"}}} -->
+        <p class="has-text-align-center" style="font-size:var(--wp--preset--font-size--large)">Our definitive collection of premium real estate properties.</p>
+        <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- Archive Grid -->
+    <!-- wp:group {"className":"p-archive-grid","style":{"spacing":{"padding":{"bottom":"var(--wp--preset--spacing--80)"}}},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group p-archive-grid" style="padding-bottom:var(--wp--preset--spacing--80)">
+        <!-- wp:query {"queryId":2,"query":{"perPage":12,"pages":0,"offset":0,"postType":"project","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
+        <div class="wp-block-query h-grid">
+            <!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+            <!-- wp:group {"className":"h-project-card gs-project-drift","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+            <div class="wp-block-group h-project-card gs-project-drift" style="margin-bottom:var(--wp--preset--spacing--40)">
+                <!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/5","className":"gs-arch-mask","style":{"border":{"radius":"8px"}}} /-->
+                <!-- wp:group {"style":{"spacing":{"padding":{"top":"1rem"}}}} -->
+                <div class="wp-block-group" style="padding-top:1rem">
+                    <!-- wp:post-title {"isLink":true,"level":3,"fontSize":"lg"} /-->
+                    <!-- wp:post-terms {"term":"project_status"} /-->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+            <!-- /wp:post-template -->
+        </div>
+        <!-- /wp:query -->
+    </div>
+    <!-- /wp:group -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

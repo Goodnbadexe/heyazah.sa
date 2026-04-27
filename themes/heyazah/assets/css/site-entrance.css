@@ -1,0 +1,431 @@
+.heyazah-site-entrance {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #07151b;
+    color: #fff;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 700ms ease, visibility 700ms ease;
+}
+
+.heyazah-site-entrance.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.heyazah-site-entrance__media,
+.heyazah-site-entrance__poster,
+.heyazah-site-entrance__frame,
+.heyazah-site-entrance__shade {
+    position: absolute;
+    inset: 0;
+}
+
+.heyazah-site-entrance__poster,
+.heyazah-site-entrance__frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: cover;
+}
+
+.heyazah-site-entrance__frame {
+    opacity: 0;
+    transform: scale(1.015);
+    transition: opacity 900ms ease, transform 1200ms ease;
+}
+
+.heyazah-site-entrance.is-loaded .heyazah-site-entrance__frame {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.heyazah-site-entrance.is-ready .heyazah-site-entrance__poster {
+    transform: scale(1.02);
+}
+
+.heyazah-site-entrance.is-entered .heyazah-site-entrance__content {
+    transform: translateY(-10vh) scale(0.92);
+    opacity: 0.72;
+}
+
+.heyazah-site-entrance.is-entered .heyazah-site-entrance__enter {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.heyazah-site-entrance.is-fallback .heyazah-site-entrance__frame {
+    opacity: 0;
+}
+
+.heyazah-site-entrance.is-scroll-mode .heyazah-site-entrance__media {
+    transform: scale(1.04);
+}
+
+.heyazah-site-entrance.is-exiting {
+    opacity: 0;
+}
+
+.heyazah-site-entrance[data-beat="2"] .heyazah-site-entrance__media {
+    transform: scale(1.08) translate3d(0, -2vh, 0);
+}
+
+.heyazah-site-entrance[data-beat="3"] .heyazah-site-entrance__media {
+    transform: scale(1.12) translate3d(0, -4vh, 0);
+}
+
+.heyazah-site-entrance__shade {
+    background:
+        linear-gradient(90deg, rgba(7, 21, 27, 0.88), rgba(7, 21, 27, 0.35) 48%, rgba(7, 21, 27, 0.74)),
+        linear-gradient(0deg, rgba(7, 21, 27, 0.88), rgba(7, 21, 27, 0.12) 45%, rgba(7, 21, 27, 0.72));
+}
+
+.heyazah-site-entrance__media,
+.heyazah-site-entrance__poster,
+.heyazah-site-entrance__content {
+    transition: opacity 700ms ease, transform 1200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.heyazah-site-entrance__chrome {
+    position: absolute;
+    top: 40px;
+    left: clamp(24px, 4vw, 72px);
+    right: clamp(24px, 4vw, 72px);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.heyazah-site-entrance__logo {
+    width: min(160px, 36vw);
+    max-height: 54px;
+    object-fit: contain;
+}
+
+.heyazah-site-entrance__wordmark {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.heyazah-site-entrance__skip {
+    border: 0;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.72);
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    padding: 10px 0;
+    transition: color 180ms ease;
+}
+
+.heyazah-site-entrance__skip:hover,
+.heyazah-site-entrance__skip:focus-visible {
+    color: #fff;
+}
+
+.heyazah-site-entrance__content {
+    position: relative;
+    z-index: 2;
+    align-self: flex-end;
+    width: min(760px, calc(100% - 48px));
+    margin: 0 clamp(24px, 6vw, 96px) clamp(44px, 9vh, 96px);
+}
+
+.heyazah-site-entrance__eyebrow {
+    margin: 0 0 18px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.heyazah-site-entrance__title {
+    margin: 0;
+    max-width: 720px;
+    color: #fff;
+    font-size: clamp(34px, 5.4vw, 76px);
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0;
+}
+
+.heyazah-site-entrance__enter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 156px;
+    min-height: 52px;
+    margin-top: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0 28px;
+    transition: background 220ms ease, border-color 220ms ease, transform 220ms ease;
+}
+
+.heyazah-site-entrance__enter:hover,
+.heyazah-site-entrance__enter:focus-visible {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: #fff;
+    transform: translateY(-1px);
+}
+
+.heyazah-site-entrance__fallback-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 220ms ease, color 220ms ease;
+}
+
+.heyazah-site-entrance.is-fallback .heyazah-site-entrance__fallback-link {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.heyazah-site-entrance__fallback-link:hover,
+.heyazah-site-entrance__fallback-link:focus-visible {
+    color: #fff;
+}
+
+.heyazah-site-entrance__progress {
+    position: absolute;
+    right: clamp(24px, 4vw, 72px);
+    bottom: clamp(36px, 8vh, 88px);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: rgba(255, 255, 255, 0.74);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 500ms ease, transform 500ms ease;
+}
+
+.heyazah-site-entrance.is-entered .heyazah-site-entrance__progress {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.heyazah-site-entrance__phase {
+    min-width: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.heyazah-site-entrance__phase-label {
+    min-width: 64px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.heyazah-site-entrance__rail {
+    position: relative;
+    display: block;
+    width: min(18vw, 160px);
+    height: 1px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.24);
+}
+
+.heyazah-site-entrance__rail-fill {
+    display: block;
+    width: 25%;
+    height: 100%;
+    background: #fff;
+    transform-origin: left center;
+    transition: width 500ms ease;
+}
+
+.heyazah-site-entrance__scroll-cue {
+    position: absolute;
+    left: clamp(24px, 4vw, 72px);
+    bottom: clamp(36px, 8vh, 88px);
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 500ms ease, transform 500ms ease;
+}
+
+.heyazah-site-entrance.is-scroll-mode .heyazah-site-entrance__scroll-cue {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.heyazah-site-entrance[data-state="exiting"] .heyazah-site-entrance__scroll-cue,
+.heyazah-site-entrance[data-state="complete"] .heyazah-site-entrance__scroll-cue {
+    opacity: 0;
+}
+
+.heyazah-site-entrance__beats {
+    position: absolute;
+    left: clamp(24px, 4vw, 72px);
+    right: clamp(24px, 4vw, 72px);
+    bottom: clamp(120px, 18vh, 180px);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    pointer-events: none;
+}
+
+.heyazah-site-entrance__beat {
+    max-width: 220px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 500ms ease, transform 700ms ease;
+}
+
+.heyazah-site-entrance[data-beat="1"] .heyazah-site-entrance__beat[data-beat-card="1"],
+.heyazah-site-entrance[data-beat="2"] .heyazah-site-entrance__beat[data-beat-card="1"],
+.heyazah-site-entrance[data-beat="2"] .heyazah-site-entrance__beat[data-beat-card="2"],
+.heyazah-site-entrance[data-beat="3"] .heyazah-site-entrance__beat[data-beat-card="1"],
+.heyazah-site-entrance[data-beat="3"] .heyazah-site-entrance__beat[data-beat-card="2"],
+.heyazah-site-entrance[data-beat="3"] .heyazah-site-entrance__beat[data-beat-card="3"] {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.heyazah-site-entrance__beat-value {
+    display: block;
+    margin-bottom: 6px;
+    color: #fff;
+    font-size: clamp(18px, 2vw, 28px);
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.heyazah-site-entrance__beat-label {
+    display: block;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+html.has-heyazah-site-entrance,
+html.has-heyazah-site-entrance body {
+    overflow: hidden;
+}
+
+html[dir="rtl"] .heyazah-site-entrance__content {
+    margin-right: clamp(24px, 6vw, 96px);
+    margin-left: clamp(24px, 6vw, 96px);
+}
+
+html[dir="rtl"] .heyazah-site-entrance__eyebrow,
+html[dir="rtl"] .heyazah-site-entrance__wordmark {
+    letter-spacing: 0;
+}
+
+html[dir="rtl"] .heyazah-site-entrance__progress {
+    right: auto;
+    left: clamp(24px, 4vw, 72px);
+}
+
+html[dir="rtl"] .heyazah-site-entrance__scroll-cue {
+    left: auto;
+    right: clamp(24px, 4vw, 72px);
+    letter-spacing: 0;
+}
+
+html[dir="rtl"] .heyazah-site-entrance__beats {
+    direction: rtl;
+}
+
+@media (max-width: 767px) {
+    .heyazah-site-entrance__chrome {
+        top: 24px;
+    }
+
+    .heyazah-site-entrance__shade {
+        background: linear-gradient(0deg, rgba(7, 21, 27, 0.92), rgba(7, 21, 27, 0.28) 52%, rgba(7, 21, 27, 0.76));
+    }
+
+    .heyazah-site-entrance__content {
+        margin-bottom: 44px;
+    }
+
+    .heyazah-site-entrance__title {
+        font-size: clamp(34px, 12vw, 54px);
+    }
+
+    .heyazah-site-entrance__progress {
+        right: 24px;
+        bottom: 24px;
+    }
+
+    .heyazah-site-entrance__scroll-cue {
+        left: 24px;
+        bottom: 24px;
+    }
+
+    .heyazah-site-entrance__beats {
+        left: 24px;
+        right: 24px;
+        bottom: 104px;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .heyazah-site-entrance__beat {
+        max-width: none;
+    }
+
+    html[dir="rtl"] .heyazah-site-entrance__progress {
+        left: 24px;
+    }
+
+    html[dir="rtl"] .heyazah-site-entrance__scroll-cue {
+        right: 24px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .heyazah-site-entrance,
+    .heyazah-site-entrance__media,
+    .heyazah-site-entrance__poster,
+    .heyazah-site-entrance__frame,
+    .heyazah-site-entrance__content,
+    .heyazah-site-entrance__progress,
+    .heyazah-site-entrance__rail-fill,
+    .heyazah-site-entrance__enter {
+        transition: none;
+    }
+
+    .heyazah-site-entrance__frame,
+    .heyazah-site-entrance__media,
+    .heyazah-site-entrance__poster,
+    .heyazah-site-entrance__content {
+        transform: none;
+    }
+}

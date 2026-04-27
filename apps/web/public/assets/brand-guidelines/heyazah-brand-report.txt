@@ -1,0 +1,83 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: ??? ???? ??????.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1920 px x 1080 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+PANTONE 7476 C (Lab)
+PANTONE 7534 C (Lab)
+PANTONE 7716 C (CMYK)
+PANTONE 7716 C 2 (Lab)
+R=196 G=213 B=222 1 (RGB)
+R=227 G=233 B=236 1 (RGB)
+R=45 G=46 B=54 1 (RGB)
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Bluteau Arabic Sans Book (OTF)
+Bluteau Arabic Sans Light (OTF)
+Bluteau Arabic Sans (OTF)
+Readex Pro ExtraLight (TrueType)
+Readex Pro Light (TrueType)
+Readex Pro Medium (TrueType)
+Readex Pro Bold (TrueType)
+Readex Pro Regular (TrueType)
+HelveticaNeueLT Arabic 55 Roman (OTF)
+Simplified Arabic Bold (TrueType)
+Nirmala UI Semilight (TrueType)
+The Year of The Camel Bold (OTF)
+IBM Plex Sans Arabic Bold (TrueType)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+
+
+
+-----------------------------------------------------------------------------
+Missing Links:
+
+mick-haupt-r9wi17AFTpE-unsplash.jpg
+Type: Other
+
+ -10.jpg
+Type: Other
+
+klara-kulikova-3kabzsc0HxM-unsplash.jpg
+Type: Other
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+D:\New folder\?????? ???????\?????? ???????\New folder\Open files\Links\shutterstock_1248495007.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 58482K, 5472 by 3648 pixels
+Dimensions: 599.929 by 899.894 points 
+Resolution: 656.718 by 291.874 pixels per inch
+
+
+D:\New folder\?????? ???????\?????? ???????\New folder\Open files\Links\shutterstock_1248495007.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 58482K, 5472 by 3648 pixels
+Dimensions: 599.929 by 899.894 points 
+Resolution: 656.718 by 291.874 pixels per inch

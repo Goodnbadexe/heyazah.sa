@@ -1,0 +1,138 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-04-18",
+  "description": "Single source of truth for Heyazah visual assets. Every icon/logo used in the new Next.js preview and the WordPress theme export must be listed here so both runtimes resolve the same files.",
+  "logos": {
+    "primary_horizontal": "assets/logos/heyazah-logo-horizontal.svg",
+    "primary_stacked": "assets/logos/heyazah-logo-stacked.svg",
+    "mark": "assets/logos/heyazah-mark.svg",
+    "mono": "assets/logos/heyazah-mono.svg",
+    "icon": "assets/logos/heyazah-icon.svg",
+    "theme_logo": "assets/logos/heyazah-theme-logo.svg",
+    "footer_logo": "assets/logos/heyazah-footer-logo.svg"
+  },
+  "fonts": {
+    "arabic_display": {
+      "family": "The Year of The Camel",
+      "file": "assets/fonts/TheYearOfTheCamel-Bold.otf",
+      "weight": 700,
+      "usage": "Hero titles, major headlines, display-only"
+    },
+    "arabic_body_primary": [
+      { "family": "Bluteau Arabic Sans", "file": "assets/fonts/BluteauArabicSans-Light.otf", "weight": 300 },
+      { "family": "Bluteau Arabic Sans", "file": "assets/fonts/BluteauArabicSans-Book.otf", "weight": 400 },
+      { "family": "Bluteau Arabic Sans", "file": "assets/fonts/BluteauArabicSans-Regular.otf", "weight": 500 }
+    ],
+    "arabic_body_secondary": {
+      "family": "IBM Plex Sans Arabic",
+      "file": "assets/fonts/IBMPlexSansArabic-Bold.ttf",
+      "weight": 700,
+      "usage": "Bold Arabic labels, navigation, CTAs where Bluteau feels light"
+    },
+    "arabic_system_fallback": [
+      { "family": "Helvetica Neue LT Arabic", "file": "assets/fonts/HelveticaNeueLTArabic-Roman.ttf", "weight": 400 },
+      { "family": "Simplified Arabic", "file": "assets/fonts/simpbdo.ttf", "weight": 700 },
+      { "family": "Nirmala", "file": "assets/fonts/Nirmala.ttc", "weight": 400 }
+    ],
+    "latin": [
+      { "family": "Readex Pro", "file": "assets/fonts/ReadexPro-ExtraLight.ttf", "weight": 200 },
+      { "family": "Readex Pro", "file": "assets/fonts/ReadexPro-Light.ttf", "weight": 300 },
+      { "family": "Readex Pro", "file": "assets/fonts/ReadexPro-Regular.ttf", "weight": 400 },
+      { "family": "Readex Pro", "file": "assets/fonts/ReadexPro-Medium.ttf", "weight": 500 },
+      { "family": "Readex Pro", "file": "assets/fonts/ReadexPro-Bold.ttf", "weight": 700 }
+    ]
+  },
+  "icons": {
+    "amenity": {
+      "description": "Unit/property amenity signals (single-project spec row, unit cards).",
+      "items": [
+        { "id": "bed", "file": "assets/icons/amenity-bed.svg", "label_en": "Bedrooms", "label_ar": "غرف النوم" },
+        { "id": "bathroom", "file": "assets/icons/amenity-bathroom.svg", "label_en": "Bathrooms", "label_ar": "دورات المياه" },
+        { "id": "parking", "file": "assets/icons/amenity-parking.svg", "label_en": "Parking spaces", "label_ar": "مواقف السيارات" },
+        { "id": "desk", "file": "assets/icons/amenity-desk.svg", "label_en": "Office area", "label_ar": "المساحة المكتبية" },
+        { "id": "building", "file": "assets/icons/amenity-building.svg", "label_en": "Building", "label_ar": "المبنى" },
+        { "id": "city", "file": "assets/icons/amenity-city.svg", "label_en": "District", "label_ar": "الحي" },
+        { "id": "store", "file": "assets/icons/amenity-store.svg", "label_en": "Retail", "label_ar": "المحلات التجارية" },
+        { "id": "store-location", "file": "assets/icons/amenity-store-location.svg", "label_en": "Retail location", "label_ar": "موقع المحلات" },
+        { "id": "key", "file": "assets/icons/amenity-key.svg", "label_en": "Units available", "label_ar": "الوحدات المتاحة" }
+      ]
+    },
+    "ui": {
+      "description": "Generic UI chrome: calendars, mail, phone, map, eye (view), star (feature), project/media tabs.",
+      "items": [
+        { "id": "award", "file": "assets/icons/ui-award.svg" },
+        { "id": "button-arrow", "file": "assets/icons/ui-button-arrow.svg" },
+        { "id": "calendar", "file": "assets/icons/ui-calendar.svg" },
+        { "id": "calendar-s", "file": "assets/icons/ui-calendar-s.svg" },
+        { "id": "envelope", "file": "assets/icons/ui-envelope.svg" },
+        { "id": "eye", "file": "assets/icons/ui-eye.svg" },
+        { "id": "eye-white", "file": "assets/icons/ui-eye-white.svg" },
+        { "id": "eye-video", "file": "assets/icons/ui-eye-video.svg" },
+        { "id": "link", "file": "assets/icons/ui-link.svg" },
+        { "id": "mail", "file": "assets/icons/ui-mail.svg" },
+        { "id": "map", "file": "assets/icons/ui-map.svg" },
+        { "id": "map-small", "file": "assets/icons/ui-map-small.svg" },
+        { "id": "map-white", "file": "assets/icons/ui-map-white.svg" },
+        { "id": "media", "file": "assets/icons/ui-media.svg" },
+        { "id": "message", "file": "assets/icons/ui-message.svg" },
+        { "id": "phone", "file": "assets/icons/ui-phone.svg" },
+        { "id": "phone-alt", "file": "assets/icons/ui-phone-alt.svg" },
+        { "id": "project", "file": "assets/icons/ui-project.svg" },
+        { "id": "project-alt", "file": "assets/icons/ui-project-alt.svg" },
+        { "id": "single-new", "file": "assets/icons/ui-single-new.svg" },
+        { "id": "star", "file": "assets/icons/ui-star.svg" },
+        { "id": "tab", "file": "assets/icons/ui-tab.svg" },
+        { "id": "title", "file": "assets/icons/ui-title.svg" },
+        { "id": "user", "file": "assets/icons/ui-user.svg" },
+        { "id": "video", "file": "assets/icons/ui-video.svg" },
+        { "id": "vision", "file": "assets/icons/ui-vision.svg" }
+      ]
+    },
+    "social": [
+      { "id": "whatsapp", "file": "assets/icons/social-whatsapp.svg" },
+      { "id": "whatsapp-alt", "file": "assets/icons/social-whatsapp-alt.svg" },
+      { "id": "linkedin", "file": "assets/icons/social-linkedin.svg" },
+      { "id": "linkedin-alt", "file": "assets/icons/social-linkedin-alt.svg" },
+      { "id": "instagram", "file": "assets/icons/social-instagram.svg" },
+      { "id": "instagram-alt", "file": "assets/icons/social-instagram-alt.svg" },
+      { "id": "tiktok", "file": "assets/icons/social-tiktok.svg" },
+      { "id": "tiktok-alt", "file": "assets/icons/social-tiktok-alt.svg" },
+      { "id": "facebook", "file": "assets/icons/social-facebook.svg" },
+      { "id": "youtube", "file": "assets/icons/social-youtube.svg" },
+      { "id": "youtube-alt", "file": "assets/icons/social-youtube-alt.svg" },
+      { "id": "x", "file": "assets/icons/social-x.svg" }
+    ],
+    "stats_and_features": [
+      { "id": "feature-build", "file": "assets/icons/feature-build.svg" },
+      { "id": "feature-office-1", "file": "assets/icons/feature-office-1.svg" },
+      { "id": "feature-office-2", "file": "assets/icons/feature-office-2.svg" },
+      { "id": "feature-office-3", "file": "assets/icons/feature-office-3.svg" },
+      { "id": "feature-office-4", "file": "assets/icons/feature-office-4.svg" },
+      { "id": "stat-ach1", "file": "assets/icons/stat-ach1.svg" },
+      { "id": "stat-ach2", "file": "assets/icons/stat-ach2.svg" },
+      { "id": "stat-ach4", "file": "assets/icons/stat-ach4.svg" },
+      { "id": "stat-dist1", "file": "assets/icons/stat-dist1.svg" },
+      { "id": "stat-dist2", "file": "assets/icons/stat-dist2.svg" },
+      { "id": "stat-dist5", "file": "assets/icons/stat-dist5.svg" },
+      { "id": "stat-dist6", "file": "assets/icons/stat-dist6.svg" },
+      { "id": "stat-customers", "file": "assets/icons/stat-customers.svg" },
+      { "id": "stat-icon", "file": "assets/icons/stat-icon.svg" },
+      { "id": "investor-1", "file": "assets/icons/investor-1.svg" },
+      { "id": "investor-2", "file": "assets/icons/investor-2.svg" },
+      { "id": "saudi-flag", "file": "assets/icons/saudi-flag.svg" },
+      { "id": "client-i", "file": "assets/icons/client-i.svg" }
+    ],
+    "decorative": [
+      { "id": "deco-g1", "file": "assets/icons/deco-g1.svg" },
+      { "id": "deco-g2", "file": "assets/icons/deco-g2.svg" },
+      { "id": "deco-g3", "file": "assets/icons/deco-g3.svg" },
+      { "id": "deco-g4", "file": "assets/icons/deco-g4.svg" },
+      { "id": "deco-ico1", "file": "assets/icons/deco-ico1.svg" }
+    ]
+  },
+  "brand_guidelines": {
+    "pdf": "assets/brand-guidelines/heyazah-brand-identity.pdf",
+    "report": "assets/brand-guidelines/heyazah-brand-report.txt",
+    "notes": "The OneDrive folder also contains the original .ai source and a stock photo under Links/. Not shipped in the theme zip; retained in the migration package for designers."
+  }
+}

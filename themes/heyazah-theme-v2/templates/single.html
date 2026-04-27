@@ -1,0 +1,42 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","right":"2rem","bottom":"4rem","left":"2rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:4rem;padding-right:2rem;padding-bottom:4rem;padding-left:2rem">
+	<!-- wp:post-title {"level":1,"textColor":"dark-teal"} /-->
+
+	<!-- wp:group {"style":{"spacing":{"margin":{"top":"1rem","bottom":"2rem"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+	<div class="wp-block-group" style="margin-top:1rem;margin-bottom:2rem">
+		<!-- wp:post-date {"textColor":"gold"} /-->
+		<!-- wp:post-author {"showBio":false,"textColor":"dark-teal","style":{"spacing":{"margin":{"left":"1rem"}}}} /-->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:post-featured-image {"sizeSlug":"heyazah-featured","style":{"spacing":{"margin":{"top":"0","bottom":"2rem"}}}} /-->
+
+	<!-- wp:post-content /-->
+
+	<!-- wp:group {"style":{"spacing":{"margin":{"top":"4rem","bottom":"2rem"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group" style="margin-top:4rem;margin-bottom:2rem">
+		<!-- wp:heading {"level":3,"textColor":"dark-teal"} -->
+		<h3 class="has-dark-teal-color has-text-color">المقالات ذات الصلة</h3>
+		<!-- /wp:heading -->
+
+		<!-- wp:query {"queryId":1,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","search":"","exclude":[],"sticky":"exclude","inherit":false},"layout":{"type":"grid","columnCount":3}} -->
+		<div class="wp-block-query">
+			<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+			<!-- wp:group {"className":"post-card","style":{"spacing":{"padding":{"top":"1rem","right":"1rem","bottom":"1rem","left":"1rem"}}}} -->
+			<div class="wp-block-group post-card" style="padding-top:1rem;padding-right:1rem;padding-bottom:1rem;padding-left:1rem">
+				<!-- wp:post-featured-image {"sizeSlug":"large"} /-->
+				<!-- wp:post-title {"level":4,"isLink":true,"textColor":"dark-teal"} /-->
+				<!-- wp:post-date {"textColor":"gold","fontSize":"small"} /-->
+			</div>
+			<!-- /wp:group -->
+			<!-- /wp:post-template -->
+		</div>
+		<!-- /wp:query -->
+	</div>
+	<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->

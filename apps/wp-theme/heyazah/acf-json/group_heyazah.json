@@ -1,0 +1,2404 @@
+{
+  "groups": [
+    {
+      "id": "95",
+      "title": "[:ar]Unit[:en]Unit Basic Information[:]",
+      "key": "group_unit_basic_info"
+    },
+    {
+      "id": "121",
+      "title": "[:ar]Media Center category[:en]Media Center Fields[:]",
+      "key": "group_media_center"
+    },
+    {
+      "id": "390",
+      "title": "اعدادت القالب",
+      "key": "group_66014ba2974b7"
+    },
+    {
+      "id": "697",
+      "title": "[:ar]اعدادات المشروع[:en]Project Settings[:]",
+      "key": "group_6973ecee77d08"
+    },
+    {
+      "id": "722",
+      "title": "Single News Content",
+      "key": "group_single_news"
+    },
+    {
+      "id": "748",
+      "title": "[:ar]media center - video[:]",
+      "key": "group_6974d8ec30f1a"
+    }
+  ],
+  "fields": {
+    "field_project_location": {
+      "ID": "73",
+      "label": "Location / الموقع (عنوان مفصل)",
+      "name": "project_location",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:16:\"Project location\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5",
+      "type": "qtranslate_text"
+    },
+    "field_project_total_units": {
+      "ID": "74",
+      "label": "Total Units / عدد الوحدات",
+      "name": "project_total_units",
+      "parent": "697",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:36:\"Total number of units in the project\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:",
+      "type": "number"
+    },
+    "field_project_rental_area": {
+      "ID": "75",
+      "label": "Rental Area / المساحة التأجيرية",
+      "name": "project_rental_area",
+      "parent": "697",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:28:\"Rental area in square meters\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s",
+      "type": "number"
+    },
+    "field_project_parking_spaces": {
+      "ID": "76",
+      "label": "Parking Spaces / عدد المواقف",
+      "name": "project_parking_spaces",
+      "parent": "697",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:24:\"Number of parking spaces\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"",
+      "type": "number"
+    },
+    "field_project_office_area": {
+      "ID": "77",
+      "label": "Office Area / المساحة المكتبية",
+      "name": "project_office_area",
+      "parent": "697",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:28:\"Office area in square meters\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s",
+      "type": "number"
+    },
+    "field_project_commercial_galleries": {
+      "ID": "78",
+      "label": "Commercial Galleries / المعارض التجارية",
+      "name": "project_commercial_galleries",
+      "parent": "697",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:25:\"Commercial galleries area\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:",
+      "type": "number"
+    },
+    "field_section_title": {
+      "ID": "91",
+      "label": "Section Title",
+      "name": "section_title",
+      "parent": "87",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_section_description": {
+      "ID": "92",
+      "label": "Section Description",
+      "name": "section_description",
+      "parent": "87",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_section_image": {
+      "ID": "93",
+      "label": "Section Image",
+      "name": "section_image",
+      "parent": "87",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:1;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_unit_project": {
+      "ID": "96",
+      "label": "Related Project / المشروع",
+      "name": "unit_project",
+      "parent": "95",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:11:\"post_object\";s:12:\"instructions\";s:56:\"**REQUIRED** - Select which project this unit belongs to\";s:8:\"required\";i:1;s:17:\"conditional_logic\";i:0;s:7:\"wr",
+      "type": "post_object"
+    },
+    "field_unit_number": {
+      "ID": "97",
+      "label": "Unit Number / رقم الوحدة",
+      "name": "unit_number",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:18:\"e.g., A-101, B-205\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"25\";s:5:\"class\";s",
+      "type": "text"
+    },
+    "field_unit_floor_number": {
+      "ID": "98",
+      "label": "Floor Number / رقم الدور",
+      "name": "unit_floor_number",
+      "parent": "95",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:39:\"0 = Ground floor, 1 = First floor, etc.\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\"",
+      "type": "number"
+    },
+    "field_unit_floor_name": {
+      "ID": "99",
+      "label": "Floor Name / اسم الدور",
+      "name": "unit_floor_name",
+      "parent": "95",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"select\";s:12:\"instructions\";s:27:\"Select floor name in Arabic\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"25\";s:",
+      "type": "select"
+    },
+    "field_unit_area": {
+      "ID": "100",
+      "label": "Unit Area / مساحة الوحدة",
+      "name": "unit_area",
+      "parent": "95",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:21:\"Area in square meters\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"cla",
+      "type": "number"
+    },
+    "field_unit_price": {
+      "ID": "101",
+      "label": "Price / السعر",
+      "name": "unit_price",
+      "parent": "95",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:17:\"Unit price in SAR\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";",
+      "type": "number"
+    },
+    "field_media_video": {
+      "ID": "123",
+      "label": "upload Video",
+      "name": "media_video",
+      "parent": "748",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"file\";s:12:\"instructions\";s:45:\"Enter the video URL (if this item is a video)\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"wi",
+      "type": "file"
+    },
+    "field_media_category": {
+      "ID": "125",
+      "label": "Category / Award",
+      "name": "media_category",
+      "parent": "121",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_66015b2598b98": {
+      "ID": "391",
+      "label": "اعدادات عامة",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_66e14e16af970": {
+      "ID": "392",
+      "label": "favicon",
+      "name": "favicon",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_6601583c4819b": {
+      "ID": "393",
+      "label": "اللوجو",
+      "name": "logo",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_694bf73cb94d4": {
+      "ID": "394",
+      "label": "اللوجو (فوتر)",
+      "name": "logo_f",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_696d3b8db8575": {
+      "ID": "395",
+      "label": "شعار",
+      "name": "footer_badge_image",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:66:\"شعار يظهر اسفل لوجو الشركة فى الفوتر\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0",
+      "type": "image"
+    },
+    "field_66150c268494d": {
+      "ID": "396",
+      "label": "breadcrumb",
+      "name": "g_breadcrumb",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_696d3b76b8574": {
+      "ID": "397",
+      "label": "اوقات العمل (days)",
+      "name": "work_times",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_66017298112d3": {
+      "ID": "398",
+      "label": "Copyrights",
+      "name": "copy_rights",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_66015e86e1f7c": {
+      "ID": "399",
+      "label": "هيرو فيديو",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_68fb88bd60102": {
+      "ID": "400",
+      "label": "",
+      "name": "hom_vid",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"file\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "file"
+    },
+    "field_696cfac2eb99f": {
+      "ID": "401",
+      "label": "عنوان",
+      "name": "hero_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696cfadceb9a0": {
+      "ID": "402",
+      "label": "توصيف",
+      "name": "hero_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696cfcb499194": {
+      "ID": "403",
+      "label": "اختر المشاريع المميزة",
+      "name": "اختر_المشاريع_المميزة",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_696cfda67c775": {
+      "ID": "406",
+      "label": "إنجازاتنا",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_696cfddf7c776": {
+      "ID": "407",
+      "label": "عنوان",
+      "name": "achi_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696cfe207c777": {
+      "ID": "408",
+      "label": "وصف قصير",
+      "name": "achi_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696cff0d7c778": {
+      "ID": "409",
+      "label": "إنجازاتنا",
+      "name": "achi_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_696cff5c7c779": {
+      "ID": "410",
+      "label": "ايكون",
+      "name": "icon",
+      "parent": "409",
+      "post_content_preview": "a:18:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_696cff827c77a": {
+      "ID": "411",
+      "label": "رقم",
+      "name": "num",
+      "parent": "409",
+      "post_content_preview": "a:15:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:",
+      "type": "number"
+    },
+    "field_696cff9d7c77b": {
+      "ID": "412",
+      "label": "نص اول",
+      "name": "text_num1",
+      "parent": "409",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d0f09989d6": {
+      "ID": "413",
+      "label": "نص ثانى",
+      "name": "text_num2",
+      "parent": "409",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d10eb989d7": {
+      "ID": "414",
+      "label": "ما يميزنا",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_696d10f6989d8": {
+      "ID": "415",
+      "label": "عنوان",
+      "name": "des_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d10f8989d9": {
+      "ID": "416",
+      "label": "وصف قصير",
+      "name": "distin_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d10fb989da": {
+      "ID": "417",
+      "label": "ما يميزنا",
+      "name": "achi_rep_copy",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_696d10fb989db": {
+      "ID": "418",
+      "label": "ايكون",
+      "name": "icon",
+      "parent": "417",
+      "post_content_preview": "a:18:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_696d10fb989dd": {
+      "ID": "419",
+      "label": "نص",
+      "name": "text",
+      "parent": "417",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d27b0f93a9": {
+      "ID": "420",
+      "label": "خريطة المشاريع",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_696d27bff93aa": {
+      "ID": "421",
+      "label": "وصف قصير",
+      "name": "map_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d27d5f93ab": {
+      "ID": "422",
+      "label": "خريطة iframe",
+      "name": "iframe_dynmaic_map",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "textarea"
+    },
+    "field_696d26a783fba": {
+      "ID": "423",
+      "label": "جولة افتراضية 360°",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_696d26b383fbb": {
+      "ID": "424",
+      "label": "عنوان",
+      "name": "degree_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d26bb83fbc": {
+      "ID": "425",
+      "label": "وصف قصير",
+      "name": "degree_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d271683fbd": {
+      "ID": "426",
+      "label": "جولة افتراضية 360°",
+      "name": "degree_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_696d273083fbe": {
+      "ID": "427",
+      "label": "صورة",
+      "name": "ima",
+      "parent": "426",
+      "post_content_preview": "a:18:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_696d274683fbf": {
+      "ID": "428",
+      "label": "نص",
+      "name": "txt",
+      "parent": "426",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d281819214": {
+      "ID": "429",
+      "label": "اكتشف الفرص",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_696d282519215": {
+      "ID": "430",
+      "label": "عنوان",
+      "name": "descove_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d283f19216": {
+      "ID": "431",
+      "label": "وصف قصير",
+      "name": "descove_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d3af64e0ba": {
+      "ID": "432",
+      "label": "اكتشف الفرص",
+      "name": "discover_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_696d3af74e0bb": {
+      "ID": "433",
+      "label": "صورة",
+      "name": "ima",
+      "parent": "432",
+      "post_content_preview": "a:18:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_696d3af74e0bc": {
+      "ID": "434",
+      "label": "نص",
+      "name": "txt",
+      "parent": "432",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6601665849a68": {
+      "ID": "435",
+      "label": "شركاؤنا",
+      "name": "شركاؤنا",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_696d14aee5518": {
+      "ID": "436",
+      "label": "عنوان",
+      "name": "part_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696d14b8e5519": {
+      "ID": "437",
+      "label": "وصف قصير",
+      "name": "part_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6601666d49a69": {
+      "ID": "446",
+      "label": "شركاء النجاح",
+      "name": "our_partners",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_6601667d49a6a": {
+      "ID": "447",
+      "label": "logo",
+      "name": "logo",
+      "parent": "446",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_660166da49a6b": {
+      "ID": "448",
+      "label": "link",
+      "name": "link",
+      "parent": "446",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_694c5c23c43a4": {
+      "ID": "449",
+      "label": "اعدادات النماذج",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_6601708f112c9": {
+      "ID": "450",
+      "label": "تواصل معنا",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_6601709e112ca": {
+      "ID": "451",
+      "label": "العنوان",
+      "name": "address",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_660170f5112cb": {
+      "ID": "452",
+      "label": "العنوان (رابط خريطة جوجل)",
+      "name": "map_link",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_66017188112cd": {
+      "ID": "453",
+      "label": "البريد الاكترونى",
+      "name": "email_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_6601712e112cc": {
+      "ID": "454",
+      "label": "رقم الجوال",
+      "name": "phone_number",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_68c79cd2e5536": {
+      "ID": "455",
+      "label": "الواتس",
+      "name": "whatsapp_number",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_6601726c112d2": {
+      "ID": "456",
+      "label": "iframe map",
+      "name": "iframe_map",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "textarea"
+    },
+    "field_66017204112ce": {
+      "ID": "457",
+      "label": "التواصل الاجتماعي",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_66017213112cf": {
+      "ID": "458",
+      "label": "",
+      "name": "social_media",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_66017221112d0": {
+      "ID": "459",
+      "label": "link",
+      "name": "link",
+      "parent": "458",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_66017232112d1": {
+      "ID": "460",
+      "label": "icon (Font Awesome)",
+      "name": "icon",
+      "parent": "458",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:12:\"font-awesome\";s:12:\"instructions\";s:51:\"فى حالة عدم وجود ايكون كصورة\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0",
+      "type": "font-awesome"
+    },
+    "field_about_us_tab": {
+      "ID": "461",
+      "label": "من نحن - صفحة",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_about_breadcrumb_title": {
+      "ID": "462",
+      "label": "عنوان breadcrumb",
+      "name": "about_breadcrumb_title",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_breadcrumb_subtitle": {
+      "ID": "463",
+      "label": "عنوان فرعي breadcrumb",
+      "name": "about_breadcrumb_subtitle",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_breadcrumb_description": {
+      "ID": "464",
+      "label": "وصف breadcrumb",
+      "name": "about_breadcrumb_description",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_about_main_heading": {
+      "ID": "465",
+      "label": "العنوان الرئيسي",
+      "name": "about_main_heading",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_main_heading_highlight": {
+      "ID": "466",
+      "label": "الكلمة المميزة",
+      "name": "about_main_heading_highlight",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_main_heading_suffix": {
+      "ID": "467",
+      "label": "نهاية العنوان",
+      "name": "about_main_heading_suffix",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_main_description": {
+      "ID": "468",
+      "label": "الوصف الرئيسي",
+      "name": "about_main_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:18:\"qtranslate_wysiwyg\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";",
+      "type": "qtranslate_wysiwyg"
+    },
+    "field_about_main_image": {
+      "ID": "469",
+      "label": "الصورة الرئيسية",
+      "name": "about_main_image",
+      "parent": "390",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "image"
+    },
+    "field_about_logo_image": {
+      "ID": "470",
+      "label": "صورة الشعار",
+      "name": "about_logo_image",
+      "parent": "390",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "image"
+    },
+    "field_about_vision_icon": {
+      "ID": "471",
+      "label": "أيقونة الرؤية",
+      "name": "about_vision_icon",
+      "parent": "390",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "image"
+    },
+    "field_about_vision_title": {
+      "ID": "472",
+      "label": "عنوان الرؤية",
+      "name": "about_vision_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_vision_description": {
+      "ID": "473",
+      "label": "وصف الرؤية",
+      "name": "about_vision_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:3:\"100\";s:5:\"class\";s:0",
+      "type": "qtranslate_textarea"
+    },
+    "field_about_mission_icon": {
+      "ID": "474",
+      "label": "أيقونة الرسالة",
+      "name": "about_mission_icon",
+      "parent": "390",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "image"
+    },
+    "field_about_mission_title": {
+      "ID": "475",
+      "label": "عنوان الرسالة",
+      "name": "about_mission_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_mission_description": {
+      "ID": "476",
+      "label": "وصف الرسالة",
+      "name": "about_mission_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:3:\"100\";s:5:\"class\";s:0",
+      "type": "qtranslate_textarea"
+    },
+    "field_about_goals_section_title": {
+      "ID": "477",
+      "label": "عنوان قسم الأهداف",
+      "name": "about_goals_section_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_goals_section_heading": {
+      "ID": "478",
+      "label": "العنوان الرئيسي لقسم الأهداف",
+      "name": "about_goals_section_heading",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_goals_section_description": {
+      "ID": "479",
+      "label": "وصف قسم الأهداف",
+      "name": "about_goals_section_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_about_goals": {
+      "ID": "480",
+      "label": "الأهداف",
+      "name": "about_goals",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_about_goal_icon": {
+      "ID": "481",
+      "label": "الأيقونة",
+      "name": "goal_icon",
+      "parent": "480",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_about_goal_title": {
+      "ID": "482",
+      "label": "العنوان",
+      "name": "goal_title",
+      "parent": "480",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_about_goal_description": {
+      "ID": "483",
+      "label": "الوصف",
+      "name": "goal_description",
+      "parent": "480",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_about_services_section_title": {
+      "ID": "484",
+      "label": "عنوان قسم الخدمات",
+      "name": "about_services_section_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_services_section_heading": {
+      "ID": "485",
+      "label": "العنوان الرئيسي لقسم الخدمات",
+      "name": "about_services_section_heading",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_services_section_description": {
+      "ID": "486",
+      "label": "وصف قسم الخدمات",
+      "name": "about_services_section_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_about_services": {
+      "ID": "487",
+      "label": "الخدمات",
+      "name": "about_services",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_about_service_number": {
+      "ID": "488",
+      "label": "الرقم",
+      "name": "service_number",
+      "parent": "487",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"20\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:",
+      "type": "text"
+    },
+    "field_about_service_image": {
+      "ID": "489",
+      "label": "الصورة",
+      "name": "service_image",
+      "parent": "487",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"40\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "image"
+    },
+    "field_about_service_icon": {
+      "ID": "490",
+      "label": "الأيقونة",
+      "name": "service_icon",
+      "parent": "487",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"40\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "image"
+    },
+    "field_about_service_title": {
+      "ID": "491",
+      "label": "العنوان",
+      "name": "service_title",
+      "parent": "487",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_about_service_description": {
+      "ID": "492",
+      "label": "الوصف",
+      "name": "service_description",
+      "parent": "487",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_about_cta_heading": {
+      "ID": "493",
+      "label": "عنوان قسم الدعوة للتواصل",
+      "name": "about_cta_heading",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_about_cta_description": {
+      "ID": "494",
+      "label": "وصف قسم الدعوة للتواصل",
+      "name": "about_cta_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_about_cta_button_text": {
+      "ID": "495",
+      "label": "نص زر الدعوة للتواصل",
+      "name": "about_cta_button_text",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_about_cta_button_link": {
+      "ID": "496",
+      "label": "رابط زر الدعوة للتواصل",
+      "name": "about_cta_button_link",
+      "parent": "390",
+      "post_content_preview": "a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"url\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"50\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "url"
+    },
+    "field_contact_page_tab": {
+      "ID": "497",
+      "label": "اتصل بنا - صفحة",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_contact_breadcrumb_title": {
+      "ID": "498",
+      "label": "عنوان breadcrumb",
+      "name": "contact_breadcrumb_title",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_contact_breadcrumb_subtitle": {
+      "ID": "499",
+      "label": "عنوان فرعي",
+      "name": "contact_breadcrumb_subtitle",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_contact_breadcrumb_desc": {
+      "ID": "500",
+      "label": "وصف",
+      "name": "contact_breadcrumb_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_contact_form_title": {
+      "ID": "501",
+      "label": "عنوان النموذج",
+      "name": "contact_form_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_contact_form_subtitle": {
+      "ID": "502",
+      "label": "وصف النموذج",
+      "name": "contact_form_subtitle",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_contact_form_shortcode": {
+      "ID": "503",
+      "label": "CF7 Shortcode",
+      "name": "contact_form_shortcode",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_contact_image": {
+      "ID": "504",
+      "label": "صورة القسم",
+      "name": "contact_image",
+      "parent": "390",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_contact_support_title": {
+      "ID": "505",
+      "label": "عنوان الدعم",
+      "name": "contact_support_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_contact_support_subtitle": {
+      "ID": "506",
+      "label": "وصف الدعم",
+      "name": "contact_support_subtitle",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_contact_map_title": {
+      "ID": "507",
+      "label": "عنوان الخريطة",
+      "name": "contact_map_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_contact_map_highlight": {
+      "ID": "508",
+      "label": "كلمة مميزة",
+      "name": "contact_map_title_highlight",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_contact_map_image": {
+      "ID": "509",
+      "label": "صورة الخريطة",
+      "name": "contact_map_image",
+      "parent": "390",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_contact_google_maps": {
+      "ID": "510",
+      "label": "رابط خرائط جوجل",
+      "name": "contact_google_maps_link",
+      "parent": "390",
+      "post_content_preview": "a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"url\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "url"
+    },
+    "field_clients_page_tab": {
+      "ID": "511",
+      "label": "شركاء النجاح - صفحة",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_clients_hero_title": {
+      "ID": "512",
+      "label": "عنوان",
+      "name": "clients_hero_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_clients_hero_heading": {
+      "ID": "513",
+      "label": "العنوان الرئيسي",
+      "name": "clients_hero_heading",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_clients_hero_desc": {
+      "ID": "514",
+      "label": "الوصف",
+      "name": "clients_hero_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_clients_hero_bg": {
+      "ID": "515",
+      "label": "صورة الخلفية",
+      "name": "clients_hero_background",
+      "parent": "390",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_clients_cta_text": {
+      "ID": "516",
+      "label": "نص الزر",
+      "name": "clients_cta_text",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_clients_cta_link": {
+      "ID": "517",
+      "label": "رابط الزر",
+      "name": "clients_cta_link",
+      "parent": "390",
+      "post_content_preview": "a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"url\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "url"
+    },
+    "field_clients_section_title": {
+      "ID": "518",
+      "label": "عنوان القسم",
+      "name": "clients_section_title",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_clients_section_heading": {
+      "ID": "519",
+      "label": "العنوان الرئيسي",
+      "name": "clients_section_heading",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_investment_page_tab": {
+      "ID": "520",
+      "label": "الاستثمار - صفحة",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_investment_breadcrumb_title": {
+      "ID": "521",
+      "label": "عنوان breadcrumb",
+      "name": "investment_breadcrumb_title",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_investment_breadcrumb_subtitle": {
+      "ID": "522",
+      "label": "عنوان فرعي",
+      "name": "investment_breadcrumb_subtitle",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_investment_breadcrumb_desc": {
+      "ID": "523",
+      "label": "وصف",
+      "name": "investment_breadcrumb_description",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_66e1784debd06": {
+      "ID": "526",
+      "label": "قفل الموقع",
+      "name": "",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_66e1785bebd07": {
+      "ID": "527",
+      "label": "تفعيل",
+      "name": "active",
+      "parent": "390",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:10:\"true_false\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\"",
+      "type": "true_false"
+    },
+    "field_66e1788bebd08": {
+      "ID": "528",
+      "label": "تاريخ قفل الموقع",
+      "name": "act_date",
+      "parent": "390",
+      "post_content_preview": "a:10:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:11:\"date_picker\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id",
+      "type": "date_picker"
+    },
+    "field_696e3dfdfca05": {
+      "ID": "530",
+      "label": "الجوال",
+      "name": "phone",
+      "parent": "454",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_696e45ab93821": {
+      "ID": "531",
+      "label": "البريد الاكترونى",
+      "name": "email",
+      "parent": "453",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_696e4b98072a8": {
+      "ID": "613",
+      "label": "اوقات العمل (time)",
+      "name": "work_time_txt",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_696ea57a28afa": {
+      "ID": "618",
+      "label": "icon (image)",
+      "name": "icon_ima",
+      "parent": "458",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_696ff5b7e88a2": {
+      "ID": "627",
+      "label": "اعمالنا",
+      "name": "_copy",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_696ff5c7e88a3": {
+      "ID": "628",
+      "label": "عنوان",
+      "name": "works_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_696ff5cbe88a4": {
+      "ID": "629",
+      "label": "وصف قصير",
+      "name": "works_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6970962710314": {
+      "ID": "636",
+      "label": "Location / الموقع",
+      "name": "project_location_2",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:16:\"Project location\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5",
+      "type": "qtranslate_text"
+    },
+    "field_697170ce5d394": {
+      "ID": "650",
+      "label": "توصيف",
+      "name": "clients_section_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_697170eb5d395": {
+      "ID": "651",
+      "label": "الشركاء",
+      "name": "clients_page_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_697171055d396": {
+      "ID": "652",
+      "label": "صورة",
+      "name": "ima",
+      "parent": "651",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_697171315d397": {
+      "ID": "653",
+      "label": "نوع الشريك",
+      "name": "type",
+      "parent": "651",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6971718c5d398": {
+      "ID": "654",
+      "label": "شعار للشريك",
+      "name": "part_logo",
+      "parent": "651",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_697171ad5d399": {
+      "ID": "655",
+      "label": "اسم الشريك",
+      "name": "part_name",
+      "parent": "651",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_697171c45d39a": {
+      "ID": "656",
+      "label": "توصيف قصير",
+      "name": "part_des",
+      "parent": "651",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69717241c5e60": {
+      "ID": "657",
+      "label": "انجازاتنا",
+      "name": "clients_page_achive",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_6971728bc5e66": {
+      "ID": "658",
+      "label": "رقم",
+      "name": "num",
+      "parent": "657",
+      "post_content_preview": "a:14:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"75\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "number"
+    },
+    "field_69717241c5e61": {
+      "ID": "659",
+      "label": "prefix",
+      "name": "prefix",
+      "parent": "657",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"25\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:",
+      "type": "text"
+    },
+    "field_69717241c5e64": {
+      "ID": "660",
+      "label": "نص",
+      "name": "txt",
+      "parent": "657",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_697180f5d1723": {
+      "ID": "661",
+      "label": "الأقسام المتخصصة",
+      "name": "contact_departments",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_69718128d1724": {
+      "ID": "662",
+      "label": "ايكون",
+      "name": "dept_icon",
+      "parent": "661",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_6971814cd1725": {
+      "ID": "663",
+      "label": "الاسم",
+      "name": "dept_name",
+      "parent": "661",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69718165d1726": {
+      "ID": "664",
+      "label": "الجوال",
+      "name": "dept_phone",
+      "parent": "661",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_69718177d1727": {
+      "ID": "665",
+      "label": "البريد الاكترونى",
+      "name": "dept_email",
+      "parent": "661",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_697181c22ec46": {
+      "ID": "666",
+      "label": "عنوان سكشن الأقسام المتخصصة",
+      "name": "contact_departments_title",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_697183057ed11": {
+      "ID": "667",
+      "label": "عنوان اعلى الخريطة (اسم المقر)",
+      "name": "name_headquarter",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_697183537ed12": {
+      "ID": "668",
+      "label": "عنوان اعلى الخريطة (العنوان)",
+      "name": "name_headquarter_address",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6971ed90ad182": {
+      "ID": "670",
+      "label": "التواصل الاجتماعى",
+      "name": "social_media_2",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_6971ed90ad185": {
+      "ID": "671",
+      "label": "icon (image)",
+      "name": "icon_ima",
+      "parent": "670",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_6971ed90ad186": {
+      "ID": "672",
+      "label": "icon (Font Awesome)",
+      "name": "icon",
+      "parent": "670",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:12:\"font-awesome\";s:12:\"instructions\";s:51:\"فى حالة عدم وجود ايكون كصورة\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0",
+      "type": "font-awesome"
+    },
+    "field_6971ed90ad187": {
+      "ID": "673",
+      "label": "link",
+      "name": "link",
+      "parent": "670",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_69724605a0da3": {
+      "ID": "679",
+      "label": "tabs",
+      "name": "tabs_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_6972469ca0da5": {
+      "ID": "680",
+      "label": "tab name",
+      "name": "tab_name",
+      "parent": "679",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6972464fa0da4": {
+      "ID": "681",
+      "label": "CF7 shortcode",
+      "name": "investment_form_shortcode",
+      "parent": "679",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_69724701b110b": {
+      "ID": "682",
+      "label": "tab icon",
+      "name": "tab_icon",
+      "parent": "679",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69724a2ae251a": {
+      "ID": "683",
+      "label": "tab slug",
+      "name": "tab_slug",
+      "parent": "679",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:46:\"it should be english ex: rent, buy, investment\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"w",
+      "type": "text"
+    },
+    "field_69725b61154ae": {
+      "ID": "685",
+      "label": "المركز الاعلامى",
+      "name": "_copy",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69725b74154af": {
+      "ID": "686",
+      "label": "عنوان",
+      "name": "media_center_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69725b92154b0": {
+      "ID": "687",
+      "label": "توصيف",
+      "name": "media_center_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69726aac2e4fc": {
+      "ID": "690",
+      "label": "المشاريع",
+      "name": "_copy",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69726ab92e4fd": {
+      "ID": "691",
+      "label": "عنوان",
+      "name": "projects_bread_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69726abb2e4fe": {
+      "ID": "692",
+      "label": "توصيف",
+      "name": "projects_bread_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69728e2692d3c": {
+      "ID": "693",
+      "label": "Bedroom Number / عدد غرف النوم",
+      "name": "unit_bedrooms",
+      "parent": "95",
+      "post_content_preview": "a:14:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:18:\"number of bedrooms\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\"",
+      "type": "number"
+    },
+    "field_69728e7b92d3d": {
+      "ID": "694",
+      "label": "Bathroom Number / عدد حمام",
+      "name": "unit_bathrooms",
+      "parent": "95",
+      "post_content_preview": "a:14:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "number"
+    },
+    "field_6972918833770": {
+      "ID": "695",
+      "label": "Unit  Description / وصف الوحدة",
+      "name": "unit_desc",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:49:\"مدخل خاص - حوش خاص - موقف خاص\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\"",
+      "type": "qtranslate_text"
+    },
+    "field_6973ecef9ab65": {
+      "ID": "698",
+      "label": "Project Hero",
+      "name": "",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_6973ed4d9ab66": {
+      "ID": "699",
+      "label": "image",
+      "name": "hero_image",
+      "parent": "697",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_6973ed7c9ab67": {
+      "ID": "700",
+      "label": "icon",
+      "name": "hero_icon",
+      "parent": "697",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_6973edbd9ab69": {
+      "ID": "702",
+      "label": "description",
+      "name": "hero_des",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6973ede09ab6a": {
+      "ID": "703",
+      "label": "profile pdf",
+      "name": "profile_pdf",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"file\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "file"
+    },
+    "field_6973ee099ab6b": {
+      "ID": "704",
+      "label": "(link) 360° virtual tour",
+      "name": "360_virtual_tour",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"url\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "url"
+    },
+    "field_6973f7c5351fc": {
+      "ID": "705",
+      "label": "Basic Information",
+      "name": "basic_information",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_6973f97b3a52c": {
+      "ID": "706",
+      "label": "content sections",
+      "name": "content_sections",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_6973fa0a3a52d": {
+      "ID": "707",
+      "label": "",
+      "name": "content_rep",
+      "parent": "697",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_6973fa1a3a52e": {
+      "ID": "708",
+      "label": "title",
+      "name": "title",
+      "parent": "707",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6973fa243a52f": {
+      "ID": "709",
+      "label": "description",
+      "name": "description",
+      "parent": "707",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_6973fa393a530": {
+      "ID": "710",
+      "label": "image",
+      "name": "image",
+      "parent": "707",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_6973fa4e3a531": {
+      "ID": "711",
+      "label": "Gallery",
+      "name": "gallery",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_6973fa673a532": {
+      "ID": "712",
+      "label": "",
+      "name": "project_gallery",
+      "parent": "697",
+      "post_content_preview": "a:19:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:7:\"gallery\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "gallery"
+    },
+    "field_6973fac33a533": {
+      "ID": "713",
+      "label": "business destination",
+      "name": "business_destination",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_6973fb7e3a534": {
+      "ID": "714",
+      "label": "title",
+      "name": "business_destination_title",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6973fbb73a535": {
+      "ID": "715",
+      "label": "description",
+      "name": "business_destination_des",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_6973fc9576fbc": {
+      "ID": "716",
+      "label": "Virtual Reality",
+      "name": "virtual_reality",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_6973fcb276fbd": {
+      "ID": "717",
+      "label": "نص",
+      "name": "virtual_reality_txt",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6973fce676fbe": {
+      "ID": "718",
+      "label": "صورة",
+      "name": "virtual_reality_ima",
+      "parent": "697",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69740fd32ca90": {
+      "ID": "719",
+      "label": "Project map",
+      "name": "project_map",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69740fe62ca91": {
+      "ID": "720",
+      "label": "ال i frame الخاص بخريطة جوجل",
+      "name": "map_image",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "textarea"
+    },
+    "field_news_meta": {
+      "ID": "723",
+      "label": "News Meta",
+      "name": "news_meta",
+      "parent": "722",
+      "post_content_preview": "a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"group\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "group"
+    },
+    "field_news_label": {
+      "ID": "724",
+      "label": "News Label",
+      "name": "news_label",
+      "parent": "723",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_news_author": {
+      "ID": "725",
+      "label": "Author Name",
+      "name": "author_name",
+      "parent": "723",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_news_image": {
+      "ID": "728",
+      "label": "Main Image",
+      "name": "main_image",
+      "parent": "722",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_intro_title": {
+      "ID": "729",
+      "label": "Intro Title",
+      "name": "intro_title",
+      "parent": "722",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_news_content": {
+      "ID": "730",
+      "label": "News Content",
+      "name": "news_content",
+      "parent": "722",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:18:\"qtranslate_wysiwyg\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";",
+      "type": "qtranslate_wysiwyg"
+    },
+    "field_quote": {
+      "ID": "731",
+      "label": "Highlighted Quote",
+      "name": "highlighted_quote",
+      "parent": "722",
+      "post_content_preview": "a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"group\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "group"
+    },
+    "field_quote_text": {
+      "ID": "732",
+      "label": "Quote Text",
+      "name": "quote_text",
+      "parent": "731",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_quote_author": {
+      "ID": "733",
+      "label": "Quote Author",
+      "name": "quote_author",
+      "parent": "731",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_facilities": {
+      "ID": "734",
+      "label": "Facilities & Services",
+      "name": "facilities",
+      "parent": "722",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_facility_item": {
+      "ID": "735",
+      "label": "Facility",
+      "name": "facility",
+      "parent": "734",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_facility_images": {
+      "ID": "736",
+      "label": "Facility Images",
+      "name": "facility_images",
+      "parent": "722",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_facility_image": {
+      "ID": "737",
+      "label": "Image",
+      "name": "image",
+      "parent": "736",
+      "post_content_preview": "a:16:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_payment_plan": {
+      "ID": "738",
+      "label": "Payment Plan Counters",
+      "name": "payment_plan",
+      "parent": "722",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_counter_value": {
+      "ID": "739",
+      "label": "Value",
+      "name": "value",
+      "parent": "738",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"number\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:",
+      "type": "number"
+    },
+    "field_counter_label": {
+      "ID": "740",
+      "label": "Label",
+      "name": "label",
+      "parent": "738",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_delivery_date": {
+      "ID": "741",
+      "label": "Delivery Date",
+      "name": "delivery_date",
+      "parent": "722",
+      "post_content_preview": "a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_sales_content": {
+      "ID": "742",
+      "label": "Start of Sales Content",
+      "name": "sales_content",
+      "parent": "722",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:18:\"qtranslate_wysiwyg\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";",
+      "type": "qtranslate_wysiwyg"
+    },
+    "field_cta": {
+      "ID": "743",
+      "label": "Call To Action",
+      "name": "cta",
+      "parent": "722",
+      "post_content_preview": "a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"group\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "group"
+    },
+    "field_cta_title": {
+      "ID": "744",
+      "label": "CTA Title",
+      "name": "title",
+      "parent": "743",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_cta_text": {
+      "ID": "745",
+      "label": "CTA Text",
+      "name": "text",
+      "parent": "743",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_cta_register_link": {
+      "ID": "746",
+      "label": "Register Interest Link",
+      "name": "register_link",
+      "parent": "743",
+      "post_content_preview": "a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"url\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "url"
+    },
+    "field_cta_book_link": {
+      "ID": "747",
+      "label": "Book Appointment Link",
+      "name": "book_link",
+      "parent": "743",
+      "post_content_preview": "a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"url\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";b:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "url"
+    },
+    "field_6974e409bc74a": {
+      "ID": "751",
+      "label": "Facilities & Services des",
+      "name": "facilities_services_des",
+      "parent": "722",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_6974e7542e506": {
+      "ID": "752",
+      "label": "Payment Plan Counters des",
+      "name": "payment_plan_counters_des",
+      "parent": "722",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_697a1cb19d336": {
+      "ID": "912",
+      "label": "رابط ( video url )",
+      "name": "video_url",
+      "parent": "748",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"url\";s:12:\"instructions\";s:116:\"فى حالة عدم ارفق فيديو فى الحقل السابق يمكن وضع رابط للفيديو هنا\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wra",
+      "type": "url"
+    },
+    "field_697fe9ed07af7": {
+      "ID": "940",
+      "label": "نص معاً",
+      "name": "clients_hero_withus",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_697feab7ba1fa": {
+      "ID": "941",
+      "label": "profile pdf (URL)",
+      "name": "profile_pdf_url",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"url\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "url"
+    },
+    "field_69833cdd8c34c": {
+      "ID": "948",
+      "label": "",
+      "name": "select_pro",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:12:\"relationship\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"i",
+      "type": "relationship"
+    },
+    "field_6983401759d5b": {
+      "ID": "949",
+      "label": "الرابط المراد وضعه فى كود iframe",
+      "name": "code_iframe",
+      "parent": "426",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:43:\"كود iframe يظهر فى البوب اب\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:",
+      "type": "textarea"
+    },
+    "field_69834610541da": {
+      "ID": "950",
+      "label": "كود iframe",
+      "name": "virtual_reality_iframe",
+      "parent": "697",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:330:\"ex:\r\n<iframe class=\"fthL6\" title=\"remote content\" data-hook=\"iframe-component\" style=\"background-color:transparent\" ",
+      "type": "textarea"
+    },
+    "field_69834783ea7d8": {
+      "ID": "951",
+      "label": "الايقونات",
+      "name": "project_icon_rep",
+      "parent": "697",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:65:\"تحكم جديد خاص بايقونات صفحة المشروع\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s",
+      "type": "repeater"
+    },
+    "field_698347c8ea7d9": {
+      "ID": "952",
+      "label": "ايكون",
+      "name": "icon",
+      "parent": "951",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_698347e0ea7da": {
+      "ID": "953",
+      "label": "التسمية",
+      "name": "naming",
+      "parent": "951",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_698347f5ea7db": {
+      "ID": "954",
+      "label": "القيمة",
+      "name": "value",
+      "parent": "951",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b6aed5915bf": {
+      "ID": "966",
+      "label": "توصيف",
+      "name": "des",
+      "parent": "426",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_69b6faa8f3874": {
+      "ID": "967",
+      "label": "توصيف",
+      "name": "des",
+      "parent": "417",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_69b6fc70a96d7": {
+      "ID": "968",
+      "label": "مصممين حيازة",
+      "name": "_copy",
+      "parent": "390",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69b6fcd8a96d8": {
+      "ID": "969",
+      "label": "عنوان",
+      "name": "heya_designers_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b6fcdba96d9": {
+      "ID": "970",
+      "label": "توصيف",
+      "name": "heya_designers_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b6fd16a96da": {
+      "ID": "971",
+      "label": "",
+      "name": "heya_designers_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_69b6fd39a96db": {
+      "ID": "972",
+      "label": "صورة",
+      "name": "ima",
+      "parent": "971",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69b6fd49a96dc": {
+      "ID": "973",
+      "label": "الاسم",
+      "name": "name",
+      "parent": "971",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b7236120d6f": {
+      "ID": "979",
+      "label": "كلمة الرئيس (الاسم )",
+      "name": "presdent_name",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_69b723dd20d71": {
+      "ID": "980",
+      "label": "كلمة الرئيس (الكلمة)",
+      "name": "presdent_word",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:",
+      "type": "qtranslate_textarea"
+    },
+    "field_69b723f720d72": {
+      "ID": "981",
+      "label": "كلمة الرئيس (الصورة)",
+      "name": "presdent_ima",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "image"
+    },
+    "field_69b7241020d73": {
+      "ID": "982",
+      "label": "الرسالة (اسم الرئيس التنفيذي)",
+      "name": "message_tit",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s",
+      "type": "qtranslate_text"
+    },
+    "field_69b7241320d74": {
+      "ID": "983",
+      "label": "الرسالة (توصيف)",
+      "name": "message_des",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:",
+      "type": "qtranslate_textarea"
+    },
+    "field_69b7241620d75": {
+      "ID": "984",
+      "label": "الرسالة (الصورة)",
+      "name": "message_ima",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"33\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "image"
+    },
+    "field_69b7249020d76": {
+      "ID": "985",
+      "label": "الجوائز",
+      "name": "rewards_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_69b724b320d77": {
+      "ID": "986",
+      "label": "الصورة",
+      "name": "ima",
+      "parent": "985",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69b724ca20d78": {
+      "ID": "987",
+      "label": "نص",
+      "name": "txt",
+      "parent": "985",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b724e820d79": {
+      "ID": "988",
+      "label": "السنة",
+      "name": "year",
+      "parent": "985",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_69b72893c9261": {
+      "ID": "989",
+      "label": "اعضاء مجلس الادارة",
+      "name": "member_rep",
+      "parent": "390",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_69b72893c9262": {
+      "ID": "990",
+      "label": "الصورة",
+      "name": "ima",
+      "parent": "989",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69b72893c9263": {
+      "ID": "991",
+      "label": "الاسم",
+      "name": "name",
+      "parent": "989",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b728bec9265": {
+      "ID": "992",
+      "label": "المسمى الوظيفى",
+      "name": "job_title",
+      "parent": "989",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b8026a2f3ee": {
+      "ID": "995",
+      "label": "Achievement rate ( معدل الانجاز)",
+      "name": "_copy",
+      "parent": "697",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69b8028c2f3ef": {
+      "ID": "996",
+      "label": "",
+      "name": "achiev_steps",
+      "parent": "697",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_69b804c56fdf8": {
+      "ID": "997",
+      "label": "Title",
+      "name": "title",
+      "parent": "996",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b804d96fdf9": {
+      "ID": "998",
+      "label": "Status",
+      "name": "status",
+      "parent": "996",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:6:\"select\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:",
+      "type": "select"
+    },
+    "field_69b8210e86d2f": {
+      "ID": "1000",
+      "label": "واتس اب",
+      "name": "dept_whatsapp",
+      "parent": "661",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_69b86b943a93f": {
+      "ID": "1003",
+      "label": "Basic Information",
+      "name": "basic_information",
+      "parent": "95",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69b86bab3a940": {
+      "ID": "1004",
+      "label": "Video",
+      "name": "basic_information_copy",
+      "parent": "95",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69b86ca93a941": {
+      "ID": "1005",
+      "label": "Video Image Thumbnail",
+      "name": "video_image_thumbnail",
+      "parent": "95",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69b86cd13a942": {
+      "ID": "1006",
+      "label": "youtube url",
+      "name": "youtube_url",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:47:\"ex: https://www.youtube.com/watch?v=rYa5tHiYaJ8\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"",
+      "type": "text"
+    },
+    "field_69b86e253a944": {
+      "ID": "1007",
+      "label": "Gallery",
+      "name": "gallery",
+      "parent": "95",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69b86dd43a943": {
+      "ID": "1008",
+      "label": "side images",
+      "name": "side_images",
+      "parent": "95",
+      "post_content_preview": "a:19:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:7:\"gallery\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0",
+      "type": "gallery"
+    },
+    "field_69b86e583a945": {
+      "ID": "1009",
+      "label": "unit details",
+      "name": "unit_details",
+      "parent": "95",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69b86e653a946": {
+      "ID": "1010",
+      "label": "",
+      "name": "unit_details",
+      "parent": "95",
+      "post_content_preview": "a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:",
+      "type": "repeater"
+    },
+    "field_69b86e763a947": {
+      "ID": "1011",
+      "label": "نص",
+      "name": "txt",
+      "parent": "1010",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b892494761b": {
+      "ID": "1012",
+      "label": "رقم",
+      "name": "num",
+      "parent": "1010",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_69b88fc947618": {
+      "ID": "1013",
+      "label": "Unit info (single)",
+      "name": "unit_info_single",
+      "parent": "95",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69b88fe547619": {
+      "ID": "1014",
+      "label": "unit code",
+      "name": "unit_code",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\"",
+      "type": "text"
+    },
+    "field_69b88ffb4761a": {
+      "ID": "1015",
+      "label": "unit description",
+      "name": "unit_description",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_69b896bb29c6e": {
+      "ID": "1017",
+      "label": "Page Breadcrumb",
+      "name": "page_breadcrumb",
+      "parent": "95",
+      "post_content_preview": "a:9:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";b:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}",
+      "type": "tab"
+    },
+    "field_69b896cf29c6f": {
+      "ID": "1018",
+      "label": "Page Breadcrumb Title",
+      "name": "unit_page_breadcrumb_title",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69b896d629c70": {
+      "ID": "1019",
+      "label": "Page Breadcrumb Description",
+      "name": "unit_page_breadcrumb_description",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:19:\"qtranslate_textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\"",
+      "type": "qtranslate_textarea"
+    },
+    "field_69b8974473290": {
+      "ID": "1020",
+      "label": "Page Breadcrumb Subtitle",
+      "name": "unit_page_breadcrumb_subtitle",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69c9c874c806f": {
+      "ID": "1050",
+      "label": "اللوجو (صفحات الداخلية)",
+      "name": "logo_inner",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69c9c9caefea7": {
+      "ID": "1051",
+      "label": "صورة menu",
+      "name": "menu_bg",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69c9ce809d4b1": {
+      "ID": "1053",
+      "label": "صورة سجل اهتمامك",
+      "name": "interest_ima",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"",
+      "type": "image"
+    },
+    "field_69ca8e96e9115": {
+      "ID": "1068",
+      "label": "توصيف",
+      "name": "contact_map_subtitle",
+      "parent": "390",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:15:\"qtranslate_text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2",
+      "type": "qtranslate_text"
+    },
+    "field_69cba38f0ec14": {
+      "ID": "1069",
+      "label": "صورة الشهادة",
+      "name": "footer_certif_ima",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:52:\"شهادات تظهر اسفل لوجو الشركة\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:",
+      "type": "image"
+    },
+    "field_69cba3cf0ec15": {
+      "ID": "1070",
+      "label": "شعار جائزة",
+      "name": "footer_uniqe_ima",
+      "parent": "390",
+      "post_content_preview": "a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:74:\"شعار جائزة التميز العقارى تظهر فى الفوتر\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\"",
+      "type": "image"
+    },
+    "field_69d24eb408fe6": {
+      "ID": "1073",
+      "label": "Unit ID / الرقم المميز للوحدة",
+      "name": "unit_id",
+      "parent": "95",
+      "post_content_preview": "a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:8:\"#5845848\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:2:\"25\";s:5:\"class\";s:0:\"\";s:2:\"",
+      "type": "text"
+    }
+  }
+}

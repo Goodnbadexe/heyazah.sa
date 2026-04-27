@@ -1,0 +1,233 @@
+/**
+ * Pattern Styles for Heyazah Pro Theme
+ * Sunburst and wave background patterns
+ */
+
+/* Radial Sunburst Lines Pattern */
+.sunburst-background {
+  background: radial-gradient(circle, transparent 20%, rgba(2, 81, 87, 0.03) 100%);
+  background-size: 80px 80px;
+  background-position: 0 0;
+}
+
+.sunburst-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 35px, rgba(2, 81, 87, 0.02) 35px, rgba(2, 81, 87, 0.02) 70px),
+    repeating-linear-gradient(90deg, transparent, transparent 35px, rgba(2, 81, 87, 0.02) 35px, rgba(2, 81, 87, 0.02) 70px),
+    repeating-linear-gradient(45deg, transparent, transparent 49px, rgba(2, 81, 87, 0.02) 49px, rgba(2, 81, 87, 0.02) 98px),
+    repeating-linear-gradient(-45deg, transparent, transparent 49px, rgba(2, 81, 87, 0.02) 49px, rgba(2, 81, 87, 0.02) 98px);
+  pointer-events: none;
+}
+
+/* Wave Pattern Background */
+.wave-background {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><defs><linearGradient id="waveGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:rgba(2,81,87,0.08);stop-opacity:1" /><stop offset="100%" style="stop-color:rgba(2,81,87,0.02);stop-opacity:1" /></linearGradient></defs><path fill="url(%23waveGrad)" d="M0,60 Q150,20 300,60 T600,60 T900,60 T1200,60 L1200,120 L0,120 Z"/></svg>');
+  background-repeat: repeat-x;
+  background-size: 100% 120px;
+  background-position: 0 0;
+  animation: wave 15s linear infinite;
+}
+
+@keyframes wave {
+  0% { background-position: 0 0; }
+  100% { background-position: 1200px 0; }
+}
+
+/* Subtle Diagonal Lines */
+.diagonal-lines {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(2, 81, 87, 0.03) 10px,
+      rgba(2, 81, 87, 0.03) 20px
+    );
+}
+
+/* Polka Dot Pattern */
+.polka-dots {
+  background-image:
+    radial-gradient(circle, rgba(2, 81, 87, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: 0 0;
+}
+
+/* Grid Pattern */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(2, 81, 87, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(2, 81, 87, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Arch/Arch Wave Pattern */
+.arch-wave {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200"><defs><linearGradient id="archGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:rgba(2,81,87,0.1);stop-opacity:1" /><stop offset="100%" style="stop-color:rgba(2,81,87,0.02);stop-opacity:1" /></linearGradient></defs><path fill="url(%23archGrad)" d="M0,100 Q300,20 600,100 T1200,100 L1200,200 L0,200 Z"/></svg>');
+  background-repeat: repeat-x;
+  background-size: 100% 200px;
+}
+
+/* Horizontal Lines */
+.horizontal-lines {
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 19px,
+    rgba(2, 81, 87, 0.04) 19px,
+    rgba(2, 81, 87, 0.04) 20px
+  );
+}
+
+/* Vertical Lines */
+.vertical-lines {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 19px,
+    rgba(2, 81, 87, 0.04) 19px,
+    rgba(2, 81, 87, 0.04) 20px
+  );
+}
+
+/* Checkered Pattern */
+.checkered {
+  background-image:
+    linear-gradient(45deg, rgba(2, 81, 87, 0.05) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(2, 81, 87, 0.05) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(2, 81, 87, 0.05) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(2, 81, 87, 0.05) 75%);
+  background-size: 30px 30px;
+  background-position: 0 0, 0 15px, 15px -15px, -15px 0;
+}
+
+/* Circles Pattern */
+.circles-pattern {
+  background-image: radial-gradient(circle, transparent 20%, rgba(2, 81, 87, 0.05) 100%);
+  background-size: 40px 40px;
+}
+
+/* Triangles Pattern */
+.triangles {
+  background-image:
+    linear-gradient(135deg, rgba(2, 81, 87, 0.05) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(2, 81, 87, 0.05) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(2, 81, 87, 0.05) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(2, 81, 87, 0.05) 25%, transparent 25%);
+  background-size: 40px 40px;
+  background-position: 0 0, 10px 0, 10px 10px, 0 10px;
+}
+
+/* Stripes Pattern */
+.stripes {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(2, 81, 87, 0.03) 10px,
+    rgba(2, 81, 87, 0.03) 20px
+  );
+}
+
+/* Dot Grid Pattern */
+.dot-grid {
+  background-image:
+    radial-gradient(circle, rgba(2, 81, 87, 0.08) 2px, transparent 2px);
+  background-size: 25px 25px;
+  background-position: 0 0;
+}
+
+/* Animated Gradient Background */
+.animated-gradient {
+  background: linear-gradient(
+    -45deg,
+    #025157,
+    #082b2a,
+    #025157,
+    #082b2a
+  );
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Subtle Noise Pattern */
+.noise-pattern {
+  background-image:
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noise)" opacity="0.05"/></svg>');
+  background-size: 100px 100px;
+}
+
+/* Fade Pattern Overlay */
+.pattern-fade {
+  position: relative;
+}
+
+.pattern-fade::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.5) 100%);
+  pointer-events: none;
+}
+
+/* RTL Adjustments for Patterns */
+html[lang^="ar"] .wave-background {
+  transform: scaleX(-1);
+}
+
+html[lang^="ar"] .arch-wave {
+  transform: scaleX(-1);
+}
+
+html[lang^="ar"] .diagonal-lines {
+  background-image:
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 10px,
+      rgba(2, 81, 87, 0.03) 10px,
+      rgba(2, 81, 87, 0.03) 20px
+    );
+}
+
+/* Responsive Pattern Adjustments */
+@media (max-width: 768px) {
+  .wave-background {
+    background-size: 100% 80px;
+  }
+
+  .arch-wave {
+    background-size: 100% 150px;
+  }
+
+  .sunburst-background {
+    background-size: 60px 60px;
+  }
+
+  .grid-pattern {
+    background-size: 20px 20px;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .wave-background,
+  .animated-gradient {
+    animation: none;
+  }
+}

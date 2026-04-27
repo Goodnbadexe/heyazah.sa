@@ -1,0 +1,5400 @@
+{
+  "meta": {
+    "generated_from": "heyazah.sa WordPress UpdraftPlus backup (2026-04-18)",
+    "wp_version": "6.9.4",
+    "base_url": "https://heyazah.sa",
+    "schema_version": "1.0"
+  },
+  "taxonomies": {
+    "project_category": [
+      {
+        "slug": "commercial",
+        "name_ar": "تجاري",
+        "term_id": 3
+      },
+      {
+        "slug": "residential",
+        "name_ar": "سكني",
+        "term_id": 2
+      }
+    ],
+    "project_status": [
+      {
+        "slug": "completed",
+        "name_ar": "مكتمل",
+        "lifecycle": "old",
+        "term_id": 4
+      },
+      {
+        "slug": "ongoing",
+        "name_ar": "قيد التنفيذ",
+        "lifecycle": "continuing",
+        "term_id": 5
+      }
+    ],
+    "sector": [
+      {
+        "slug": "a"
+      },
+      {
+        "slug": "b"
+      },
+      {
+        "slug": "c"
+      },
+      {
+        "slug": "d"
+      }
+    ],
+    "unit_status": [
+      {
+        "slug": "sold",
+        "name_ar": "مباع",
+        "term_id": 13
+      },
+      {
+        "slug": "reserved",
+        "name_ar": "محجوز",
+        "term_id": 14
+      },
+      {
+        "slug": "available",
+        "name_ar": "متاح",
+        "term_id": 15
+      }
+    ],
+    "media_type": [
+      {
+        "slug": "news",
+        "name_ar": "الاخبار",
+        "term_id": 10
+      },
+      {
+        "slug": "videos",
+        "name_ar": "الفيديوهات",
+        "term_id": 11
+      }
+    ]
+  },
+  "counts": {
+    "projects_total": 38,
+    "by_status": {
+      "old": 11,
+      "continuing": 10,
+      "new": 17
+    },
+    "by_type": {
+      "commercial": 23,
+      "residential": 15
+    },
+    "placeholders": 20,
+    "real_records": 18
+  },
+  "projects": [
+    {
+      "id": 2132,
+      "name": {
+        "ar": "فلل النفل",
+        "en": "Al-Nafal Villas"
+      },
+      "display_name": "Al-Nafal Villas",
+      "slug": "al-nafal-villas",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.com residential portfolio (delivered, not in .sa DB)",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 1106,
+      "name": {
+        "ar": "بوابة حيازة",
+        "en": "HEYAZAH GATE"
+      },
+      "display_name": "HEYAZAH GATE",
+      "slug": "heyazah-gate",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 11236,
+        "rental_area_m2": 12321,
+        "commercial_galleries_m2": 1085,
+        "parking_spaces": 174,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "يعد المشروع واحد من أهم مشاريعنا التي تتميز بدقة التصميم الذي يهدف إلى جذب مجموعة مميزة من أصحاب الأعمال والمكاتب التنفيذية",
+          "en": "One of our most important projects, characterized by precise design aimed at attracting distinguished business owners and executive offices"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/04/heyazah-gate-hero.jpg",
+        "hero_path": "2026/04/heyazah-gate-hero.jpg",
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://heyazah.sa/projects/heyazah-gate/",
+        "created": "2026-04-13 14:42:01",
+        "modified": "2026-04-13 15:04:39"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 2130,
+      "name": {
+        "ar": "حيازة هيفن",
+        "en": "Heyazah Haven"
+      },
+      "display_name": "Heyazah Haven",
+      "slug": "heyazah-haven",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.com residential portfolio (delivered, not in .sa DB)",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 622,
+      "name": {
+        "ar": "كايـنات",
+        "en": "KAYNAT"
+      },
+      "display_name": "KAYNAT",
+      "slug": "كايـنات",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "النرجس , الرياض ، المملكة العربية السعودية",
+        "en": "An Narjis, Riyadh, Saudi Arabia"
+      },
+      "location_short": {
+        "ar": "الرياض",
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": "20260122"
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "مجمع متعدد الاستخدامات مصمم ليكون مفهومًا جديدًا لمساحات الأعمال الحضرية في الرياض.",
+          "en": "A mixed-use development designed to redefine urban business spaces in Riyadh."
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "وجهة متكاملة للأعمال في بيئة حضرية عصرية",
+          "en": "An integrated destination for business within a modern urban environment"
+        },
+        "business_destination_des": {
+          "ar": "وجهة أعمال متكاملة تجمع بين المساحات المكتبية الحديثة والخدمات التجارية والمرافق الداعمة، ضمن بيئة حضرية مصممة لتعزيز الإنتاجية ودعم نمو الأعمال على المدى الطويل.",
+          "en": "A fully integrated business destination that brings together modern office spaces, commercial services, and supporting facilities within an urban environment designed to enhance productivity and support long-term business growth."
+        },
+        "featured_quote": {
+          "ar": "\"وجهة الأعمال المركزية الفاخرة التي تلبي جميع تطلعاتك\"",
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": "قد رسمنا ملامح الريادة والاستثمار في هذا المشروع، لأننا نتبنى الإبداع في تطوير التصاميم التي تعزّز من هويتنا، نواصل مسيرتنا المبتكرة من خلال توفير مجموعة كبيرة من عناصر الاتصال الرأسي وذلك بمجموع 7 مصاعد .",
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/img580-scaled.jpg",
+        "hero_path": "2026/01/img580-scaled.jpg",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_1375-Photoroom-1-1.png",
+        "gallery_count": 5,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/img671.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img587.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img596.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img601.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img610.jpg"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazah.sa/wp-content/uploads/2026/01/sample.pdf"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115811.17919148407!2d46.562303483050066!3d24.89459258032651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efb359ff44d6f%3A0xe75fa00c795f8cc0!2sAn%20Narjis%2C%20Riyadh%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1770286351820!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": "",
+      "units": [
+        {
+          "id": 894,
+          "title": {
+            "ar": "وحده C-20",
+            "en": "Unit C-20"
+          },
+          "slug": "unit-c-20__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "sold",
+          "unit_number": "C-20",
+          "floor_number": 3,
+          "floor_name": "third",
+          "area_m2": 185,
+          "price_sar": 42000
+        },
+        {
+          "id": 895,
+          "title": {
+            "ar": "وحده C-32",
+            "en": "Unit C-32"
+          },
+          "slug": "unit-c-32__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "available",
+          "unit_number": "C-32",
+          "floor_number": 1,
+          "floor_name": "first",
+          "area_m2": 150,
+          "price_sar": 35000
+        },
+        {
+          "id": 899,
+          "title": {
+            "ar": "وحده C-42",
+            "en": "Unit C-42"
+          },
+          "slug": "unit-c-42__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "reserved",
+          "unit_number": "C-42",
+          "floor_number": 2,
+          "floor_name": "second",
+          "area_m2": 150,
+          "price_sar": 37000
+        }
+      ],
+      "source": {
+        "wp_guid": "http://heyazah.test/?post_type=project&#038;p=622",
+        "created": "2026-01-20 02:10:32",
+        "modified": "2026-02-05 13:13:23"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 870,
+      "name": {
+        "ar": "LEX",
+        "en": "LEX"
+      },
+      "display_name": "LEX",
+      "slug": "english-lex",
+      "wp_post_status": "publish",
+      "type": "residential",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "على طريق الملك عبد الله بن عبد العزيز",
+        "en": "King Abdullah bin Abdulaziz Road"
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 15820,
+        "rental_area_m2": 19990,
+        "commercial_galleries_m2": 1168,
+        "parking_spaces": 500,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/Icon-5.svg",
+          "label": {
+            "ar": "المعارض التجارية",
+            "en": "Commercial Galleries"
+          },
+          "value": {
+            "ar": "1,168m²",
+            "en": "1,168m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-7.svg",
+          "label": {
+            "ar": "المساحة التأجيرية",
+            "en": "Rental Area"
+          },
+          "value": {
+            "ar": "19,990m²",
+            "en": "19,990m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-6.svg",
+          "label": {
+            "ar": "المساحة المكتبية",
+            "en": "Office Area"
+          },
+          "value": {
+            "ar": "15,820m²",
+            "en": "15,820m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-8.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "500",
+            "en": "500"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "مشروع نمو متكامل في موقع استراتيجي بمدينة الرياض",
+          "en": "An integrated growth project located in a strategic area of Riyadh"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "موقع استثماري استراتيجي",
+          "en": "A strategic investment site"
+        },
+        "business_destination_des": {
+          "ar": "في قلب الرياض وعلى واحد من أكثر الطرق حيويةً وحركة، يقع المشروع على طريق الملك عبد الله بن عبد العزيز، وهو مشروع تطويري نوعي متعدد الاستخدامات يجمع بين المساحات التجارية الحديثة والوحدات السكنية الراقية، ليصنع وجهة عمرانية متكاملة تعكس روح المنطقة وتلبي تطلعات المجتمع العصري.",
+          "en": "The project boasts a total built-up area of 41,338 square meters, with 16,988 square meters dedicated to exhibition and office spaces. Furthermore, it offers two dedicated parking levels, capable of accommodating more than 500 vehicles."
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/85b939_3fd3ebc4c91d40d79ccae633cd56ffdd_mv2-1.png",
+        "hero_path": "2026/01/85b939_3fd3ebc4c91d40d79ccae633cd56ffdd_mv2-1.png",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_b5386d36e99b47cd918c59d4addf05ea_mv2.png",
+        "gallery_count": 6,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_6bdd6b93549c4ce48204a50d16fb3ea7mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_e04057f846c24b7083ce5e61435115f4mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_c1955ad2a98841b3b631e28f8b308804mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_80e42f6582594c27a6bb942390debc73mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_d6f036b440f74d5bbec5d026ad02fed7mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_187993952f274988bfdcccba918280f8mv2.webp"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": "https://heyazah.cloud/lex",
+        "video_url": null,
+        "brochure_url": "https://heyazahsaudi-my.sharepoint.com/personal/shihab_almatary_heyazah_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fshihab%5Falmatary%5Fheyazah%5Fcom%2FDocuments%2FSHIHAB%20ALMATARY%2FProfile%20PDF%2FProfile%20Project%20LEX%2FProfile%20Project%20LEX%20A4%2FProfile%20Project%20LEX%20A4%2Epdf&parent=%2Fpersonal%2Fshihab%5Falmatary%5Fheyazah%5Fcom%2FDocuments%2FSHIHAB%20ALMATARY%2FProfile%20PDF%2FProfile%20Project%20LEX%2FProfile%20Project%20LEX%20A4&ga=1"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.981348207226!2d46.6518101!3d24.72752059999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1d5d43325d6d%3A0x1353f63c0d45eaf!2z2LTYp9ix2Lkg2KfZhNiq2K7Ytdi12YrYjCDYp9mE2YXYrdmF2K_Zitip2Iwg2KfZhNix2YrYp9i2IDEyMzYy2Iwg2KfZhNiz2LnZiNiv2YrYqQ!5e0!3m2!1sar!2seg!4v1770285565996!5m2!1sar!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": null,
+      "units": [
+        {
+          "id": 1040,
+          "title": {
+            "ar": "وحده A-33",
+            "en": "Unit C-54 Copy Copy"
+          },
+          "slug": "unit-c-54-copy-copy",
+          "wp_post_status": "publish",
+          "unit_status": "sold",
+          "unit_number": "A-33",
+          "floor_number": 2,
+          "floor_name": "second",
+          "area_m2": 150,
+          "price_sar": 29000
+        }
+      ],
+      "source": {
+        "wp_guid": "https://mgamal1.azq1.com/heyazah/?post_type=project&#038;p=870",
+        "created": "2026-01-28 12:30:30",
+        "modified": "2026-04-13 14:54:59"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 2131,
+      "name": {
+        "ar": "فلل النرجس",
+        "en": "Narges Villas"
+      },
+      "display_name": "Narges Villas",
+      "slug": "narges-villas",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.com residential portfolio (delivered, not in .sa DB)",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 838,
+      "name": {
+        "ar": "برايم سكوير",
+        "en": "Prime Square"
+      },
+      "display_name": "Prime Square",
+      "slug": "برايم-سكوير",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "طريق الملك عبد الله بن عبد العزيز",
+        "en": "King Abdullah bin Abdulaziz Road"
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 31390.21,
+        "rental_area_m2": 7000,
+        "commercial_galleries_m2": 1327.1,
+        "parking_spaces": 777,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/Icon-5.svg",
+          "label": {
+            "ar": "المعارض التجارية",
+            "en": "Commercial Galleries"
+          },
+          "value": {
+            "ar": "1,327.1",
+            "en": "1,327.1"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-6.svg",
+          "label": {
+            "ar": "المساحة التأجيرية",
+            "en": "Rental Area"
+          },
+          "value": {
+            "ar": "7000m²",
+            "en": "7000m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-7.svg",
+          "label": {
+            "ar": "المساحة المكتبية",
+            "en": "Office Area"
+          },
+          "value": {
+            "ar": "31,390.21",
+            "en": "31,390.21"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-8.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "777",
+            "en": "777"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "يجمع بين التجارة والعمل والسكن ضمن تصميم عصري مبتكر",
+          "en": "Combines commerce, work, and living within an innovative modern design"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "موقع استثماري استراتيجي",
+          "en": "Strategic Investment Location"
+        },
+        "business_destination_des": {
+          "ar": "في قلب الرياض وعلى واحد من أكثر الطرق حيويةً وحركة، يقع المشروع على طريق الملك عبد الله بن عبد العزيز، وهو مشروع تطويري نوعي متعدد الاستخدامات يجمع بين المساحات التجارية الحديثة والوحدات السكنية الراقية، ليصنع وجهة عمرانية متكاملة تعكس روح المنطقة وتلبي تطلعات المجتمع العصري.",
+          "en": "Located in the heart of Riyadh on one of the city’s most vibrant and high-traffic roads, the project sits on King Abdullah bin Abdulaziz Road. It is a distinctive mixed-use development that brings together modern commercial spaces and upscale residential units, creating an integrated urban destination that reflects the spirit of the area and meets the aspirations of a contemporary community."
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_0a393410e18548b9a28cecb208c6b4ab_mv2-1.png",
+        "hero_path": "2026/01/59c26c_0a393410e18548b9a28cecb208c6b4ab_mv2-1.png",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_819-Photoroom-1-1.png",
+        "gallery_count": 4,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_af2cabcf7c3444ba8b471e3b131c6742mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_41123ceed7ed4c1ea0e58d2da729d104mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_e8f63a2c58714579a6779b1516012a98mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_b43c44d33dab443f9bbfbb74813d719a_mv2-1.png"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazahsaudi-my.sharepoint.com/personal/shihab_almatary_heyazah_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fshihab%5Falmatary%5Fheyazah%5Fcom%2FDocuments%2FSHIHAB%20ALMATARY%2FProfile%20PDF%2FPrime%20Square%2FPrime%20Square%20A4%2FPrime%20Square%20A4%2Epdf&parent=%2Fpersonal%2Fshihab%5Falmatary%5Fheyazah%5Fcom%2FDocuments%2FSHIHAB%20ALMATARY%2FProfile%20PDF%2FPrime%20Square%2FPrime%20Square%20A4&ga=1"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.7847091550143!2d46.64170420000001!3d24.768569699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee2e2d319d8a5%3A0x7ef8b64f78ba0106!2sKAFD%2C%20Al%20Aqiq%2C%20Riyadh%2013519%2C%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1770285527767!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": null,
+      "units": [
+        {
+          "id": 858,
+          "title": {
+            "ar": "وحدة B-11",
+            "en": "Unit B-11"
+          },
+          "slug": "unit-b-11__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "sold",
+          "unit_number": "B-11",
+          "floor_number": 5,
+          "floor_name": "fifth",
+          "area_m2": 142,
+          "price_sar": 32000
+        },
+        {
+          "id": 864,
+          "title": {
+            "ar": "وحده B-13",
+            "en": "Unit B-13"
+          },
+          "slug": "b-13__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "available",
+          "unit_number": "B-13",
+          "floor_number": 2,
+          "floor_name": "first",
+          "area_m2": 142,
+          "price_sar": 31000
+        },
+        {
+          "id": 866,
+          "title": {
+            "ar": "وحده B-26",
+            "en": "Unit B-26"
+          },
+          "slug": "unit-b-26__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "reserved",
+          "unit_number": "B-26",
+          "floor_number": 3,
+          "floor_name": "second",
+          "area_m2": 185,
+          "price_sar": 41000
+        },
+        {
+          "id": 868,
+          "title": {
+            "ar": "وحده B-29",
+            "en": "Unit B-29"
+          },
+          "slug": "unit-b-29__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "available",
+          "unit_number": "B-29",
+          "floor_number": 3,
+          "floor_name": "third",
+          "area_m2": 185,
+          "price_sar": 42000
+        },
+        {
+          "id": 902,
+          "title": {
+            "ar": "وحده C-54",
+            "en": "Unit C-54"
+          },
+          "slug": "unit-c-54",
+          "wp_post_status": "publish",
+          "unit_status": "reserved",
+          "unit_number": "C-54",
+          "floor_number": 3,
+          "floor_name": "third",
+          "area_m2": 160,
+          "price_sar": 39000
+        },
+        {
+          "id": 933,
+          "title": {
+            "ar": "وحده A-70",
+            "en": "Unit A-70"
+          },
+          "slug": "unit-a-70__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "sold",
+          "unit_number": "A-70",
+          "floor_number": 2,
+          "floor_name": "second",
+          "area_m2": 150,
+          "price_sar": 32000
+        },
+        {
+          "id": 935,
+          "title": {
+            "ar": "وحده C-60",
+            "en": "Unit C-60"
+          },
+          "slug": "unit-c-60__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "reserved",
+          "unit_number": "C-60",
+          "floor_number": 4,
+          "floor_name": "fourth",
+          "area_m2": 150,
+          "price_sar": 35000
+        },
+        {
+          "id": 937,
+          "title": {
+            "ar": "وحده C-60 Copy",
+            "en": "Unit D-50"
+          },
+          "slug": "unit-d-50__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "available",
+          "unit_number": "D-50",
+          "floor_number": 3,
+          "floor_name": "third",
+          "area_m2": 150,
+          "price_sar": 33000
+        },
+        {
+          "id": 1036,
+          "title": {
+            "ar": "وحده C-52",
+            "en": "Unit C-52"
+          },
+          "slug": "وحده-c-52",
+          "wp_post_status": "publish",
+          "unit_status": "available",
+          "unit_number": "C-52",
+          "floor_number": 3,
+          "floor_name": "second",
+          "area_m2": 166,
+          "price_sar": 44000
+        }
+      ],
+      "source": {
+        "wp_guid": "https://mgamal1.azq1.com/heyazah/?post_type=project&#038;p=838",
+        "created": "2026-01-28 00:40:30",
+        "modified": "2026-04-13 14:55:55"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 1108,
+      "name": {
+        "ar": "تكامل",
+        "en": "TAKAMUL"
+      },
+      "display_name": "TAKAMUL",
+      "slug": "takamul",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 2230,
+        "rental_area_m2": 6185,
+        "commercial_galleries_m2": 3954,
+        "parking_spaces": 175,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "يعد تكامل من مشاريعنا ذات الموقع والتصميم المميز الذي يهدف إلى استقطاب مجموعة من رواد الأعمال والمستثمرين",
+          "en": "Takamul is one of our projects with a distinguished location and design, aimed at attracting entrepreneurs and investors"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/04/takamul-hero.jpg",
+        "hero_path": "2026/04/takamul-hero.jpg",
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://heyazah.sa/projects/takamul/",
+        "created": "2026-04-13 14:42:04",
+        "modified": "2026-04-13 15:05:27"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 1109,
+      "name": {
+        "ar": "ذا روفس",
+        "en": "THE ROOFS"
+      },
+      "display_name": "THE ROOFS",
+      "slug": "the-roofs",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 4146.82,
+        "rental_area_m2": 5938,
+        "commercial_galleries_m2": 1791.21,
+        "parking_spaces": 220,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "ذا روفز واحد من أهم مشاريعنا ذات التصميم المميز الذي يهدف على استقطاب مجموعة مميزة من الشركات والمستثمرين",
+          "en": "The Roofs is one of our most important projects with a distinctive design aimed at attracting distinguished companies and investors"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/04/the-roofs-hero.jpg",
+        "hero_path": "2026/04/the-roofs-hero.jpg",
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://heyazah.sa/projects/the-roofs/",
+        "created": "2026-04-13 14:42:06",
+        "modified": "2026-04-13 15:05:53"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 1111,
+      "name": {
+        "ar": "واحة جيت",
+        "en": "WAHA GATE"
+      },
+      "display_name": "WAHA GATE",
+      "slug": "waha-gate",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 5606.1,
+        "rental_area_m2": 6964,
+        "commercial_galleries_m2": 1357.4,
+        "parking_spaces": 120,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "تكمن الفكرة التصميمية في خلق بيئة عمل مناسبة أكثر تفاعلاً وتميزاً عن طريق تصميم عصري وحديث مدروس هندسياً",
+          "en": "The design concept lies in creating a more interactive and distinctive work environment through a modern, engineered design"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/04/waha-gate-hero.jpg",
+        "hero_path": "2026/04/waha-gate-hero.jpg",
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://heyazah.sa/projects/waha-gate/",
+        "created": "2026-04-13 14:42:09",
+        "modified": "2026-04-13 15:06:40"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 1110,
+      "name": {
+        "ar": "واحة ويفز",
+        "en": "WAHA WAVES"
+      },
+      "display_name": "WAHA WAVES",
+      "slug": "waha-waves",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "old",
+      "source_status_tax": [
+        "completed"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 3875,
+        "rental_area_m2": 4342,
+        "commercial_galleries_m2": 467,
+        "parking_spaces": 50,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "بدأت فكرة المشروع من البيئة المحيطة للمدينة فقد استلهمت من الصحراء بتموجاتها ورمالها",
+          "en": "The project concept was inspired by the surrounding desert environment, its waves and sands"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/04/waha-waves-hero.jpg",
+        "hero_path": "2026/04/waha-waves-hero.jpg",
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://heyazah.sa/projects/waha-waves/",
+        "created": "2026-04-13 14:42:08",
+        "modified": "2026-04-13 15:06:18"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 1112,
+      "name": {
+        "ar": "مركز AMD",
+        "en": "AMD CENTER"
+      },
+      "display_name": "AMD CENTER",
+      "slug": "amd-center",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": 28465,
+        "commercial_galleries_m2": null,
+        "parking_spaces": 445,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "أمد سنتر هي وجهة تجارية مميزة ورائدة في صناعة العلامات التجارية والمكتبية بشكل مثالي وفعال",
+          "en": "AMD Center is a distinctive commercial destination, a pioneer in branding and office solutions"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/04/amd-center-hero.jpg",
+        "hero_path": "2026/04/amd-center-hero.jpg",
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://heyazah.sa/projects/amd-center/",
+        "created": "2026-04-13 14:42:11",
+        "modified": "2026-04-13 15:07:06"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 845,
+      "name": {
+        "ar": "بيزنس يارد",
+        "en": "Business Yard"
+      },
+      "display_name": "Business Yard",
+      "slug": "business-yard",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "يقع المشروع شمال مدينة الرياض",
+        "en": "The project is located north of Riyadh city"
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 10282,
+        "rental_area_m2": 19945,
+        "commercial_galleries_m2": 72,
+        "parking_spaces": 214,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-6.svg",
+          "label": {
+            "ar": "المعارض التجارية",
+            "en": "Commercial Galleries"
+          },
+          "value": {
+            "ar": "72m²",
+            "en": "72m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-7.svg",
+          "label": {
+            "ar": "المساحة التأجيرية",
+            "en": "Rental Area"
+          },
+          "value": {
+            "ar": "19,945m²",
+            "en": "19,945m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/Icon-5.svg",
+          "label": {
+            "ar": "المساحة المكتبية",
+            "en": "Office Area"
+          },
+          "value": {
+            "ar": "10,282m²",
+            "en": "10,282m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-8.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "214",
+            "en": "214"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "رؤية متجددة في عالم الأعمال، تنبع من ابتكار مستمد من الطبيعة وتكامل التقنيات في البناء والعمارة",
+          "en": "A renewed vision in the world of business, driven by nature-inspired innovation and the integration of advanced technologies in architecture and construction"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "أهم الركائز",
+          "en": "Key Pillars"
+        },
+        "business_destination_des": {
+          "ar": "من أهم الركائز والمنطلقات لدينا ان نقدم خدمات تستوفي رضا الأفراد والمستثمرين يتضمنها الجلسات الخارجية والمساحات الخضراء و المساحة التأجيرية بالإضافة إلى مواقف سيارات تتسع الى ما يقارب 214 سيارة",
+          "en": "One of our core pillars is delivering services that meet the expectations of individuals and investors by offering outdoor seating areas, green spaces, flexible leasable areas, and parking capacity for approximately 214 vehicles enhancing comfort and overall user experience."
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_bf6632a348f84793b2ca85c411807cbd_mv2-2.png",
+        "hero_path": "2026/01/59c26c_bf6632a348f84793b2ca85c411807cbd_mv2-2.png",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_820-Photoroom-1.png",
+        "gallery_count": 4,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_ad754edf368a491a8a89ee06d2dec74bmv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_b7ee7deeec994efe87b0ae19ca73793dmv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_5855ef0db9b4432aae752def607373e6mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_03f28c64a58e437bb7dc357f26faf651mv2.webp"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazah.sa/wp-content/uploads/2026/01/بزنس-يارد-من-حيازه-العقارية-Business-Yard-Heyazah-1.pdf"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1811.9618442958379!2d46.66947220000001!3d24.729499999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQzJzQ2LjIiTiA0NsKwNDAnMTAuMSJF!5e0!3m2!1sen!2seg!4v1770286224344!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://mgamal1.azq1.com/heyazah/?post_type=project&#038;p=845",
+        "created": "2026-01-28 01:00:21",
+        "modified": "2026-04-13 14:55:24"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 878,
+      "name": {
+        "ar": "LIVIN by Heyazah",
+        "en": "LIVIN by Heyazah"
+      },
+      "display_name": "LIVIN by Heyazah",
+      "slug": "livin-by-heyazah",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "الجزيرة، الرياض السعودية",
+        "en": "Al Jazirah, Riyadh, Saudi Arabia"
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/Icon-5.svg",
+          "label": {
+            "ar": "المساحة التأجيرية",
+            "en": "Rental Area"
+          },
+          "value": {
+            "ar": "5367",
+            "en": "5367"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-8.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "135",
+            "en": "135"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "مشروع سكني تتمحور فكرته حول تكامل المساحات الخضراء مع المباني",
+          "en": "A residential development centered around integrating green spaces with buildings"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "وجهة أعمال متكاملة في بيئة عصرية تدعم النمو والاستدامة",
+          "en": "An integrated business destination within a modern environment that supports growth and sustainability"
+        },
+        "business_destination_des": {
+          "ar": "وجهة أعمال متطورة تجمع بين التصميم المعماري العصري والمساحات العملية المرنة، لتوفير بيئة مثالية تدعم الإنتاجية وتلبي احتياجات الشركات ورواد الأعمال. صُممت الوجهة لتواكب متطلبات السوق الحديثة وتحقق قيمة مستدامة على المدى الطويل.",
+          "en": "A progressive business destination that blends contemporary architectural design with flexible, functional spaces, creating an ideal environment that enhances productivity and meets the needs of businesses and entrepreneurs while delivering long-term sustainable value."
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/img1176.jpg",
+        "hero_path": "2026/01/img1176.jpg",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_1378-Photoroom-1-1.png",
+        "gallery_count": 3,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/img1183.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img1188.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img1180.jpg"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazah.sa/wp-content/uploads/2026/01/Livin-Profile-A4.pdf"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29006.473932391076!2d46.77586347619763!3d24.664693589800205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f07a55eb364c7%3A0x63f01070a0d92d76!2sAl%20Jazirah%2C%20Riyadh%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1770286477008!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://mgamal1.azq1.com/heyazah/?post_type=project&#038;p=878",
+        "created": "2026-01-28 15:47:01",
+        "modified": "2026-02-05 13:14:45"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 853,
+      "name": {
+        "ar": "مسار مكة",
+        "en": "Masar Makkah"
+      },
+      "display_name": "Masar Makkah",
+      "slug": "مسار-مكة",
+      "wp_post_status": "publish",
+      "type": "residential",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "مكة المكرمة",
+        "en": "Makkah"
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "مكة المكرمة",
+            "en": "Makkah"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/Icon-5.svg",
+          "label": {
+            "ar": "المساحة التأجيرية",
+            "en": "Rental Area"
+          },
+          "value": {
+            "ar": "4487",
+            "en": "4487"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-8.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "150",
+            "en": "150"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "إحدى أبرز الوجهات الحضرية الحديثة في قلب مكة المكرمة",
+          "en": "One of the most prominent modern urban destinations in the heart of Mecca"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "وجهة استثمارية متكاملة تخدم الزوار والضيوف في قلب مكة",
+          "en": "An integrated investment destination serving visitors and guests in the heart of Makkah"
+        },
+        "business_destination_des": {
+          "ar": "وجهة أعمال متميزة تجمع بين الاستخدامات التجارية والسكنية الفندقية ضمن بيئة حضرية متكاملة، مدعومة بخدمات الضيافة والتسوق والتنقل. صُمم المشروع ليواكب حركة الزوار والمعتمرين ويوفر فرصًا استثمارية واعدة تسهم في تعزيز النشاط الاقتصادي للمنطقة.",
+          "en": "A distinguished business destination that integrates commercial uses with serviced residential hospitality within a fully connected urban environment. Supported by hospitality, retail, and mobility services, the project is designed to serve visitors and pilgrims while offering promising investment opportunities that support the area’s economic growth."
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/img1033.jpg",
+        "hero_path": "2026/01/img1033.jpg",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_821-Photoroom-1-1.png",
+        "gallery_count": 4,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_5855ef0db9b4432aae752def607373e6mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_ad754edf368a491a8a89ee06d2dec74bmv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_03f28c64a58e437bb7dc357f26faf651mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_b7ee7deeec994efe87b0ae19ca73793dmv2.webp"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazah.sa/wp-content/uploads/2026/01/sample.pdf"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237685.10629184463!2d39.681392285357354!3d21.435934427420282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c21b4ced818775%3A0x98ab2469cf70c9ce!2sMakkah%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1770286519033!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://mgamal1.azq1.com/heyazah/?post_type=project&#038;p=853",
+        "created": "2026-01-28 01:27:46",
+        "modified": "2026-02-05 13:15:26"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 689,
+      "name": {
+        "ar": "بارك سايد",
+        "en": "ParkSide"
+      },
+      "display_name": "ParkSide",
+      "slug": "بارك-سايد",
+      "wp_post_status": "publish",
+      "type": "residential",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "الرياض تقاطع طريق مكة المكرمة",
+        "en": "Riyadh blocks the road to Mecca"
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": "20260122"
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-6.svg",
+          "label": {
+            "ar": "عدد الوحدات",
+            "en": "Total Units"
+          },
+          "value": {
+            "ar": "2,127",
+            "en": "2,127"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-8.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "4,761",
+            "en": "4,761"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "في قلب العاصمة النابض، وعلى تقاطع أهم الطرق الحيوية.",
+          "en": "In the heart of the bustling capital, at the intersection of the main arterial roads."
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "من أصالة نجد إلى عظمة الحاضر",
+          "en": "From the Authenticity of Najd to the Grandeur of the Present"
+        },
+        "business_destination_des": {
+          "ar": "مشروع مستوحى من أصالة نجد، يجمع بين الفخر والعظمة وروح الحداثة، ليقدم تجربة حياة راقية وفرص استثمارية واعدة.",
+          "en": "A project inspired by the authenticity of Najd, combining pride, grandeur, and a modern spirit, offering a premium lifestyle experience and promising investment opportunities."
+        },
+        "featured_quote": {
+          "ar": "\"وجهة الأعمال المركزية الفاخرة التي تلبي جميع تطلعاتك\"",
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": "قد رسمنا ملامح الريادة والاستثمار في هذا المشروع، لأننا نتبنى الإبداع في تطوير التصاميم التي تعزّز من هويتنا، نواصل مسيرتنا المبتكرة من خلال توفير مجموعة كبيرة من عناصر الاتصال الرأسي وذلك بمجموع 7 مصاعد .",
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/img477-scaled.jpg",
+        "hero_path": "2026/01/img477-scaled.jpg",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_1369-Photoroom-1-1.png",
+        "gallery_count": 5,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/img494-scaled.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img470-1.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img481.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img486.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img470.jpg"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazah.sa/wp-content/uploads/2026/01/sample.pdf"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.1407453521933!2d43.35497181108907!3d23.274335078910532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f015b55e29a6f%3A0x645245111d266237!2sMakkah%20Al%20Mukarramah%20Rd%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1770286300843!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": "",
+      "units": [
+        {
+          "id": 625,
+          "title": {
+            "ar": "وحدة A-99",
+            "en": "Unit A-99"
+          },
+          "slug": "unit-a-99__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "available",
+          "unit_number": "A-99",
+          "floor_number": 2,
+          "floor_name": "ground",
+          "area_m2": 150,
+          "price_sar": 85000
+        },
+        {
+          "id": 753,
+          "title": {
+            "ar": "وحدة A-63",
+            "en": "Unit A-63"
+          },
+          "slug": "unit-a-63__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "reserved",
+          "unit_number": "A-63",
+          "floor_number": 4,
+          "floor_name": "fourth",
+          "area_m2": 149,
+          "price_sar": 35000
+        },
+        {
+          "id": 754,
+          "title": {
+            "ar": "وحدة A-95",
+            "en": "Unit A-59"
+          },
+          "slug": "unit-a-59__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "available",
+          "unit_number": "A-95",
+          "floor_number": 3,
+          "floor_name": "first",
+          "area_m2": 163,
+          "price_sar": 40000
+        },
+        {
+          "id": 755,
+          "title": {
+            "ar": "وحدة A-101",
+            "en": "Unit A-101"
+          },
+          "slug": "unit-a-101__trashed",
+          "wp_post_status": "trash",
+          "unit_status": "sold",
+          "unit_number": "A-101",
+          "floor_number": 2,
+          "floor_name": "ground",
+          "area_m2": 160,
+          "price_sar": 30000
+        }
+      ],
+      "source": {
+        "wp_guid": "http://heyazah.test/?post_type=project&#038;p=689",
+        "created": "2026-01-22 21:20:22",
+        "modified": "2026-02-05 13:11:50"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 828,
+      "name": {
+        "ar": "S Tower",
+        "en": "S Tower"
+      },
+      "display_name": "S Tower",
+      "slug": "s-tower",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "على طريق الملك سلمان",
+        "en": "On King Salman Road"
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 17225,
+        "rental_area_m2": 18880,
+        "commercial_galleries_m2": 1095,
+        "parking_spaces": 426,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/Icon-5.svg",
+          "label": {
+            "ar": "المعارض التجارية",
+            "en": "Commercial Galleries"
+          },
+          "value": {
+            "ar": "1,095",
+            "en": "1,095"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-7.svg",
+          "label": {
+            "ar": "المساحة التأجيرية",
+            "en": "Rental Area"
+          },
+          "value": {
+            "ar": "18,880",
+            "en": "18,880"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-6.svg",
+          "label": {
+            "ar": "المساحة المكتبية",
+            "en": "Office Area"
+          },
+          "value": {
+            "ar": "17,225",
+            "en": "17,225"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "426",
+            "en": "426"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "يتميز S Tower بتصميمه الاستثنائي الذي يعيد تعريف تطوير المشاريع المعمارية الاستثنائية،",
+          "en": "S Tower is distinguished by its exceptional design that redefines the development of outstanding architectural projects."
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "وسط الحركة… في صميم النجاح",
+          "en": "Amid the movement… at the heart of success"
+        },
+        "business_destination_des": {
+          "ar": "يقع The S Tower مباشرة على طريق الملك سلمان، أحد أهم الشرايين الاقتصادية في الرياض، مما يجعله خيارًا مثاليًا للشركات التي تبحث عن تواجد محوري وموقع استراتيجي.",
+          "en": "The S Tower is located directly on King Salman Road, one of Riyadh’s most vital economic arteries, making it an ideal choice for companies seeking a central presence and a strategic location."
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_71b1f81014ef40d5abea4f50f9345383_mv2-1.png",
+        "hero_path": "2026/01/59c26c_71b1f81014ef40d5abea4f50f9345383_mv2-1.png",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_818-Photoroom-1-1.png",
+        "gallery_count": 4,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_344b1e71ba0149cab463dd2d58f8a043mv2-scaled.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_b91d6d63cf4e4cba98818cbcd4c626eemv2-scaled.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_6bdd6b93549c4ce48204a50d16fb3ea7mv2.webp",
+          "https://heyazah.sa/wp-content/uploads/2026/01/59c26c_e5d3bdd460544e6092493546da78f6damv2.webp"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazahsaudi-my.sharepoint.com/personal/shihab_almatary_heyazah_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fshihab%5Falmatary%5Fheyazah%5Fcom%2FDocuments%2FSHIHAB%20ALMATARY%2FProfile%20PDF%2FTHE%20S%20TOWER%2FTHE%20S%20TOWER%20A4%2FTHE%20S%20TOWER%20A4%2Epdf&parent=%2Fpersonal%2Fshihab%5Falmatary%5Fheyazah%5Fcom%2FDocuments%2FSHIHAB%20ALMATARY%2FProfile%20PDF%2FTHE%20S%20TOWER%2FTHE%20S%20TOWER%20A4&ga=1"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.8855993509546!2d46.63287820000001!3d24.833585600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee4f7f3a8554f%3A0x80625553cdc11078!2zUkFZQjM4ODjYjCAzODg4INix2YLZhSAzNzDYjCA4NjE0LCBBbHlhc21pbiwgUml5YWRoIDEzMzI1LCBTYXVkaSBBcmFiaWE!5e0!3m2!1sen!2seg!4v1770285761942!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": null,
+      "units": [
+        {
+          "id": 1044,
+          "title": {
+            "ar": "وحده A-27",
+            "en": "Unit A-27"
+          },
+          "slug": "unit-a-27",
+          "wp_post_status": "publish",
+          "unit_status": "reserved",
+          "unit_number": "A-27",
+          "floor_number": 3,
+          "floor_name": "third",
+          "area_m2": 160,
+          "price_sar": 39000
+        }
+      ],
+      "source": {
+        "wp_guid": "https://mgamal1.azq1.com/heyazah/?post_type=project&#038;p=828",
+        "created": "2026-01-27 23:10:17",
+        "modified": "2026-04-13 14:54:08"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 1107,
+      "name": {
+        "ar": "سيجما",
+        "en": "SIGMA"
+      },
+      "display_name": "SIGMA",
+      "slug": "sigma",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 12927,
+        "rental_area_m2": 37585,
+        "commercial_galleries_m2": null,
+        "parking_spaces": 611,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "مشروع SIGMA، يمنحك مساحة خاصة تنفرد بها وتعزز من الأعمال التجارية وتخلق بيئة عمل مبتكرة ومتجددة",
+          "en": "SIGMA project gives you a unique space that enhances business operations and creates an innovative, ever-renewing work environment"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/04/sigma-hero.jpg",
+        "hero_path": "2026/04/sigma-hero.jpg",
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://heyazah.sa/projects/sigma/",
+        "created": "2026-04-13 14:42:03",
+        "modified": "2026-04-13 15:05:03"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 816,
+      "name": {
+        "ar": "سكاي لاين",
+        "en": "Skyline"
+      },
+      "display_name": "Skyline",
+      "slug": "سكاي-لاين",
+      "wp_post_status": "publish",
+      "type": "residential",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "يقع المشروع شمال مدينة الرياض",
+        "en": "The project is located north of Riyadh city"
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": 27416.42,
+        "rental_area_m2": 57285,
+        "commercial_galleries_m2": 1020,
+        "parking_spaces": 597,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-5.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/Icon-5.svg",
+          "label": {
+            "ar": "المعارض التجارية",
+            "en": "Commercial Galleries"
+          },
+          "value": {
+            "ar": "1,020m²",
+            "en": "1,020m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-7.svg",
+          "label": {
+            "ar": "المساحة التأجيرية",
+            "en": "Rental Area"
+          },
+          "value": {
+            "ar": "57,285m²",
+            "en": "57,285m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-6.svg",
+          "label": {
+            "ar": "المساحة المكتبية",
+            "en": "Office Area"
+          },
+          "value": {
+            "ar": "27,416.42m²",
+            "en": "27,416.42m²"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-8.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "597",
+            "en": "597"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "ارفع مستوى طموحك في برج سكاي لاين الذي يعيد تعريف الهندسة المعمارية في الرياض.",
+          "en": "Elevate your ambitions at Skyline Tower, which redefines architecture in Riyadh."
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "وجهة تجارية عصرية تجمع بين المكاتب المتطورة والتصميم المعماري الجريء",
+          "en": "A modern business destination combining advanced offices with bold architectural design"
+        },
+        "business_destination_des": {
+          "ar": "وجهة أعمال رائدة تتميز بتصميم معماري استثنائي ومساحات مكتبية حديثة، مدعومة بتخطيط ذكي ومرافق متكاملة ومواقف سيارات واسعة، لتوفير بيئة عمل محفزة تلبي تطلعات الشركات الباحثة عن التميز والنمو في مدينة الرياض.",
+          "en": "A leading business destination featuring exceptional architecture and modern office spaces, supported by smart planning, integrated facilities, and ample parking, delivering an inspiring work environment for companies seeking distinction and growth in Riyadh."
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_816.png",
+        "hero_path": "2026/01/Screenshot_816.png",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_814-Photoroom-1-1-1.png",
+        "gallery_count": 6,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_f5054d9f3cb04f36a562e7387ac257dbmv2.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_2758a1fa3b714aea90ef9fb0d2a9cb8cmv2.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_9c671f6cbf5a4bd6a6596a84c22b4397mv2.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_f2476e4c5e694d1ea5d7139f3306f862mv2.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_c39b139cf3f44499874d0be2b351e5bdmv2.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/85b939_e4ebf3233b9447cea64bae108d48a772mv2.jpg"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazah.sa/wp-content/uploads/2026/01/Skyline-By-Heyazah_compressed.pdf"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d905.7852316833868!2d46.6539133!3d24.7563568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee2c08643a161%3A0xe1a2b72f4494e13c!2sRHGB7153%2C%207153%20No.134%2C%202345%2C%20Al%20Muruj%2C%20Riyadh%2012283%2C%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1770285485585!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://mgamal1.azq1.com/heyazah/?post_type=project&#038;p=816",
+        "created": "2026-01-27 22:42:45",
+        "modified": "2026-04-13 14:54:31"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 887,
+      "name": {
+        "ar": "الفندق",
+        "en": "The Hotel"
+      },
+      "display_name": "The Hotel",
+      "slug": "the-hotel",
+      "wp_post_status": "publish",
+      "type": "residential",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": "الرياض السعودية",
+        "en": "Riyadh, Saudi Arabia"
+      },
+      "location_short": {
+        "ar": null,
+        "en": "Riyadh"
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/map.svg",
+          "label": {
+            "ar": "الموقع",
+            "en": "Location"
+          },
+          "value": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+          }
+        },
+        {
+          "icon_url": "https://heyazah.sa/wp-content/uploads/2026/01/elements-8.svg",
+          "label": {
+            "ar": "عدد المواقف",
+            "en": "Parking Spaces"
+          },
+          "value": {
+            "ar": "135",
+            "en": "135"
+          }
+        }
+      ],
+      "description": {
+        "hero": {
+          "ar": "فندق بتفاصيل مدروسة يقدم تجربة إقامة راقية ومتوازنة في أحد أبرز مواقع الرياض",
+          "en": "A thoughtfully designed hotel offering a refined and well-balanced stay experience in one of Riyadh’s prime locations"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": "وجهة أعمال متكاملة في بيئة عصرية تدعم النمو والاستدامة",
+          "en": "An integrated business destination within a modern environment that supports growth and sustainability"
+        },
+        "business_destination_des": {
+          "ar": "وجهة أعمال متطورة تجمع بين التصميم المعماري العصري والمساحات العملية المرنة، لتوفير بيئة مثالية تدعم الإنتاجية وتلبي احتياجات الشركات ورواد الأعمال. صُممت الوجهة لتواكب متطلبات السوق الحديثة وتحقق قيمة مستدامة على المدى الطويل.",
+          "en": "A progressive business destination that blends contemporary architectural design with flexible, functional spaces, creating an ideal environment that enhances productivity and meets the needs of businesses and entrepreneurs while delivering long-term sustainable value."
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/01/img1222.jpg",
+        "hero_path": "2026/01/img1222.jpg",
+        "icon": "https://heyazah.sa/wp-content/uploads/2026/01/Screenshot_1380-Photoroom-1-1.png",
+        "gallery_count": 4,
+        "gallery": [
+          "https://heyazah.sa/wp-content/uploads/2026/01/img1232.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img1237.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img1194.jpg",
+          "https://heyazah.sa/wp-content/uploads/2026/01/img1226.jpg"
+        ]
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": "https://heyazah.sa/wp-content/uploads/2026/01/sample.pdf"
+      },
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d463879.64370344474!2d46.49218923825106!3d24.724830054934493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1770286436290!5m2!1sen!2seg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://mgamal1.azq1.com/heyazah/?post_type=project&#038;p=887",
+        "created": "2026-01-28 15:59:11",
+        "modified": "2026-02-05 13:14:05"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 1113,
+      "name": {
+        "ar": "فنتورا",
+        "en": "VENTORA"
+      },
+      "display_name": "VENTORA",
+      "slug": "ventora",
+      "wp_post_status": "publish",
+      "type": "commercial",
+      "status": "continuing",
+      "source_status_tax": [
+        "ongoing"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": 7157,
+        "commercial_galleries_m2": null,
+        "parking_spaces": 40,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "مركز فينتورا عندما يتقابل الابتكار والرفاهية معاً لخلق مستقبلاً استثمارياً واعداً",
+          "en": "Ventora Center - where innovation meets luxury to create a promising investment future"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": "https://heyazah.sa/wp-content/uploads/2026/04/ventora-hero.png",
+        "hero_path": "2026/04/ventora-hero.png",
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": "https://heyazah.sa/projects/ventora/",
+        "created": "2026-04-13 14:42:13",
+        "modified": "2026-04-13 15:07:31"
+      },
+      "is_placeholder": false
+    },
+    {
+      "id": 2113,
+      "name": {
+        "ar": "مركز السيف 1",
+        "en": "Alsaif Center 1"
+      },
+      "display_name": "Alsaif Center 1",
+      "slug": "alsaif-center-1",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2115,
+      "name": {
+        "ar": "حيازة A3",
+        "en": "Heyazah A3"
+      },
+      "display_name": "Heyazah A3",
+      "slug": "heyazah-a3",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2116,
+      "name": {
+        "ar": "حيازة A7",
+        "en": "Heyazah A7"
+      },
+      "display_name": "Heyazah A7",
+      "slug": "heyazah-a7",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2117,
+      "name": {
+        "ar": "حيازة A9",
+        "en": "Heyazah A9"
+      },
+      "display_name": "Heyazah A9",
+      "slug": "heyazah-a9",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2119,
+      "name": {
+        "ar": "حيازة B19",
+        "en": "Heyazah B19"
+      },
+      "display_name": "Heyazah B19",
+      "slug": "heyazah-b19",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2120,
+      "name": {
+        "ar": "حيازة B23",
+        "en": "Heyazah B23"
+      },
+      "display_name": "Heyazah B23",
+      "slug": "heyazah-b23",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2121,
+      "name": {
+        "ar": "حيازة B52",
+        "en": "Heyazah B52"
+      },
+      "display_name": "Heyazah B52",
+      "slug": "heyazah-b52",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2118,
+      "name": {
+        "ar": "حيازة B8",
+        "en": "Heyazah B8"
+      },
+      "display_name": "Heyazah B8",
+      "slug": "heyazah-b8",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2123,
+      "name": {
+        "ar": "مجمع حيازة",
+        "en": "Heyazah Compound"
+      },
+      "display_name": "Heyazah Compound",
+      "slug": "heyazah-compound",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2124,
+      "name": {
+        "ar": "حيازة المساكن 1",
+        "en": "Heyazah Residences 1"
+      },
+      "display_name": "Heyazah Residences 1",
+      "slug": "heyazah-residences-1",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2125,
+      "name": {
+        "ar": "حيازة المساكن 2",
+        "en": "Heyazah Residences 2"
+      },
+      "display_name": "Heyazah Residences 2",
+      "slug": "heyazah-residences-2",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2126,
+      "name": {
+        "ar": "حيازة المساكن 3",
+        "en": "Heyazah Residences 3"
+      },
+      "display_name": "Heyazah Residences 3",
+      "slug": "heyazah-residences-3",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2127,
+      "name": {
+        "ar": "حيازة المساكن 4",
+        "en": "Heyazah Residences 4"
+      },
+      "display_name": "Heyazah Residences 4",
+      "slug": "heyazah-residences-4",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2128,
+      "name": {
+        "ar": "حيازة المساكن 5",
+        "en": "Heyazah Residences 5"
+      },
+      "display_name": "Heyazah Residences 5",
+      "slug": "heyazah-residences-5",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2114,
+      "name": {
+        "ar": "برج حيازة",
+        "en": "Heyazah Tower"
+      },
+      "display_name": "Heyazah Tower",
+      "slug": "heyazah-tower",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2122,
+      "name": {
+        "ar": "صمود",
+        "en": "Sumood"
+      },
+      "display_name": "Sumood",
+      "slug": "sumood",
+      "wp_post_status": "draft",
+      "type": "commercial",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    },
+    {
+      "id": 2129,
+      "name": {
+        "ar": "فلل ذا روفس",
+        "en": "The Roofs Villas"
+      },
+      "display_name": "The Roofs Villas",
+      "slug": "the-roofs-villas",
+      "wp_post_status": "draft",
+      "type": "residential",
+      "status": "new",
+      "source_status_tax": [
+        "pipeline"
+      ],
+      "sector": [],
+      "location": {
+        "ar": null,
+        "en": null
+      },
+      "location_short": {
+        "ar": null,
+        "en": null
+      },
+      "metrics": {
+        "office_area_m2": null,
+        "rental_area_m2": null,
+        "commercial_galleries_m2": null,
+        "parking_spaces": null,
+        "total_units": null,
+        "starting_price_sar": null,
+        "delivery_date_yyyymmdd": null
+      },
+      "icon_metrics": [],
+      "description": {
+        "hero": {
+          "ar": "قريباً",
+          "en": "Coming Soon"
+        },
+        "subtitle": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_title": {
+          "ar": null,
+          "en": null
+        },
+        "business_destination_des": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote": {
+          "ar": null,
+          "en": null
+        },
+        "featured_quote_content": {
+          "ar": null,
+          "en": null
+        }
+      },
+      "images": {
+        "hero": null,
+        "hero_path": null,
+        "icon": null,
+        "gallery_count": 0,
+        "gallery": []
+      },
+      "media": {
+        "virtual_tour_url": null,
+        "video_url": null,
+        "brochure_url": null
+      },
+      "map_embed": null,
+      "developer": null,
+      "units": [],
+      "source": {
+        "wp_guid": null,
+        "origin": "heyazah.cloud pipeline",
+        "created": "2026-04-18",
+        "modified": "2026-04-18"
+      },
+      "is_placeholder": true,
+      "fill_in_checklist": [
+        {
+          "field": "images.hero",
+          "label": "Upload hero render or architectural photo",
+          "done": false
+        },
+        {
+          "field": "metrics.office_area_m2",
+          "label": "Office area (m²) — if commercial",
+          "done": false
+        },
+        {
+          "field": "metrics.rental_area_m2",
+          "label": "Total rental area (m²)",
+          "done": false
+        },
+        {
+          "field": "metrics.parking_spaces",
+          "label": "Parking spaces",
+          "done": false
+        },
+        {
+          "field": "metrics.total_units",
+          "label": "Total units — if residential",
+          "done": false
+        },
+        {
+          "field": "metrics.delivery_date",
+          "label": "Target delivery date (YYYY-MM-DD)",
+          "done": false
+        },
+        {
+          "field": "location.city",
+          "label": "City",
+          "done": false
+        },
+        {
+          "field": "location.district",
+          "label": "District / neighborhood",
+          "done": false
+        },
+        {
+          "field": "location.lat_lng",
+          "label": "Map pin (lat, lng)",
+          "done": false
+        },
+        {
+          "field": "description.hero",
+          "label": "Hero tagline (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "description.business_destination_des",
+          "label": "1-paragraph positioning blurb (AR + EN)",
+          "done": false
+        },
+        {
+          "field": "media.brochure_url",
+          "label": "Brochure PDF (optional)",
+          "done": false
+        },
+        {
+          "field": "media.virtual_tour_url",
+          "label": "360° virtual tour link (optional)",
+          "done": false
+        },
+        {
+          "field": "images.gallery",
+          "label": "Gallery: 4-6 images minimum",
+          "done": false
+        }
+      ],
+      "cta_for_visitor": "register_interest"
+    }
+  ]
+}

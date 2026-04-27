@@ -1,0 +1,112 @@
+/* Push Menu Styles (Immersive Nav) */
+
+/* The Body State */
+body.h-push-menu-open {
+    overflow: hidden;
+}
+
+/* The Main Wrapper that gets Pushed */
+.h-page-push-wrapper {
+    position: relative;
+    transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    background-color: #fff;
+    min-height: 100vh;
+    z-index: 10;
+}
+
+body.h-push-menu-open .h-page-push-wrapper {
+    transform: translateX(360px);
+}
+
+/* Bi-directional RTL Support */
+html[dir="rtl"] body.h-push-menu-open .h-page-push-wrapper {
+    transform: translateX(-360px);
+}
+
+@media (min-width: 768px) {
+    body.h-push-menu-open .h-page-push-wrapper {
+        transform: translateX(400px);
+    }
+    html[dir="rtl"] body.h-push-menu-open .h-page-push-wrapper {
+        transform: translateX(-400px);
+    }
+}
+
+/* The Sidebar */
+.sidebar {
+    position: fixed !important;
+    top: 0;
+    bottom: 0;
+    width: 360px !important;
+    height: 100vh !important;
+    background-color: #f7f9f8;
+    z-index: 5 !important; /* MUST be behind wrapper so wrapper reveals it */
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    opacity: 0; /* hidden by default underneath */
+    transform: none !important;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 400px !important;
+    }
+}
+
+html[dir="ltr"] .sidebar {
+    left: 0 !important;
+    right: auto !important;
+}
+
+html[dir="rtl"] .sidebar {
+    right: 0 !important;
+    left: auto !important;
+}
+
+body.h-push-menu-open .sidebar {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Stagger animations for links inside sidebar */
+.sidebar .side-content ul li {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+body.h-push-menu-open .sidebar .side-content ul li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+body.h-push-menu-open .sidebar .side-content ul li:nth-child(1) { transition-delay: 0.1s; }
+body.h-push-menu-open .sidebar .side-content ul li:nth-child(2) { transition-delay: 0.15s; }
+body.h-push-menu-open .sidebar .side-content ul li:nth-child(3) { transition-delay: 0.2s; }
+body.h-push-menu-open .sidebar .side-content ul li:nth-child(4) { transition-delay: 0.25s; }
+body.h-push-menu-open .sidebar .side-content ul li:nth-child(5) { transition-delay: 0.3s; }
+
+/* The Toggle Icon Morph (Burger to X) */
+.navbar-toggler svg, .navbar-toggler i {
+    transition: transform 0.4s ease;
+}
+
+body.h-push-menu-open .navbar-toggler {
+    /* Optionally force it into an X using pseudo elements, or let the existing theme handle it */
+}
+
+/* Dimming Overlay */
+.h-push-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(8, 43, 42, 0.2);
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999;
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body.h-push-menu-open .h-push-overlay {
+    opacity: 1;
+    pointer-events: auto;
+}

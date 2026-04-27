@@ -1,0 +1,59 @@
+/*
+ * Heyazah Brand Tokens — auto-generated from brand_tokens.json
+ * Source: Brand Guidelines 2026 (ملف هـوية حـيـازة.pdf) — p.16 palette, p.22–23 typography
+ */
+:root {
+  /* Core palette (PDF page 16) */
+  --h-primary:  #082b2a;   /* Heyazah Deep — main dark teal */
+  --h-accent:   #025157;   /* Heyazah Teal — gold/silver accent group */
+  --h-warm:     #99856a;   /* Heyazah Gold */
+  --h-cream:    #d1ccbd;   /* Heyazah Cream */
+  --h-silver:   #b0b5aa;   /* Heyazah Silver */
+  --h-mist:     #cad1c7;   /* Heyazah Mist */
+  --h-ink:      #000000;
+  --h-paper:    #ffffff;
+
+  /* Legacy aliases kept for existing component references (remapped to real palette) */
+  --h-surface-light:   var(--h-mist);
+  --h-surface-lighter: var(--h-cream);
+
+  /* Status */
+  --h-status-old:        var(--h-primary);
+  --h-status-continuing: var(--h-accent);
+  --h-status-new:        var(--h-warm);
+  --h-status-sold-out:   var(--h-silver);
+
+  /* Typography (Brand Guidelines 2026 p.22–23) */
+  --h-font-primary:    "Readex Pro", system-ui, -apple-system, Segoe UI, sans-serif;
+  --h-font-ar-display: "The Year of The Camel", "Readex Pro", system-ui, sans-serif;
+  --h-font-ar-body:    "Readex Pro", "Bluteau Arabic Sans", system-ui, sans-serif;
+  --h-font-ar-bold:    "Readex Pro", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --h-font-latin:      "Readex Pro", system-ui, -apple-system, Segoe UI, sans-serif;
+
+  /* Layout */
+  --h-container-max: 1440px;
+
+  /* Shadows */
+  --h-shadow-card:  0 1px 2px rgba(8,43,42,0.06), 0 8px 24px rgba(8,43,42,0.06);
+  --h-shadow-hover: 0 2px 4px rgba(8,43,42,0.08), 0 16px 40px rgba(8,43,42,0.14);
+  --h-shadow-hero:  0 40px 120px rgba(8,43,42,0.32);
+  --h-shadow-gold:  0 1px 2px rgba(153,133,106,0.18), 0 8px 24px rgba(153,133,106,0.18);
+
+  /* Motion */
+  --h-ease-smooth:    cubic-bezier(0.25, 0.1, 0.25, 1);
+  --h-ease-precision: cubic-bezier(0.4, 0, 0.2, 1);
+  --h-ease-dramatic:  cubic-bezier(0.16, 1, 0.3, 1);
+
+  --h-dur-fast:       200ms;
+  --h-dur-default:    400ms;
+  --h-dur-slow:       800ms;
+  --h-dur-cinematic:  1400ms;
+}
+
+/* RTL by default for AR; override to LTR for /en routes */
+html[dir="rtl"] { direction: rtl; font-family: var(--h-font-ar-body); }
+html[dir="ltr"] { direction: ltr; font-family: var(--h-font-latin); }
+
+/* Display pairing */
+.display-ar { font-family: var(--h-font-ar-display); font-weight: 700; letter-spacing: -0.02em; }
+.display-en { font-family: var(--h-font-latin);      font-weight: 700; letter-spacing: -0.02em; }

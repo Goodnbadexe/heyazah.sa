@@ -1,0 +1,228 @@
+{
+  "summary": {
+    "projects_in_db": 18,
+    "projects_missing_vs_public": 20,
+    "projects_in_db_with_public_conflict": 4
+  },
+  "conflicts": [
+    {
+      "name": "Ventora",
+      "issue": "status_mismatch",
+      "heyazah.sa_db": "ongoing (under execution)",
+      "heyazah.com_page": "Fully Sold",
+      "decision_needed": "Keep construction status 'continuing' AND expose a separate 'inventory: sold out' badge in the new schema."
+    },
+    {
+      "name": "LEX",
+      "issue": "type_mismatch",
+      "heyazah.sa_db_type": "residential",
+      "public_site_type": "commercial (retail + office)",
+      "decision_needed": "Reclassify LEX to 'commercial' in the new system. DB tagging is wrong."
+    },
+    {
+      "name": "Skyline",
+      "issue": "type_mismatch",
+      "heyazah.sa_db_type": "residential",
+      "public_site_type": "commercial tower (78% progress)",
+      "decision_needed": "Reclassify Skyline to 'commercial' OR introduce a 'mixed-use' type if it truly mixes living + offices."
+    },
+    {
+      "name": "Waha Gate vs Oasis Gate",
+      "issue": "duplicate_branding",
+      "heyazah.sa_db": "WAHA GATE (slug=waha-gate)",
+      "heyazah.com_label": "Oasis Gate / واحة جيت",
+      "decision_needed": "Same project, two English names in public material. Pick ONE canonical name for the new system and redirect the other."
+    }
+  ],
+  "missing_projects": [
+    {
+      "name": "Alsaif Center 1",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah A7",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah Tower",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah A3",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah B52",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah B23",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah A9",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah B8",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah B19",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Sumood",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah Compound",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah Resd 1",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah Resd 2",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah Resd 3",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah Resd 4",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Heyazah Resd 5",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "The Roofs Villa",
+      "source": "heyazah.cloud interactive map",
+      "status_bucket": "new/pipeline",
+      "action": "Add as a pipeline project post in the new CMS. Needs: name, render/mockup, sector, city, target status."
+    },
+    {
+      "name": "Narges Neighborhood villas",
+      "source": "heyazah.com residential portfolio",
+      "status_bucket": "old (delivered/sold)",
+      "action": "Add to new CMS as a delivered residential project for proof-of-delivery trust layer."
+    },
+    {
+      "name": "Al-Nafal Neighborhood villas",
+      "source": "heyazah.com residential portfolio",
+      "status_bucket": "old (delivered/sold)",
+      "action": "Add to new CMS as a delivered residential project for proof-of-delivery trust layer."
+    },
+    {
+      "name": "Villa Roves",
+      "source": "heyazah.com residential portfolio",
+      "status_bucket": "old (delivered/sold)",
+      "action": "Add to new CMS as a delivered residential project for proof-of-delivery trust layer."
+    }
+  ],
+  "data_quality": {
+    "projects_without_location": [
+      "AMD CENTER",
+      "SIGMA",
+      "VENTORA",
+      "HEYAZAH GATE",
+      "TAKAMUL",
+      "THE ROOFS",
+      "WAHA GATE",
+      "WAHA WAVES"
+    ],
+    "projects_without_gallery": [
+      "AMD CENTER",
+      "SIGMA",
+      "VENTORA",
+      "HEYAZAH GATE",
+      "TAKAMUL",
+      "THE ROOFS",
+      "WAHA GATE",
+      "WAHA WAVES"
+    ],
+    "projects_with_thin_metrics": [
+      {
+        "name": "AMD CENTER",
+        "metrics_filled": 2
+      },
+      {
+        "name": "LIVIN by Heyazah",
+        "metrics_filled": 0
+      },
+      {
+        "name": "Masar Makkah",
+        "metrics_filled": 0
+      },
+      {
+        "name": "ParkSide",
+        "metrics_filled": 1
+      },
+      {
+        "name": "The Hotel",
+        "metrics_filled": 0
+      },
+      {
+        "name": "VENTORA",
+        "metrics_filled": 2
+      },
+      {
+        "name": "KAYNAT",
+        "metrics_filled": 1
+      }
+    ],
+    "units_all_trashed_or_empty": [
+      "18 unit records total, 4 published, 14 trashed — unit inventory is effectively empty. If 'inventory view' is a goal for the new site, this data must be re-seeded from sales CRM."
+    ]
+  },
+  "naming_issues": [
+    {
+      "name": "KAYNAT",
+      "note": "DB uses ar=\"كايـنات\" (with tatweel), en=\"KAYNAT\". Public site sometimes shown as \"Kayanat\". Standardize spelling."
+    },
+    {
+      "name": "LEX",
+      "note": "DB post_name=\"english-lex\" is a bad slug. Change to \"lex\"."
+    },
+    {
+      "name": "Several Arabic slugs",
+      "note": "ParkSide, Masar Makkah, Skyline, Prime Square, KAYNAT all have URL-encoded Arabic slugs in WP. In the new system, use clean ASCII slugs (parkside, masar-makkah, skyline, prime-square, kaynat)."
+    }
+  ]
+}
