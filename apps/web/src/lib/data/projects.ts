@@ -124,6 +124,33 @@ export function projectHasMetrics(project: Project): boolean {
   return Object.values(metrics).some((value) => value !== null && value !== undefined && value !== '');
 }
 
+export function projectProgress(project: Project): {
+  overall: number | null;
+  items: Array<{ label: { ar: string; en: string }; value: number | null }>;
+} {
+  const publicProgress: Record<string, { overall: number; items: Array<{ label: { ar: string; en: string }; value: number | null }> }> = {
+    'سكاي-لاين': {
+      overall: 78,
+      items: [
+        { label: { ar: 'الهيكل الإنشائي', en: 'Structure' }, value: 100 },
+        { label: { ar: 'التشطيبات الداخلية', en: 'Internal finishes' }, value: 79 },
+        { label: { ar: 'الواجهة', en: 'Facade' }, value: 54 },
+      ],
+    },
+    's-tower': {
+      overall: 56,
+      items: [
+        { label: { ar: 'التقدم العام', en: 'Overall progress' }, value: 56 },
+        { label: { ar: 'تحديث تفصيلي', en: 'Detailed update' }, value: null },
+      ],
+    },
+  };
+
+  if (publicProgress[project.slug]) return publicProgress[project.slug];
+  if (typeof project.progress_percent === 'number') return { overall: project.progress_percent, items: [] };
+  return { overall: null, items: [] };
+}
+
 export function statusNarrative(project: Project, locale: Locale): string {
   if (project.status === 'old') {
     return locale === 'ar'

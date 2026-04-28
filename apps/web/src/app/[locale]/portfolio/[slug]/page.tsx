@@ -5,6 +5,7 @@ import { Gallery } from '@/components/project/Gallery';
 import { MapEmbed } from '@/components/project/MapEmbed';
 import { VirtualTour } from '@/components/project/VirtualTour';
 import { ProjectCloudEmbed } from '@/components/project/ProjectCloudEmbed';
+import { ProjectProgress } from '@/components/project/ProjectProgress';
 import { RevealOnScroll } from '@/components/motion/RevealOnScroll';
 import { portfolio, bySlug, description, projectHasMetrics, statusNarrative, type Project } from '@/lib/data/projects';
 import type { Locale } from '@/lib/i18n/locales';
@@ -60,6 +61,7 @@ export default async function ProjectPage({
           </div>
         </RevealOnScroll>
       </section>
+      <ProjectProgress project={project} locale={locale} />
       <VirtualTour project={project} locale={locale} />
       <ProjectCloudEmbed project={project} locale={locale} />
       <Gallery project={project} locale={locale} />
