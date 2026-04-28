@@ -21,21 +21,9 @@ export function OrbitCarousel({ locale }: { locale: Locale }) {
       id="orbit-carousel"
       className="relative isolate overflow-hidden bg-heyazah-primary py-24 text-heyazah-paper md:py-32"
     >
-      {!prefersReduced && (
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 -z-20 h-full w-full object-cover opacity-35"
-        >
-          <source src="/assets/videos/orbit-showcase.mp4" type="video/mp4" />
-        </video>
-      )}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-heyazah-primary via-heyazah-primary/88 to-heyazah-primary/55" />
       <div className="absolute inset-x-0 bottom-0 -z-10 h-48 bg-gradient-to-t from-heyazah-primary to-transparent" />
 
-      <div className="container grid items-center gap-12 lg:grid-cols-[0.92fr_1.08fr]">
+      <div className="container grid items-center gap-12 lg:grid-cols-[0.88fr_1.12fr]">
         <motion.div
           initial={prefersReduced ? {} : { opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -73,6 +61,13 @@ export function OrbitCarousel({ locale }: { locale: Locale }) {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.9, delay: 0.15, ease }}
         >
+          {!prefersReduced && (
+            <div className="overflow-hidden rounded-2xl border border-heyazah-paper/10 bg-heyazah-paper/8 shadow-hero sm:col-span-2">
+              <video autoPlay muted loop playsInline className="aspect-video h-full w-full object-cover">
+                <source src="/assets/videos/orbit-showcase.mp4" type="video/mp4" />
+              </video>
+            </div>
+          )}
           {projects.map((project, index) => (
             <Link
               key={project.slug}

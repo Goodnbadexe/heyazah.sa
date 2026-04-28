@@ -19,12 +19,6 @@ export default async function PipelinePage({
   return (
     <>
       <section className="relative overflow-hidden bg-heyazah-warm/30 py-24">
-        <div className="absolute inset-0 opacity-[0.12]">
-          <video autoPlay muted loop playsInline className="h-full w-full object-cover">
-            <source src="/assets/videos/projects-reel.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-heyazah-paper/70 via-heyazah-warm/45 to-heyazah-paper" />
         <div className="container relative z-10">
           <p className="text-sm uppercase tracking-[0.3em] text-heyazah-accent">
             {locale === 'ar' ? 'طبقة الرؤية' : 'Vision layer'}
@@ -45,6 +39,11 @@ export default async function PipelinePage({
         </div>
       </section>
       <section className="container py-16">
+        <div className="mb-10 overflow-hidden rounded-2xl border border-heyazah-fog bg-heyazah-primary shadow-card">
+          <video autoPlay muted loop playsInline className="aspect-[16/5] h-full w-full object-cover">
+            <source src="/assets/videos/projects-reel.mp4" type="video/mp4" />
+          </video>
+        </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {pipeline.map((p, i) => (
             <RevealOnScroll key={p.id} delay={(i % 6) * 0.05}>

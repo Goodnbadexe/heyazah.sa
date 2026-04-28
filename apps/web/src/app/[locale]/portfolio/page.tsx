@@ -45,12 +45,6 @@ export default async function PortfolioPage({
   return (
     <>
       <section className="relative overflow-hidden bg-heyazah-primary py-24 text-heyazah-paper">
-        <div className="absolute inset-0 opacity-[0.13]">
-          <video autoPlay muted loop playsInline className="h-full w-full object-cover">
-            <source src="/assets/videos/projects-reel.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-heyazah-primary/92 via-heyazah-primary/86 to-heyazah-primary" />
         <div className="container relative z-10 max-w-4xl">
           <p className="text-sm uppercase tracking-[0.3em] text-heyazah-warm">
             {locale === 'ar' ? 'المحفظة' : 'Portfolio'}
@@ -67,6 +61,11 @@ export default async function PortfolioPage({
       </section>
 
       <section className="container py-16 md:py-24">
+        <div className="mb-10 overflow-hidden rounded-2xl border border-heyazah-fog bg-heyazah-primary shadow-card">
+          <video autoPlay muted loop playsInline className="aspect-[16/5] h-full w-full object-cover">
+            <source src="/assets/videos/projects-reel.mp4" type="video/mp4" />
+          </video>
+        </div>
         <div className="grid gap-4 lg:grid-cols-3">
           {buckets.map((bucket) => (
             <a

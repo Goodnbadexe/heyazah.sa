@@ -32,12 +32,6 @@ export default async function AboutPage({
   return (
     <>
       <section className="relative overflow-hidden bg-heyazah-primary py-24 text-heyazah-paper">
-        <div className="absolute inset-0 opacity-[0.16]">
-          <video autoPlay muted loop playsInline className="h-full w-full object-cover">
-            <source src="/assets/videos/hero-loop.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-heyazah-primary/94 via-heyazah-primary/84 to-heyazah-primary" />
         <div className="container relative z-10 max-w-4xl">
           <p className="text-sm uppercase tracking-[0.3em] text-heyazah-warm">{t(locale, 'nav.about')}</p>
           <h1 className="mt-3 text-5xl leading-tight text-heyazah-paper md:text-7xl">
@@ -52,7 +46,13 @@ export default async function AboutPage({
         </div>
       </section>
 
-      <section className="container grid gap-8 py-16 md:grid-cols-2">
+      <section className="container py-16">
+        <div className="mb-10 overflow-hidden rounded-2xl border border-heyazah-fog bg-heyazah-primary shadow-card">
+          <video autoPlay muted loop playsInline className="aspect-[16/6] h-full w-full object-cover">
+            <source src="/assets/videos/hero-loop.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div className="grid gap-8 md:grid-cols-2">
         <article className="rounded-2xl border border-heyazah-fog bg-heyazah-paper p-8 shadow-card">
           <p className="text-xs uppercase tracking-[0.28em] text-heyazah-accent">
             {locale === 'ar' ? 'رؤيتنا' : 'Vision'}
@@ -79,6 +79,7 @@ export default async function AboutPage({
               : 'We turn sites into clear experiences for residents, investors, and guests, from concept to operation.'}
           </p>
         </article>
+        </div>
       </section>
 
       <section className="bg-heyazah-fog py-16">

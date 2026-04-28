@@ -58,14 +58,6 @@ export function PortfolioStrip({ locale }: { locale: Locale }) {
       id="portfolio-strip"
       className="relative overflow-hidden bg-heyazah-primary py-24 text-heyazah-paper md:py-32"
     >
-      {!prefersReduced && (
-        <div className="absolute inset-0 opacity-[0.12]">
-          <video autoPlay muted loop playsInline className="h-full w-full object-cover">
-            <source src="/assets/videos/projects-reel.mp4" type="video/mp4" />
-          </video>
-        </div>
-      )}
-      <div className="absolute inset-0 bg-heyazah-primary/88" />
       <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-heyazah-primary to-transparent" />
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-heyazah-primary to-transparent" />
 
@@ -103,6 +95,14 @@ export function PortfolioStrip({ locale }: { locale: Locale }) {
             />
           ))}
         </div>
+
+        {!prefersReduced && (
+          <div className="mt-8 overflow-hidden rounded-2xl border border-heyazah-paper/10 bg-heyazah-paper/[0.06]">
+            <video autoPlay muted loop playsInline className="aspect-[16/5] h-full w-full object-cover">
+              <source src="/assets/videos/projects-reel.mp4" type="video/mp4" />
+            </video>
+          </div>
+        )}
 
         <motion.div
           className="mt-12 flex justify-center"

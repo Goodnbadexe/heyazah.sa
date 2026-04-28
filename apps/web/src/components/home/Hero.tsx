@@ -8,9 +8,10 @@ import { t } from '@/lib/i18n/dictionary';
 import type { Locale } from '@/lib/i18n/locales';
 
 /**
- * Cinematic Hero — Scene.mp4 loops behind a dramatic gradient overlay.
+ * Cinematic Hero — Scene.mp4 sits in a dedicated media zone.
  * Text elements reveal with staggered timing like an Apple keynote.
- * Video auto-plays, muted, looped for an immersive first impression.
+ * The source video contains baked-in logo/text moments, so live copy is kept
+ * on a solid text-safe panel instead of overlaying the video.
  */
 export function Hero({ locale }: { locale: Locale }) {
   const sectionRef = useRef<HTMLElement>(null);
@@ -26,28 +27,9 @@ export function Hero({ locale }: { locale: Locale }) {
       ref={sectionRef}
       className="relative isolate min-h-[100vh] overflow-hidden bg-heyazah-primary text-heyazah-paper"
     >
-      {/* Video background */}
-      {!prefersReduced && (
-        <div className="absolute inset-0 -z-10">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-            className="h-full w-full object-cover opacity-40"
-          >
-            <source src="/assets/videos/hero-loop.mp4" type="video/mp4" />
-          </video>
-        </div>
-      )}
-
-      {/* Gradient overlays for depth and legibility */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-heyazah-primary via-heyazah-primary/60 to-heyazah-primary/30" />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-heyazah-primary/70 to-transparent" />
-
+      <div className="container relative z-10 grid min-h-[100vh] items-center gap-10 pb-24 pt-28 lg:grid-cols-[0.88fr_1.12fr]">
       {/* Content */}
-      <div className="container flex min-h-[100vh] flex-col justify-center gap-8 pb-20 pt-28">
+      <div className="flex max-w-2xl flex-col gap-8">
         {/* Tagline */}
         <motion.p
           className="max-w-xl text-sm font-medium uppercase tracking-[0.35em] text-heyazah-warm"
@@ -60,7 +42,7 @@ export function Hero({ locale }: { locale: Locale }) {
 
         {/* Main headline — reveal with clip path */}
         <motion.h1
-          className="max-w-5xl text-heyazah-paper text-5xl leading-[1.05] md:text-7xl lg:text-8xl font-bold"
+          className="max-w-2xl text-heyazah-paper text-5xl leading-[1.05] md:text-6xl lg:text-7xl font-bold"
           initial={prefersReduced ? {} : { opacity: 0, y: 60, clipPath: 'inset(100% 0 0 0)' }}
           animate={isInView ? { opacity: 1, y: 0, clipPath: 'inset(0% 0 0 0)' } : {}}
           transition={{ duration: 1.2, delay: 0.5, ease }}
@@ -103,6 +85,28 @@ export function Hero({ locale }: { locale: Locale }) {
             {t(locale, 'nav.pipeline')}
           </Link>
         </motion.div>
+      </div>
+
+      {/* Dedicated video zone: no live text is placed over this media. */}
+      {!prefersReduced && (
+        <motion.div
+          className="pointer-events-none hidden overflow-hidden rounded-2xl border border-heyazah-paper/10 bg-heyazah-paper/5 shadow-hero md:block"
+          initial={{ opacity: 0, y: 28 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 1.0, delay: 0.7, ease }}
+        >
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            className="aspect-[4/3] h-full w-full object-cover lg:aspect-[5/4]"
+          >
+            <source src="/assets/videos/hero-loop.mp4" type="video/mp4" />
+          </video>
+        </motion.div>
+      )}
       </div>
 
       {/* Scroll indicator */}
