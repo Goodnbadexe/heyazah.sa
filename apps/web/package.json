@@ -15,7 +15,7 @@
     "postinstall": "npm run sync:assets && npm run gen:fonts"
   },
   "dependencies": {
-    "next": "^15.1.6",
+    "next": "^15.5.18",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "next-intl": "^3.22.0",
